@@ -15,7 +15,7 @@ concrete MatrixEng of Matrix =
     abrams_PN = mkPN (mkN masculine (mkN "Abrams")) ;
     browne_PN = mkPN (mkN masculine (mkN "Browne")) ;
     -- N
-    cigarette_N = mkN "cigarro" ;
+    cigarette_N = mkN "cigarette" ;
     picture_N = mkN "picture" ;
     tobacco_N = mkN "tobacco" ;
     way_N = mkN "way" ;
@@ -28,11 +28,13 @@ concrete MatrixEng of Matrix =
     chase_V2 = mkV2 "chase" ;
     give_V2 = mkV2 "give" ;
     keep_V2 = mkV2 "continuar" ;
-    intend_V2 = mkV2 "intend" ;
+    intend_VV = mkVV (mkV "intend") ;
+    intend_V2V = mkV2V (mkV "intend") noPrep to_Prep ;
     seem_V2 = mkV2 "seem" ;
     wonder_V2 = mkV2 (mkV "wonder") ;
     -- V3
     believe_V3 = mkV3 (mkV "believe") ;
-    bet_V3 = mkV3 (mkV "bet") (mkPrep "that") ;
+    bet_V3 = mkV2S (mkV "bet" "bet" "bet") (mkPrep "that") ;
+    hand_V3 = mkV3 (mkV "hand") ;
     promise_V3 = mkV3 (mkV "promise") ;
 } ;
