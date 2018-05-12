@@ -1,0 +1,33 @@
+# -*- mode:org -*-
+#+TITLE: MRS test suite in GR
+
+- MRS test suite :: available at
+                    [[http://moin.delph-in.net/MatrixMrsTestSuite]]
+
+this is an attempt at parsing the MRS test suite in GF, creating a new
+test treebank. work has started for English and Portuguese concretes,
+but new languages are welcome!
+
+this treebank will be used as a test to improve the Portuguese
+resource grammar.
+
+# I'm trying not to change the syntatic structure of the sentences --
+# but I might have done so anyway. in some cases there was no way to
+# parse the sentence, so I settled for a slightly modified structure
+# that was parseable. in other cases no parse was possible for any
+# remotely related sentence, so these where left be.
+
+note that some sentences had no parse, and some had more than one. an
+attempt is being made to select the better parse tree, but it is not
+complete yet.
+
+* reproduce
+1. install GF [[http://www.grammaticalframework.org/download/index.html][here]] (if you prefer, there are docker images [[https://github.com/odanoburu/docker-gf][here]]).
+2.
+#+BEGIN_SRC sh
+  gf --make --optimize-pgf Matrix*.gf
+#+END_SRC
+
+** generate treebank with linearizations
+this will only linearize the manually selected trees.
+: gf --run < mk-treebank.gfs > treebank.txt

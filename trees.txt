@@ -1,0 +1,3 @@
+PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (ImpersCl (UseV rain_V0)))) NoVoc
+PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (UsePN abrams_PN) (UseV bark_V)))) NoVoc
+PhrUtt NoPConj (UttNP (PPartNP (DetCN (DetQuant DefArt NumSg) (UseN window_N)) open_V2)) NoVoc
