@@ -1,2 +1,2 @@
-i Lang.pgf
-rf -lines -file="trees.txt" | l -treebank
+i Matrix.pgf
+rf -lines -tree -file="trees.txt" | l -treebank
