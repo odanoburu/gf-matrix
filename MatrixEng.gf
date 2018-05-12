@@ -22,7 +22,7 @@ concrete MatrixEng of Matrix =
     -- V
     arrive_V = mkV "arrive" ;
     bark_V = mkV "bark" ;
-    open_V = mkV "open" ;
+    open_V = mkV "open" "opened" ;
     -- V2
     bother_V2 = mkV2 "bother" ;
     chase_V2 = mkV2 "chase" ;
