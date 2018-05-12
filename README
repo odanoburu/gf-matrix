@@ -24,9 +24,7 @@ complete yet.
 * reproduce
 1. install GF [[http://www.grammaticalframework.org/download/index.html][here]] (if you prefer, there are docker images [[https://github.com/odanoburu/docker-gf][here]]).
 2. build grammar PGF:
-#+BEGIN_SRC sh
-   gf --make --optimize-pgf Matrix*.gf
-#+END_SRC
+   : gf --make --optimize-pgf Matrix*.gf
 
 ** generate treebank with linearizations
 this will only linearize the manually selected trees.
