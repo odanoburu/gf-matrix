@@ -1,0 +1,8 @@
+- =by= will parse to by_means and by_agent ;
+- =bark= may parse as =bark_N= as well as =bark_V=, depending on the
+  sentence ;
+  - 59 : spurious parses of bark_N
+- 41-42 : could =can8know= or =can_VV=?
+- 45 : probably/adv?
+- 49 : (tobacco (garden (dog
+- 59 : of the ambiguities (part of, or possession, or...)
