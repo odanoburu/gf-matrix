@@ -3,7 +3,7 @@ concrete MatrixPor of Matrix =
   , LexiconPor
   , ConstructionPor
   , DocumentationPor --# notpresent
-  ** open ParadigmsPor in {
+  ** open ParadigmsPor, BeschPor in {
   lin
     -- A
     obvious_A = mkA "óbvio" ;
@@ -25,14 +25,18 @@ concrete MatrixPor of Matrix =
     open_V = mkV "abrir" ;
     -- V2
     bother_V2 = mkV2 "incomodar" ;
-    chase_V2 = mkV2 "perseguir" ;
+    chase_V2 = mkV2 (mkV (seguir_55 "perseguir")) ;
     give_V2 = mkV2 "dar" ;
     keep_V2 = mkV2 "continuar" ;
-    intend_V2 = mkV2 "pretender" ;
+    intend_VV = mkVV intend_V ;
+    intend_V2V = mkV2V intend_V (mkPrep "que") noPrep ;
     seem_V2 = mkV2 "parecer" ;
     wonder_V2 = mkV2 (mkV "perguntar-se") ;
     -- V3
     believe_V3 = mkV3 (mkV "acreditar") ;
-    bet_V3 = mkV3 (mkV "apostar") (mkPrep "com") (mkPrep "que") ;
+    bet_V2S = mkV2S (mkV "apostar") with_Prep ;
+    hand_V3 = mkV3 (mkV "passar") ;
     promise_V3 = mkV3 (mkV "prometer") ;
+  oper
+    intend_V = mkV "pretender" ;
 } ;

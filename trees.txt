@@ -24,7 +24,7 @@ PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (DetCN every_Det (
 
 PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (DetCN (DetQuant (PossPron i_Pron) NumSg) (UseN cat_N)) (UseV bark_V)))) NoVoc
 
-PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (ImpersCl (UseV bark_V)))) NoVoc
+PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (UsePron it_Pron) (UseV bark_V)))) NoVoc
 
 PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (DetCN (DetQuant DefArt NumSg) (UseN cat_N)) (ComplSlash (SlashV2a chase_V2) (UsePron it_Pron))))) NoVoc
 
@@ -62,12 +62,7 @@ PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (UsePN abrams_PN) 
 
 29 -- whether?
 
-PhrUtt NoPConj (UttNP (AdvNP (DetCN (DetQuant DefArt NumSg) (UseN dog_N)) (SubjS that_Subj (UseCl (TTAnt TPast ASimul) PPos (PredVP (PPartNP (UsePN browne_PN) chase_V2) (UseV bark_V)))))) NoVoc
-PhrUtt NoPConj (UttNP (DetCN (DetQuant DefArt NumSg) (AdvCN (UseN dog_N) (SubjS that_Subj (UseCl (TTAnt TPast ASimul) PPos (PredVP (PPartNP (UsePN browne_PN) chase_V2) (UseV bark_V))))))) NoVoc
-PhrUtt NoPConj (UttNP (DetCN (DetQuant DefArt NumSg) (SentCN (UseN dog_N) (EmbedS (UseCl (TTAnt TPast ASimul) PPos (PredVP (PPartNP (UsePN browne_PN) chase_V2) (UseV bark_V))))))) NoVoc
-PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (DetCN (DetQuant DefArt NumSg) (ApposCN (ApposCN (UseN dog_N) (DetNP (DetQuant that_Quant NumSg))) (PPartNP (UsePN browne_PN) chase_V2))) (UseV bark_V)))) NoVoc
 PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (DetCN (DetQuant DefArt NumSg) (RelCN (UseN dog_N) (UseRCl (TTAnt TPast ASimul) PPos (RelSlash IdRP (SlashVP (UsePN browne_PN) (SlashV2a chase_V2)))))) (UseV bark_V)))) NoVoc
-PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (PPartNP (DetCN (DetQuant DefArt NumSg) (ApposCN (ApposCN (UseN dog_N) (DetNP (DetQuant that_Quant NumSg))) (UsePN browne_PN))) chase_V2) (UseV bark_V)))) NoVoc
 
 31 -- to be chased works
 

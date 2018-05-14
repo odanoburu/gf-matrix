@@ -31,7 +31,7 @@ abstract Matrix = Lang ** {
 --    bother_V2S : V2S ; -- it bothered Abrams that Browne barked
     -- V3
     believe_V3 : V3 ;
-    bet_V3 : V2S ;
+    bet_V2S : V2S ;
     hand_V3 : V3 ;
     promise_V3 : V3 ;
   } ;

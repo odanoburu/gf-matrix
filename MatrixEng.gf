@@ -28,13 +28,16 @@ concrete MatrixEng of Matrix =
     chase_V2 = mkV2 "chase" ;
     give_V2 = mkV2 "give" ;
     keep_V2 = mkV2 "continuar" ;
-    intend_VV = mkVV (mkV "intend") ;
-    intend_V2V = mkV2V (mkV "intend") noPrep to_Prep ;
+    intend_VV = mkVV intend_V ;
+    intend_V2V = mkV2V intend_V noPrep to_Prep ;
     seem_V2 = mkV2 "seem" ;
     wonder_V2 = mkV2 (mkV "wonder") ;
     -- V3
     believe_V3 = mkV3 (mkV "believe") ;
-    bet_V3 = mkV2S (mkV "bet" "bet" "bet") (mkPrep "that") ;
+    bet_V2S = mkV2S (mkV "bet" "bet" "bet") (mkPrep "that") ;
     hand_V3 = mkV3 (mkV "hand") ;
     promise_V3 = mkV3 (mkV "promise") ;
+  oper
+    intend_V : V ;
+    intend_V = mkV "intend" ;
 } ;
