@@ -1,0 +1,6 @@
+- 10 : pretendia Bobi a ladrar -> pretendia que Bobi ladrasse
+- 11 : every: cada ou todo?
+- 18 : missing "o"
+- 22 : de os -> dos (see DiffPor)
+- 47 : provávelmente -> provavelmente
+- 49 : em o -> no (prep doesn't have a gender in the romance functor)
