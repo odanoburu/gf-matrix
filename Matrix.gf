@@ -1,4 +1,4 @@
-abstract Matrix = Lang ** {
+abstract Matrix = Lang, Extend ** {
   flags
     startcat = Phr ;
   fun

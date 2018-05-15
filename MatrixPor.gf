@@ -3,6 +3,7 @@ concrete MatrixPor of Matrix =
   , LexiconPor
   , ConstructionPor
   , DocumentationPor --# notpresent
+  , ExtendPor
   ** open ParadigmsPor, BeschPor in {
   lin
     -- A

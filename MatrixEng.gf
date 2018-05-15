@@ -4,6 +4,7 @@ concrete MatrixEng of Matrix =
   , ConstructionEng
   , DocumentationEng --# notpresent
   , MarkupEng - [stringMark]
+  , ExtendEng
   ** open ParadigmsEng in {
   lin
     -- A
