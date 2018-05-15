@@ -17,6 +17,7 @@ concrete MatrixEng of Matrix =
     -- N
     cigarette_N = mkN "cigarette" ;
     idea_N = mkN "idea" ;
+    morning_N = mkN "morning" ;
     picture_N = mkN "picture" ;
     tobacco_N = mkN "tobacco" ;
     way_N = mkN "way" ;
@@ -30,19 +31,26 @@ concrete MatrixEng of Matrix =
     chase_V2 = mkV2 "chase" ;
     give_V2 = mkV2 "give" ;
     seem_V2 = mkV2 "seem" ;
+    squeeze_in_V2 = mkV2 (partV (mkV "squeeze") "in") ;
+    --    squeeze_in_V2 = mkV2 (mkV "squeeze") in_Prep ;
+    try_V2 = mkV2 (mkV "try") to_Prep ;
     wonder_V2 = mkV2 (mkV "wonder") ;
     -- V3
     believe_V3 = mkV3 (mkV "believe") ;
     hand_V3 = mkV3 (mkV "hand") ;
     promise_V3 = mkV3 (mkV "promise") ;
-    -- V*
-    bet_V2S = mkV2S (mkV "bet" "bet" "bet") (mkPrep "that") ;
+    -- V2A
     consider_V2A = mkV2A (mkV "consider") noPrep ;
-    intend_VV = mkVV intend_V ;
-    intend_V2V = mkV2V intend_V noPrep to_Prep ;
-    keep_VV = ingVV (mkV "keep" "kept" "kept") ;
     strike_V2A = mkV2A (mkV "strike") noPrep ;
+    -- V2S
+    bet_V2S = mkV2S (mkV "bet" "bet" "bet") (mkPrep "that") ;
+    -- V2V
+    intend_V2V = mkV2V intend_V noPrep to_Prep ;
     take_V2V = mkV2V (mkV "take" "took" "taken") noPrep to_Prep ;
+    -- VV
+    arrive_VV = ingVV arrive_V ;
+    intend_VV = mkVV intend_V ;
+    keep_VV = ingVV (mkV "keep" "kept" "kept") ;
   oper
     intend_V : V ;
     intend_V = mkV "intend" ;
