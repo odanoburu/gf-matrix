@@ -12,6 +12,7 @@ abstract Matrix = Lang ** {
     browne_PN : PN ;
     -- N
     cigarette_N : N ;
+    idea_N : N ;
     picture_N : N ;
     tobacco_N : N ;
     way_N : N ;
@@ -20,18 +21,24 @@ abstract Matrix = Lang ** {
     bark_V : V ;
     open_V : V ;
     -- V2
+    arrive_V2 : V2 ;
     bother_V2 : V2 ;
     chase_V2 : V2 ;
     give_V2 : V2 ;
-    keep_V2 : V2 ;
-    intend_VV : VV ;
-    intend_V2V : V2V ;
     seem_V2 : V2 ;
     wonder_V2 : V2 ; -- wondered whether
---    bother_V2S : V2S ; -- it bothered Abrams that Browne barked
     -- V3
     believe_V3 : V3 ;
-    bet_V2S : V2S ;
     hand_V3 : V3 ;
     promise_V3 : V3 ;
+    -- V*
+    bet_V2S : V2S ;
+    consider_V2A : V2A ;
+    intend_V2V : V2V ;
+    intend_VV : VV ;
+    keep_VV : VV ;
+    strike_V2A : V2A ;
+    take_V2V : V2V ;
+--    bother_V2S : V2S ; -- it bothered Abrams that Browne barked
+
   } ;

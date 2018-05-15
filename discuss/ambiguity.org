@@ -8,3 +8,6 @@
 - 45 : probably/adv?
 - 49 : (tobacco (garden (dog
 - 59 : of the ambiguities (part of, or possession, or...)
+- 84 and others : it has always the same, usually easy ambiguities
+  - 84 : left it to Browne : it é oq??
+-

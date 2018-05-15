@@ -11,12 +11,6 @@ but new languages are welcome!
 this treebank will be used as a test to improve the Portuguese
 resource grammar.
 
-# I'm trying not to change the syntatic structure of the sentences --
-# but I might have done so anyway. in some cases there was no way to
-# parse the sentence, so I settled for a slightly modified structure
-# that was parseable. in other cases no parse was possible for any
-# remotely related sentence, so these where left be.
-
 note that some sentences had no parse, and some had more than one. an
 attempt is being made to select the better parse tree, but it is not
 complete yet.
