@@ -28,7 +28,7 @@ concrete MatrixPor of Matrix =
     -- V2
     arrive_V2 = mkV2 arrive_V ;
     bother_V2 = mkV2 "incomodar" ;
-    chase_V2 = mkV2 (mkV (seguir_55 "perseguir")) ;
+    chase_V2 = mkV2 (mkV (seguir_Besch "perseguir")) ;
     give_V2 = mkV2 "dar" ;
     seem_V2 = mkV2 parecer_V ;
     squeeze_in_V2 = mkV2 "apertar" ;
