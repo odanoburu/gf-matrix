@@ -38,6 +38,7 @@ concrete MatrixEng of Matrix =
     -- V3
     believe_V3 = mkV3 (mkV "believe") ;
     hand_V3 = mkV3 (mkV "hand") ;
+    hand_to_V3 = mkV3 (mkV "hand") to_Prep ;
     promise_V3 = mkV3 (mkV "promise") ;
     -- V2A
     consider_V2A = mkV2A (mkV "consider") noPrep ;

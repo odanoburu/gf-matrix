@@ -10,6 +10,15 @@ MatrixPor: a janela abria
 Matrix: PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (UsePN abrams_PN) (ComplSlash (SlashV2a chase_V2) (UsePN browne_PN))))) NoVoc
 MatrixEng: Abrams chased Browne
 MatrixPor: Atlas perseguia Bobi
+Matrix: PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (UsePN abrams_PN) (ComplSlash (Slash2V3 hand_V3 (UsePN browne_PN)) (DetCN (DetQuant DefArt NumSg) (UseN cigarette_N)))))) NoVoc
+MatrixEng: Abrams handed Browne the cigarette
+MatrixPor: Atlas passava o cigarro a Bobi
+Matrix: PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (UsePN abrams_PN) (ComplSlash (Slash2V3 hand_to_V3 (DetCN (DetQuant DefArt NumSg) (UseN cigarette_N))) (UsePN browne_PN))))) NoVoc
+MatrixEng: Abrams handed the cigarette to Browne
+MatrixPor: Atlas passava a Bobi o cigarro
+Matrix: PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (UsePN abrams_PN) (ComplSlash (Slash3V3 hand_to_V3 (UsePN browne_PN)) (DetCN (DetQuant DefArt NumSg) (UseN cigarette_N)))))) NoVoc
+MatrixEng: Abrams handed the cigarette to Browne
+MatrixPor: Atlas passava o cigarro a Bobi
 Matrix: PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (UsePN abrams_PN) (ComplVS know_VS (UseCl (TTAnt TPast ASimul) PPos (ImpersCl (UseV rain_V0))))))) NoVoc
 MatrixEng: Abrams knew that it rained
 MatrixPor: Atlas sabia que chovia

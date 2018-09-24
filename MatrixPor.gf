@@ -37,6 +37,7 @@ concrete MatrixPor of Matrix =
     -- V3
     believe_V3 = mkV3 (mkV "acreditar") ;
     hand_V3 = mkV3 (mkV "passar") ;
+    hand_to_V3 = mkV3 (mkV "passar") to_Prep ;
     promise_V3 = mkV3 (mkV "prometer") ;
     -- V2A
     consider_V2A = mkV2A (mkV "considerar") noPrep noPrep ;

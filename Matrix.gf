@@ -33,6 +33,7 @@ abstract Matrix = Lang ** {
     -- V3
     believe_V3 : V3 ;
     hand_V3 : V3 ;
+    hand_to_V3 : V3 ;
     promise_V3 : V3 ;
     -- V2S
     bet_V2S : V2S ;
@@ -46,5 +47,5 @@ abstract Matrix = Lang ** {
     -- V2V
     intend_V2V : V2V ;
     take_V2V : V2V ;
---    bother_V2S : V2S ; -- it bothered Abrams that Browne barked
+    --    bother_V2S : V2S ; -- it bothered Abrams that Browne barked
 } ;
