@@ -53,7 +53,10 @@ PhrUtt NoPConj (UttQS (UseQCl (TTAnt TPast ASimul) PPos (QuestCl (PredVP (DetCN 
 
 PhrUtt NoPConj (UttQS (UseQCl (TTAnt TPast ASimul) PPos (QuestVP (IdetCN (IdetQuant which_IQuant NumSg) (UseN dog_N)) (UseV bark_V)))) NoVoc
 
-27 -- whose? exists but is only used by Extend grammar, apparently
+PhrUtt NoPConj (UttQS (UseQCl (TTAnt TPast ASimul) PPos (QuestVP (GenModIP NumSg whoSg_IP (UseN dog_N)) (UseV bark_V)))) NoVoc
+PhrUtt NoPConj (UttQS (UseQCl (TTAnt TPast ASimul) PPos (QuestVP (GenModIP NumSg whoPl_IP (UseN dog_N)) (UseV bark_V)))) NoVoc
+PhrUtt NoPConj (UttQS (UseQCl (TTAnt TPast ASimul) PPos (QuestVP (IdetCN (IdetQuant (GenIP whoSg_IP) NumSg) (UseN dog_N)) (UseV bark_V)))) NoVoc
+PhrUtt NoPConj (UttQS (UseQCl (TTAnt TPast ASimul) PPos (QuestVP (IdetCN (IdetQuant (GenIP whoPl_IP) NumSg) (UseN dog_N)) (UseV bark_V)))) NoVoc
 
 PhrUtt NoPConj (UttImpPl PPos (ImpVP (ComplSlash (SlashV2a chase_V2) (UsePN browne_PN)))) NoVoc
 PhrUtt NoPConj (UttImpPol PPos (ImpVP (ComplSlash (SlashV2a chase_V2) (UsePN browne_PN)))) NoVoc
@@ -63,9 +66,11 @@ PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (UsePN abrams_PN) 
 
 29 -- whether? only in extensions
 
+* lots of trees here
 PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (DetCN (DetQuant DefArt NumSg) (RelCN (UseN dog_N) (UseRCl (TTAnt TPast ASimul) PPos (RelSlash IdRP (SlashVP (UsePN browne_PN) (SlashV2a chase_V2)))))) (UseV bark_V)))) NoVoc
 
-31 -- to be chased works (check http://erg.delph-in.net/logon for ideal tree)
+PhrUtt NoPConj (UttNP (AdvNP (DetCN (DetQuant DefArt NumSg) (UseN dog_N)) (SubjS that_Subj (PredVPS (PPartNP (UsePN browne_PN) chase_V2) (MkVPS (TTAnt TPast ASimul) PPos (UseV bark_V)))))) NoVoc
+PhrUtt NoPConj (UttNP (AdvNP (DetCN (DetQuant DefArt NumSg) (UseN dog_N)) (SubjS that_Subj (UseCl (TTAnt TPast ASimul) PPos (PredVP (PPartNP (UsePN browne_PN) chase_V2) (UseV bark_V)))))) NoVoc 
 
 PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (DetCN (DetQuant DefArt NumSg) (UseN dog_N)) (AdvVP (PassV2 chase_V2) (PrepNP by8agent_Prep (UsePN browne_PN)))))) NoVoc
 PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (DetCN (DetQuant DefArt NumSg) (UseN dog_N)) (ComplSlash (VPSlashPrep (PassV2 chase_V2) by8agent_Prep) (UsePN browne_PN))))) NoVoc
@@ -82,7 +87,8 @@ PhrUtt NoPConj (UttS (UseCl (TTAnt TPast AAnter) PPos (PredVP (DetCN (DetQuant D
 
 PhrUtt NoPConj (UttS (UseCl (TTAnt TFut ASimul) PPos (PredVP (DetCN (DetQuant DefArt NumSg) (UseN dog_N)) (UseV bark_V)))) NoVoc
 
-40 -- no "is going to (action)", only "is going to (place)", only in Extend
+40 * so many trees below is one example
+(PrepNP to_Prep (MassNP (UseN bark_N))))))))))) NoVoc PhrUtt NoPConj (UttS (UseCl (TTAnt TPres ASimul) PPos (PredVP (DetCN (DetQuant DefArt NumSg) (UseN dog_N)) (UseComp (Comp
 
 PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (DetCN (DetQuant DefArt NumSg) (UseN dog_N)) (ComplVV can8know_VV (UseV bark_V))))) NoVoc
 PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (DetCN (DetQuant DefArt NumSg) (UseN dog_N)) (ComplVV can_VV (UseV bark_V))))) NoVoc

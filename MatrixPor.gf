@@ -3,6 +3,7 @@ concrete MatrixPor of Matrix =
   , LexiconPor
   , ConstructionPor
   , DocumentationPor --# notpresent
+  , ExtendPor
   ** open BeschPor, CommonRomance, ParadigmsPor, Prelude, ResRomance in {
 
   --lincat

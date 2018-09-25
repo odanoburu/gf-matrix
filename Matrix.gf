@@ -1,4 +1,4 @@
-abstract Matrix = Lang ** {
+abstract Matrix = Lang, Extend ** {
   flags
     startcat = Phr ;
   cat
@@ -25,6 +25,8 @@ abstract Matrix = Lang ** {
     way_N : N ;
     -- Predet
     whatever_Predet : Predet ;
+    -- Subj
+--    whether_Subj : Subj ;
     -- V
     arrive_V : V ;
     bark_V : V ;
@@ -36,10 +38,11 @@ abstract Matrix = Lang ** {
     give_V2 : V2 ;
     squeeze_in_V2 : V2 ;
     try_V2 : V2 ;
-    wonder_V2 : V2 ; -- wondered whether
     -- V3
     hand_V3 : V3 ;
     hand_to_V3 : V3 ;
+    -- VS
+    wonder_VS : VS ;
     -- VV
     arrive_VV : VV ;
     intend_VV : VV ;

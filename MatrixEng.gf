@@ -4,6 +4,7 @@ concrete MatrixEng of Matrix =
   , ConstructionEng
   , DocumentationEng --# notpresent
   , MarkupEng - [stringMark]
+  , ExtendEng
   ** open ParadigmsEng, ResEng, Prelude in {
   lincat
     V3S = V3 ;
@@ -32,6 +33,8 @@ concrete MatrixEng of Matrix =
     way_N = mkN "way" ;
     -- Predet
     whatever_Predet = ss "whatever" ;
+    -- Subj
+--    whether_Subj = mkSubj "whether" ;
     -- V
     arrive_V = mkV "arrive" ;
     bark_V = mkV "bark" ;
@@ -43,10 +46,11 @@ concrete MatrixEng of Matrix =
     give_V2 = mkV2 "give" ;
     squeeze_in_V2 = mkV2 (partV (mkV "squeeze") "in") ;
     try_V2 = mkV2 (mkV "try") to_Prep ;
-    wonder_V2 = mkV2 (mkV "wonder") ;
     -- V3
     hand_V3 = mkV3 (mkV "hand") ;
     hand_to_V3 = mkV3 (mkV "hand") to_Prep ;
+    -- VS
+    --wonder_VS = mkVS (mkV "wonder") ;
     -- VV
     arrive_VV = ingVV arrive_V ;
     intend_VV = mkVV intend_V ;
