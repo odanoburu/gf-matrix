@@ -3,7 +3,25 @@ concrete MatrixPor of Matrix =
   , LexiconPor
   , ConstructionPor
   , DocumentationPor --# notpresent
-  ** open ParadigmsPor, BeschPor in {
+  ** open BeschPor, CommonRomance, ParadigmsPor, Prelude, ResRomance in {
+
+  --lincat
+    -- V3S = V3 ;
+
+  -- lin
+    -- NPPPart v2 np =
+    --   let agr = complAgr np.a in
+    --   heavyNPpol np.isNeg {
+    --     s = \\c => v2.s ! VPart agr.g agr.n ++ (np.s ! c).ton ;
+    --     a = np.a ;
+    --     hasClit = False
+    --   } ;
+
+    -- SlashV3S v np s = mkVPSlash v.c2
+    --   (insertExtrapos 
+    --      (\\b => np.s ++ conjThat ++ s.s ! Indic) ---- mood
+    --      (predV v)) ;
+    
   lin
     -- A
     obvious_A = mkA "óbvio" ;
@@ -21,6 +39,12 @@ concrete MatrixPor of Matrix =
     picture_N = mkN "foto" feminine ;
     tobacco_N = mkN "tabaco" ;
     way_N = mkN "jeito" ;
+    -- Predet
+    -- whatever_Predet = {
+    --   s = \\a,c => prepCase c ++ "qualquer coisa" ;
+    --   c = Nom ;
+    --   a = PNoAg
+    --   } ;
     -- V
     arrive_V = mkV "chegar" ;
     bark_V = mkV "ladrar" ;
@@ -30,27 +54,31 @@ concrete MatrixPor of Matrix =
     bother_V2 = mkV2 "incomodar" ;
     chase_V2 = mkV2 (mkV (seguir_Besch "perseguir")) ;
     give_V2 = mkV2 "dar" ;
-    seem_V2 = mkV2 parecer_V ;
     squeeze_in_V2 = mkV2 "apertar" ;
     try_V2 = mkV2 "tentar" ;
     wonder_V2 = mkV2 (mkV "perguntar-se") ;
     -- V3
-    believe_V3 = mkV3 (mkV "acreditar") ;
     hand_V3 = mkV3 (mkV "passar") ;
     hand_to_V3 = mkV3 (mkV "passar") to_Prep ;
-    promise_V3 = mkV3 (mkV "prometer") ;
-    -- V2A
-    consider_V2A = mkV2A (mkV "considerar") noPrep noPrep ;
-    strike_V2A = mkV2A parecer_V ;
-    -- V2S
-    bet_V2S = mkV2S (mkV "apostar") with_Prep ;
-    -- V2V
-    intend_V2V = mkV2V intend_V (mkPrep "que") noPrep ;
-    take_V2V = mkV2V (mkV "levar") ;
     -- VV
     intend_VV = mkVV intend_V ;
     keep_VV = aVV (mkV "continuar") ;
     arrive_VV = aVV arrive_V ;
+    seem_VV = mkVV parecer_V ;
+    -- V2A
+    consider_V2A = mkV2A (mkV "considerar") noPrep noPrep ;
+    strike_V2A = mkV2A parecer_V ;
+    wipe_V2A = mkV2A (mkV "limpar") ;
+    -- V2S
+    bet_V2S = mkV2S (mkV "apostar") with_Prep ;
+    -- V3S
+    --bet_V3S =
+    -- V2V
+    believe_V2V = mkV2V (mkV "acreditar") ;
+    intend_V2V = mkV2V intend_V (mkPrep "que") noPrep ;
+    promise_V2V = mkV2V (mkV "prometer") ;
+    take_V2V = mkV2V (mkV "levar") ;
+
   oper
     intend_V = mkV "pretender" ;
     parecer_V = mkV "parecer" ;

@@ -11,7 +11,7 @@ PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (UsePN abrams_PN) 
 PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (UsePN abrams_PN) (ComplSlash (Slash2V3 hand_to_V3 (DetCN (DetQuant DefArt NumSg) (UseN cigarette_N))) (UsePN browne_PN))))) NoVoc
 PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (UsePN abrams_PN) (ComplSlash (Slash3V3 hand_to_V3 (UsePN browne_PN)) (DetCN (DetQuant DefArt NumSg) (UseN cigarette_N)))))) NoVoc
 
-7 -- needs V3S
+PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (UsePN abrams_PN) (ComplSlash (SlashV3S bet_V3S (DetCN (DetQuant IndefArt NumSg) (UseN cigarette_N)) (UseCl (TTAnt TPast ASimul) PPos (ImpersCl (UseV rain_V0)))) (UsePN browne_PN))))) NoVoc
 
 PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (UsePN abrams_PN) (ComplVS know_VS (UseCl (TTAnt TPast ASimul) PPos (ImpersCl (UseV rain_V0))))))) NoVoc
 
@@ -53,7 +53,7 @@ PhrUtt NoPConj (UttQS (UseQCl (TTAnt TPast ASimul) PPos (QuestCl (PredVP (DetCN 
 
 PhrUtt NoPConj (UttQS (UseQCl (TTAnt TPast ASimul) PPos (QuestVP (IdetCN (IdetQuant which_IQuant NumSg) (UseN dog_N)) (UseV bark_V)))) NoVoc
 
-27 -- whose? exists but can't find out a sentence with it
+27 -- whose? exists but is only used by Extend grammar, apparently
 
 PhrUtt NoPConj (UttImpPl PPos (ImpVP (ComplSlash (SlashV2a chase_V2) (UsePN browne_PN)))) NoVoc
 PhrUtt NoPConj (UttImpPol PPos (ImpVP (ComplSlash (SlashV2a chase_V2) (UsePN browne_PN)))) NoVoc
@@ -61,11 +61,11 @@ PhrUtt NoPConj (UttImpSg PPos (ImpVP (ComplSlash (SlashV2a chase_V2) (UsePN brow
 
 PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (UsePN abrams_PN) (ComplVQ wonder_VQ (UseQCl (TTAnt TPast ASimul) PPos (QuestVP (IdetCN (IdetQuant which_IQuant NumSg) (UseN dog_N)) (UseV bark_V))))))) NoVoc
 
-29 -- whether?
+29 -- whether? only in extensions
 
 PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (DetCN (DetQuant DefArt NumSg) (RelCN (UseN dog_N) (UseRCl (TTAnt TPast ASimul) PPos (RelSlash IdRP (SlashVP (UsePN browne_PN) (SlashV2a chase_V2)))))) (UseV bark_V)))) NoVoc
 
-31 -- to be chased works
+31 -- to be chased works (check http://erg.delph-in.net/logon for ideal tree)
 
 PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (DetCN (DetQuant DefArt NumSg) (UseN dog_N)) (AdvVP (PassV2 chase_V2) (PrepNP by8agent_Prep (UsePN browne_PN)))))) NoVoc
 PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (DetCN (DetQuant DefArt NumSg) (UseN dog_N)) (ComplSlash (VPSlashPrep (PassV2 chase_V2) by8agent_Prep) (UsePN browne_PN))))) NoVoc
@@ -82,7 +82,7 @@ PhrUtt NoPConj (UttS (UseCl (TTAnt TPast AAnter) PPos (PredVP (DetCN (DetQuant D
 
 PhrUtt NoPConj (UttS (UseCl (TTAnt TFut ASimul) PPos (PredVP (DetCN (DetQuant DefArt NumSg) (UseN dog_N)) (UseV bark_V)))) NoVoc
 
-40 -- no "is going to (action)", only "is going to (place)"
+40 -- no "is going to (action)", only "is going to (place)", only in Extend
 
 PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (DetCN (DetQuant DefArt NumSg) (UseN dog_N)) (ComplVV can8know_VV (UseV bark_V))))) NoVoc
 PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (DetCN (DetQuant DefArt NumSg) (UseN dog_N)) (ComplVV can_VV (UseV bark_V))))) NoVoc
@@ -112,17 +112,17 @@ PhrUtt NoPConj (UttS (UseCl (TTAnt TPres ASimul) PPos (PredVP (DetCN (DetQuant D
 PhrUtt NoPConj (UttS (UseCl (TTAnt TPres ASimul) PPos (PredVP (DetCN (DetQuant DefArt NumSg) (UseN cat_N)) (ComplSlash (VPSlashPrep UseCopula in_Prep) (DetCN (DetQuant DefArt NumSg) (UseN garden_N)))))) NoVoc
 PhrUtt NoPConj (UttS (UseCl (TTAnt TPres ASimul) PPos (PredVP (DetCN (DetQuant DefArt NumSg) (UseN cat_N)) (UseComp (CompAdv (PrepNP in_Prep (DetCN (DetQuant DefArt NumSg) (UseN garden_N)))))))) NoVoc
 
-42 -- dog that barked works
+42 -- dog that barked works, GerundCN in Extend parses
 
-43 --
+43 -- PastPartAP in Extend
 
-44 --
+PhrUtt NoPConj (UttS (UseCl (TTAnt TPres ASimul) PPos (PredVP (NPPPart chase_V2 (DetCN (DetQuant IndefArt NumPl) (UseN dog_N))) (UseV bark_V)))) NoVoc
 
 PhrUtt NoPConj (UttS (UseCl (TTAnt TPres ASimul) PPos (PredSCVP (EmbedS (UseCl (TTAnt TPres ASimul) PPos (PredVP (DetCN (DetQuant DefArt NumSg) (UseN cat_N)) (ComplSlash (SlashV2a chase_V2) (UsePN browne_PN))))) (UseComp (CompAP (PositA old_A)))))) NoVoc
 
-56 -- whatever
+PhrUtt NoPConj (UttS (UseCl (TTAnt TPres ASimul) PPos (PredVP (DetCN (DetQuant IndefArt NumPl) (UseN dog_N)) (ComplSlash (SlashV2a chase_V2) (PredetNP whatever_Predet (DetCN (DetQuant IndefArt NumPl) (UseN bark_N))))))) NoVoc
 
-57 -- every day the dog works..
+57 -- 'every day the dog barks' works..
 
 PhrUtt NoPConj (UttQS (UseQCl (TTAnt TPast ASimul) PPos (QuestIAdv when_IAdv (PredVP (DetCN (DetQuant DefArt NumSg) (UseN dog_N)) (UseV bark_V))))) NoVoc
 
@@ -130,20 +130,20 @@ PhrUtt NoPConj (UttS (UseCl (TTAnt TPres ASimul) PPos (PredVP (CountNP (DetQuant
 
 PhrUtt NoPConj (UttS (UseCl (TTAnt TPres ASimul) PPos (PredVP (DetNP (DetQuant IndefArt (NumCard (NumNumeral (num (pot2as3 (pot1as2 (pot0as1 (pot0 n3))))))))) (UseV bark_V)))) NoVoc
 
-61 -- no 's for possession?
+61 -- no 's for possession? GenModNP in Extend
 
 62 -- idem
 
-63 -- incomplete
+PhrUtt NoPConj (UttS (UseCl (TTAnt TPres ASimul) PPos (PredVP (DetCN (DetQuant IndefArt (NumCard (NumNumeral (num (pot2as3 (pot1as2 (pot1plus n2 (pot0 n3)))))))) (UseN dog_N)) (UseV bark_V)))) NoVoc
 
-64 -- idem
+PhrUtt NoPConj (UttS (UseCl (TTAnt TPres ASimul) PPos (PredVP (DetCN (DetQuant IndefArt (NumCard (NumNumeral (num (pot2as3 (pot2plus (pot0 n2) (pot1 n2))))))) (UseN dog_N)) (UseV bark_V)))) NoVoc
 
 PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (UsePN abrams_PN) (AdvVP (UseV arrive_V) (PrepNP by8means_Prep (MassNP (UseN car_N))))))) NoVoc
 PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (UsePN abrams_PN) (ComplSlash (VPSlashPrep (UseV arrive_V) by8means_Prep) (MassNP (UseN car_N)))))) NoVoc
 
 PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (UsePN abrams_PN) (ComplVV keep_VV (UseV bark_V))))) NoVoc
 
-67 -- incomplete
+67 -- phrasal verb, 'squeeze [NP] in', incomplete
 
 PhrUtt NoPConj (UttNP (AdvNP (PPartNP (UsePN browne_PN) squeeze_V2) (PrepNP in_Prep (DetCN (DetQuant DefArt NumSg) (UseN cat_N))))) NoVoc
 
@@ -154,7 +154,7 @@ PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (DetCN (DetQuant D
 PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (DetCN (DetQuant DefArt NumSg) (PartNP (UseN picture_N) (UsePN abrams_PN))) (UseV arrive_V)))) NoVoc
 PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (DetCN (DetQuant DefArt NumSg) (PossNP (UseN picture_N) (UsePN abrams_PN))) (UseV arrive_V)))) NoVoc
 
-70 -- incomplete
+PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (UsePN abrams_PN) (ComplSlash (SlashV2A wipe_V2A (PositA clean_A)) (DetCN (DetQuant DefArt NumSg) (UseN table_N)))))) NoVoc
 
 PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (UsePN abrams_PN) (AdvVP (ComplSlash (SlashV2a put_V2) (UsePN browne_PN)) (PrepNP in_Prep (DetCN (DetQuant DefArt NumSg) (UseN garden_N))))))) NoVoc
 PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (UsePN abrams_PN) (ComplSlash (SlashV2a put_V2) (AdvNP (UsePN browne_PN) (PrepNP in_Prep (DetCN (DetQuant DefArt NumSg) (UseN garden_N)))))))) NoVoc
@@ -166,7 +166,7 @@ PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (ConjNP and_Conj (
 
 PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (ConjNP and_Conj (ConsNP (UsePN abrams_PN) (BaseNP (UsePN browne_PN) (DetCN (DetQuant DefArt NumSg) (UseN dog_N))))) (UseV arrive_V)))) NoVoc
 
-75 -- parses "the dog arrived and the dog arrived", but not with repeating "the dog"
+75 -- parses "the dog arrived and the dog arrived", but not with repeating "the dog", Extend probably parses it
 
 PhrUtt NoPConj (UttS (ConjS and_Conj (BaseS (UseCl (TTAnt TPast ASimul) PPos (PredVP (DetCN (DetQuant DefArt NumSg) (UseN dog_N)) (UseV arrive_V))) (UseCl (TTAnt TPast ASimul) PPos (PredVP (UsePN browne_PN) (UseV bark_V)))))) NoVoc
 
@@ -176,11 +176,11 @@ PhrUtt NoPConj (UttS (UseCl (TTAnt TPres ASimul) PPos (ImpersCl (AdvVP (UseComp 
 PhrUtt NoPConj (UttS (UseCl (TTAnt TPres ASimul) PPos (ImpersCl (UseComp (CompAP (AdvAP (PositA obvious_A) (SubjS that_Subj (UseCl (TTAnt TPast ASimul) PPos (PredVP (DetCN (DetQuant DefArt NumSg) (UseN dog_N)) (UseV bark_V)))))))))) NoVoc
 PhrUtt NoPConj (UttS (UseCl (TTAnt TPres ASimul) PPos (ImpersCl (UseComp (CompAP (SentAP (PositA obvious_A) (EmbedS (UseCl (TTAnt TPast ASimul) PPos (PredVP (DetCN (DetQuant DefArt NumSg) (UseN dog_N)) (UseV bark_V)))))))))) NoVoc
 
-79 -- incomplete
+PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (UsePN abrams_PN) (ComplSlash (SlashV2V promise_V2V (UseV bark_V)) (UsePN browne_PN))))) NoVoc
 
-80 -- idem
+PhrUtt NoPConj (UttS (UseCl (TTAnt TPres ASimul) PPos (PredVP (UsePN abrams_PN) (ComplVV seem_VV (UseV bark_V))))) NoVoc
 
-81 -- to be
+PhrUtt NoPConj (UttS (UseCl (TTAnt TPres ASimul) PPos (PredVP (UsePN abrams_PN) (ComplSlash (SlashV2V believe_V2V (ProgrVP (UseV bark_V))) (UsePN browne_PN))))) NoVoc
 
 PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (ImpersCl (AdvVP (ComplSlash (SlashV2a bother_V2) (UsePN abrams_PN)) (SubjS that_Subj (UseCl (TTAnt TPast ASimul) PPos (PredVP (UsePN browne_PN) (UseV bark_V)))))))) NoVoc
 PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (ImpersCl (ComplSlash (SlashV2a bother_V2) (AdvNP (UsePN abrams_PN) (SubjS that_Subj (UseCl (TTAnt TPast ASimul) PPos (PredVP (UsePN browne_PN) (UseV bark_V))))))))) NoVoc
@@ -217,7 +217,7 @@ PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (ImpersCl (ComplSlash (Sla
 
 PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (MassNP (ApposCN (UseN (monthN june_Month)) (DetNP (DetQuantOrd IndefArt NumPl (OrdNumeral (num (pot2as3 (pot1as2 (pot0as1 (pot0 n3)))))))))) (UseV arrive_V)))) NoVoc
 
-95 -- incomplete
+95 -- incomplete, no grammar for times as there is for numerals
 
 PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (UsePN browne_PN) (AdvVP (UseV arrive_V) (PrepNP on_Prep (MassNP (ApposCN (UseN (weekdayN tuesday_Weekday)) (MassNP (UseN morning_N))))))))) NoVoc
 
@@ -233,11 +233,11 @@ PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (DetCN (DetQuant t
 
 PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP somebody_NP (ComplSlash (SlashV2a chase_V2) (UsePN abrams_PN))))) NoVoc
 
-102 -- how happy (verb)
+102 -- how happy (verb), ICompAP in Extend
 
 PhrUtt NoPConj (UttS (UseCl (TTAnt TPres ASimul) PPos (PredVP (DetCN (DetQuant DefArt NumSg) (ApposCN (UseN number_N) (DetNP (DetQuant IndefArt (NumCard (NumNumeral (num (pot2as3 (pot1as2 (pot0as1 (pot0 n5))))))))))) (ComplSlash (SlashV2a bother_V2) (UsePN browne_PN))))) NoVoc
 
-104 -- incomplete
+104 -- incomplete, I could parse by defining can_V, but that would be cheating
 
 105 -- incomplete
 

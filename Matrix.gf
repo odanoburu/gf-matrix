@@ -1,7 +1,13 @@
 abstract Matrix = Lang ** {
   flags
     startcat = Phr ;
+  cat
+    V3S ;
+    --V3V ;
   fun
+    NPPPart : V2 -> NP -> NP ;
+    --SlashV3V : V3V -> NP -> VP -> VPSlash ;
+    SlashV3S : V3S -> NP -> S -> VPSlash ;
     -- A
     obvious_A : A ;
     happy_A : A ;
@@ -17,6 +23,8 @@ abstract Matrix = Lang ** {
     picture_N : N ;
     tobacco_N : N ;
     way_N : N ;
+    -- Predet
+    whatever_Predet : Predet ;
     -- V
     arrive_V : V ;
     bark_V : V ;
@@ -26,26 +34,31 @@ abstract Matrix = Lang ** {
     bother_V2 : V2 ;
     chase_V2 : V2 ;
     give_V2 : V2 ;
-    seem_V2 : V2 ;
     squeeze_in_V2 : V2 ;
     try_V2 : V2 ;
     wonder_V2 : V2 ; -- wondered whether
     -- V3
-    believe_V3 : V3 ;
     hand_V3 : V3 ;
     hand_to_V3 : V3 ;
-    promise_V3 : V3 ;
-    -- V2S
-    bet_V2S : V2S ;
     -- VV
     arrive_VV : VV ;
     intend_VV : VV ;
     keep_VV : VV ;
+    seem_VV : VV ;
     -- V2A
     consider_V2A : V2A ;
     strike_V2A : V2A ;
+    wipe_V2A : V2A ;
+    -- V2S
+    bet_V2S : V2S ;
     -- V2V
+    believe_V2V : V2V ;
     intend_V2V : V2V ;
+    promise_V2V : V2V ;
     take_V2V : V2V ;
-    --    bother_V2S : V2S ; -- it bothered Abrams that Browne barked
+    -- V3S
+    bet_V3S : V3S ;
+    -- V3V
+    --leave_V3V : V3V ;
+
 } ;
