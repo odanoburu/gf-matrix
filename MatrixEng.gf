@@ -58,7 +58,7 @@ concrete MatrixEng of Matrix =
     seem_VV = mkVV (mkV "seem") ;
     -- V2A
     consider_V2A = mkV2A (mkV "consider") noPrep ;
-    strike_V2A = mkV2A (mkV "strike") (mkPrep "as") ;
+    strike_V2A = mkV2A (mkV "strike") noPrep ;
     wipe_V2A = mkV2A (mkV "wipe") noPrep ;
     -- V2S
     bet_V2S = mkV2S (mkV "bet" "bet" "bet") noPrep ;
