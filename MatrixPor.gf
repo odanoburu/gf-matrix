@@ -6,8 +6,8 @@ concrete MatrixPor of Matrix =
   , ExtendPor
   ** open BeschPor, CommonRomance, ParadigmsPor, Prelude, ResRomance in {
 
-  --lincat
-    -- V3S = V3 ;
+  lincat
+    V3S = V3 ;
 
   -- lin
     -- NPPPart v2 np =
@@ -57,7 +57,6 @@ concrete MatrixPor of Matrix =
     give_V2 = mkV2 "dar" ;
     squeeze_in_V2 = mkV2 "apertar" ;
     try_V2 = mkV2 "tentar" ;
-    wonder_V2 = mkV2 (mkV "perguntar-se") ;
     -- V3
     hand_V3 = mkV3 (mkV "passar") ;
     hand_to_V3 = mkV3 (mkV "passar") to_Prep ;
@@ -73,7 +72,7 @@ concrete MatrixPor of Matrix =
     -- V2S
     bet_V2S = mkV2S (mkV "apostar") with_Prep ;
     -- V3S
-    --bet_V3S =
+    bet_V3S = mkV3 "apostar" ;
     -- V2V
     believe_V2V = mkV2V (mkV "acreditar") ;
     intend_V2V = mkV2V intend_V (mkPrep "que") noPrep ;

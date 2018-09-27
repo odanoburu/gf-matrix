@@ -26,7 +26,7 @@ abstract Matrix = Lang, Extend ** {
     -- Predet
     whatever_Predet : Predet ;
     -- Subj
---    whether_Subj : Subj ;
+    whether_Subj : Subj ;
     -- V
     arrive_V : V ;
     bark_V : V ;

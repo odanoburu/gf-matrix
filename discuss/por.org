@@ -1,17 +1,24 @@
-- 10 : pretendia Bobi a ladrar -> pretendia que Bobi ladrasse
+- 2,3... : pretérito imperfeito -> pretérito perfeito?
+- 10 : ladrar -> ladrasse
 - 11 : every: cada ou todo?
 - 18 : missing "o", but not in 15
-- 22 : de os -> dos (see DiffPor)
+- [x] 22 : de os -> dos (see DiffPor)
+- 28 : polidez correta?
+- 31 : uma arvore nao escolhida da traducao correta
 - 37/38 : verb tenses
 - 47 : provávelmente -> provavelmente
-- 48/49 : o jardim o cachorro
-- 49 : em o -> no (prep doesn't have a gender in the romance functor)
+- 48/49 : o jardim o cachorro (se implementar o que precisa pras outras árvores provs resolve)
+- [x] 49 : em o -> no (prep doesn't have a gender in the romance functor)
 - 51 : cópula estar existe, mas não é a única (naturalmente)
-- 59 : countNP missing in Por/Romance
+- [x] 59 : countNP missing in Por/Romance
 - 65 : by_means -> 'por' or 'de' or both?
+- 70 : como melhor traduzir wipe clean? google translate: "Abrams limpou a mesa limpa"
 - 72 : chega -> chegar
+- 79 : a ladrar -> que ladraria
+- 81 : Bobi a estar ladrando -> que Bobi está ladrando
 - 83 : a chegar -> para chegar
 - 88 : de dez às três (horas)
-- 94 : wrong tree (NumPl)
-- 96 : chegava sobre -> chegava na | chega em terça a manhã -> na terça de manhã / na manhã de terça
+- 90 : parse errado, precisa de função que adv modifica det
+- 94 : wrong tree
+- 96 : chegava sobre -> chegava na | chega em terça a manhã -> na terça de manhã / na manhã de terça, mas árvore me parece errada tb
 - 99 : ExistNPAdv

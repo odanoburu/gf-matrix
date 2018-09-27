@@ -64,9 +64,9 @@ PhrUtt NoPConj (UttImpSg PPos (ImpVP (ComplSlash (SlashV2a chase_V2) (UsePN brow
 
 PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (UsePN abrams_PN) (ComplVQ wonder_VQ (UseQCl (TTAnt TPast ASimul) PPos (QuestVP (IdetCN (IdetQuant which_IQuant NumSg) (UseN dog_N)) (UseV bark_V))))))) NoVoc
 
-29 -- whether? only in extensions
+30 -- whether? not sure if best to make it a Subj, which makes the second clause an Adv?
 
-* lots of trees here
+31 * lots of trees here
 PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (DetCN (DetQuant DefArt NumSg) (RelCN (UseN dog_N) (UseRCl (TTAnt TPast ASimul) PPos (RelSlash IdRP (SlashVP (UsePN browne_PN) (SlashV2a chase_V2)))))) (UseV bark_V)))) NoVoc
 
 PhrUtt NoPConj (UttNP (AdvNP (DetCN (DetQuant DefArt NumSg) (UseN dog_N)) (SubjS that_Subj (PredVPS (PPartNP (UsePN browne_PN) chase_V2) (MkVPS (TTAnt TPast ASimul) PPos (UseV bark_V)))))) NoVoc
@@ -156,7 +156,7 @@ PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (UsePN abrams_PN) 
 
 PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (UsePN browne_PN) (ComplSlashPartLast (SlashV2a squeeze_in_V2) (DetCN (DetQuant DefArt NumSg) (UseN cat_N)))))) NoVoc
 
-PhrUtt NoPConj (UttNP (AdvNP (PPartNP (UsePN browne_PN) squeeze_V2) (PrepNP in_Prep (DetCN (DetQuant DefArt NumSg) (UseN cat_N))))) NoVoc
+PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (UsePN browne_PN) (ComplSlash (SlashV2a squeeze_in_V2) (DetCN (DetQuant DefArt NumSg) (UseN cat_N)))))) NoVoc
 
 PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (AdvNP (DetCN (DetQuant DefArt NumSg) (UseN picture_N)) (PrepNP part_Prep (UsePN abrams_PN))) (UseV arrive_V)))) NoVoc
 PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (AdvNP (DetCN (DetQuant DefArt NumSg) (UseN picture_N)) (PrepNP possess_Prep (UsePN abrams_PN))) (UseV arrive_V)))) NoVoc
@@ -198,7 +198,7 @@ PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (ImpersCl (ComplSlash (Sla
 
 PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (ImpersCl (ComplSlash (SlashV2V take_V2V (UseV arrive_V)) (AdvNP (UsePN abrams_PN) (timeunitAdv (NumNumeral (num (pot2as3 (pot1as2 pot110)))) minute_Timeunit)))))) NoVoc
 
-84 -- not sure which tree is best, if any
+* 84 not sure which tree is best, if any
 
 85 -- no 'as' there
 

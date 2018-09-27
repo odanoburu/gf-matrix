@@ -34,7 +34,7 @@ concrete MatrixEng of Matrix =
     -- Predet
     whatever_Predet = ss "whatever" ;
     -- Subj
---    whether_Subj = mkSubj "whether" ;
+    whether_Subj = mkSubj "whether" ;
     -- V
     arrive_V = mkV "arrive" ;
     bark_V = mkV "bark" ;
@@ -50,7 +50,7 @@ concrete MatrixEng of Matrix =
     hand_V3 = mkV3 (mkV "hand") ;
     hand_to_V3 = mkV3 (mkV "hand") to_Prep ;
     -- VS
-    --wonder_VS = mkVS (mkV "wonder") ;
+    wonder_VS = mkVS (mkV "wonder") ;
     -- VV
     arrive_VV = ingVV arrive_V ;
     intend_VV = mkVV intend_V ;
