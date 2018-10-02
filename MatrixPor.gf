@@ -9,7 +9,8 @@ concrete MatrixPor of Matrix =
   lincat
     V3S = V3 ;
 
-  -- lin
+  lin
+    NPPPart v2 np = variants {} ;
     -- NPPPart v2 np =
     --   let agr = complAgr np.a in
     --   heavyNPpol np.isNeg {
@@ -17,7 +18,7 @@ concrete MatrixPor of Matrix =
     --     a = np.a ;
     --     hasClit = False
     --   } ;
-
+    SlashV3S v np s = variants {} ;
     -- SlashV3S v np s = mkVPSlash v.c2
     --   (insertExtrapos 
     --      (\\b => np.s ++ conjThat ++ s.s ! Indic) ---- mood
@@ -30,6 +31,8 @@ concrete MatrixPor of Matrix =
     happy_A = mkA "feliz" ;
     open_A = mkA "aberto" ;
     soft_A = mkA "suave" ;
+    -- Adv
+    nearly_Adv = mkAdv "quase" ;
     -- PN
     abrams_PN = mkPN (mkN "Atlas" masculine) ;
     browne_PN = mkPN (mkN "Bobi" masculine) ;
@@ -41,6 +44,7 @@ concrete MatrixPor of Matrix =
     tobacco_N = mkN "tabaco" ;
     way_N = mkN "jeito" ;
     -- Predet
+    whatever_Predet = variants {} ;
     -- whatever_Predet = {
     --   s = \\a,c => prepCase c ++ "qualquer coisa" ;
     --   c = Nom ;
@@ -76,8 +80,8 @@ concrete MatrixPor of Matrix =
     -- V2V
     believe_V2V = mkV2V (mkV "acreditar") ;
     intend_V2V = mkV2V intend_V (mkPrep "que") noPrep ;
-    promise_V2V = mkV2V (mkV "prometer") ;
-    take_V2V = mkV2V (mkV "levar") ;
+    promise_V2V = mkV2V (mkV "prometer") to_Prep noPrep ;
+    take_V2V = mkV2V (mkV "levar") noPrep noPrep ;
 
   oper
     intend_V = mkV "pretender" ;

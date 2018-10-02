@@ -66,11 +66,7 @@ PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (UsePN abrams_PN) 
 
 30 -- whether? not sure if best to make it a Subj, which makes the second clause an Adv?
 
-31 * lots of trees here
 PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (DetCN (DetQuant DefArt NumSg) (RelCN (UseN dog_N) (UseRCl (TTAnt TPast ASimul) PPos (RelSlash IdRP (SlashVP (UsePN browne_PN) (SlashV2a chase_V2)))))) (UseV bark_V)))) NoVoc
-
-PhrUtt NoPConj (UttNP (AdvNP (DetCN (DetQuant DefArt NumSg) (UseN dog_N)) (SubjS that_Subj (PredVPS (PPartNP (UsePN browne_PN) chase_V2) (MkVPS (TTAnt TPast ASimul) PPos (UseV bark_V)))))) NoVoc
-PhrUtt NoPConj (UttNP (AdvNP (DetCN (DetQuant DefArt NumSg) (UseN dog_N)) (SubjS that_Subj (UseCl (TTAnt TPast ASimul) PPos (PredVP (PPartNP (UsePN browne_PN) chase_V2) (UseV bark_V)))))) NoVoc 
 
 PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (DetCN (DetQuant DefArt NumSg) (UseN dog_N)) (AdvVP (PassV2 chase_V2) (PrepNP by8agent_Prep (UsePN browne_PN)))))) NoVoc
 PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (DetCN (DetQuant DefArt NumSg) (UseN dog_N)) (ComplSlash (VPSlashPrep (PassV2 chase_V2) by8agent_Prep) (UsePN browne_PN))))) NoVoc
@@ -107,10 +103,9 @@ PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (DetCN (DetQuant D
 
 PhrUtt NoPConj (UttS (UseCl (TTAnt TPres ASimul) PPos (PredVP (DetCN (DetQuant DefArt NumSg) (UseN dog_N)) (AdvVP (UseV bark_V) now_Adv)))) NoVoc
 
-PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (DetCN (DetQuant DefArt NumSg) (ApposCN (UseN garden_N) (MassNP (UseN dog_N)))) (UseV bark_V)))) NoVoc
+PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (DetCN (DetQuant DefArt NumSg) (UseN (CompoundN garden_N dog_N))) (UseV bark_V)))) NoVoc
 
-PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (DetCN (DetQuant DefArt NumSg) (ApposCN (UseN tobacco_N) (MassNP (ApposCN (UseN garden_N) (MassNP (UseN dog_N)))))) (UseV bark_V)))) NoVoc
-PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (DetCN (DetQuant DefArt NumSg) (ApposCN (ApposCN (UseN tobacco_N) (MassNP (UseN garden_N))) (MassNP (UseN dog_N)))) (UseV bark_V)))) NoVoc
+NumSg) (UseN (CompoundN (CompoundN tobacco_N garden_N) dog_N))) (UseV bark_V)))) NoVoc
 
 PhrUtt NoPConj (UttS (UseCl (TTAnt TPres ASimul) PPos (PredVP (DetCN (DetQuant DefArt NumSg) (UseN cat_N)) (UseComp (CompAP (PositA old_A)))))) NoVoc
 
@@ -217,7 +212,7 @@ PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (UsePN abrams_PN) 
 
 PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (UsePN abrams_PN) (UseComp (CompAP (AdAP very_AdA (PositA old_A))))))) NoVoc
 
-PhrUtt NoPConj (UttS (AdvS (PositAdvAdj near_A) (UseCl (TTAnt TPast ASimul) PPos (PredVP (DetCN every_Det (UseN dog_N)) (UseV bark_V))))) NoVoc
+PhrUtt NoPConj (UttS (AdvS nearly_Adv (UseCl (TTAnt TPast ASimul) PPos (PredVP (DetCN every_Det (UseN dog_N)) (UseV bark_V))))) NoVoc
 
 PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (UsePN abrams_PN) (AdvVP (UseV bark_V) (AdAdv very_AdA (PositAdvAdj soft_A)))))) NoVoc
 

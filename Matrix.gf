@@ -13,6 +13,8 @@ abstract Matrix = Lang, Extend ** {
     happy_A : A ;
     open_A : A ;
     soft_A : A ;
+    --Adv
+    nearly_Adv : Adv ;
     -- PN
     abrams_PN : PN ;
     browne_PN : PN ;

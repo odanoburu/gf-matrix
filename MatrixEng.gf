@@ -21,6 +21,8 @@ concrete MatrixEng of Matrix =
     happy_A = mkA "happy" ;
     open_A = mkA "open" ;
     soft_A = mkA "soft" ;
+    -- Adv
+    nearly_Adv = mkAdv "nearly" ;
     -- PN
     abrams_PN = mkPN (mkN masculine (mkN "Abrams")) ;
     browne_PN = mkPN (mkN masculine (mkN "Browne")) ;

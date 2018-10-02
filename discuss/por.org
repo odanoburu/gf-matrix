@@ -16,9 +16,11 @@
 - 72 : chega -> chegar
 - 79 : a ladrar -> que ladraria
 - 81 : Bobi a estar ladrando -> que Bobi está ladrando
-- 83 : a chegar -> para chegar
+- 83 : a chegar -> para chegar (ingles talvez esteja errado)
 - 88 : de dez às três (horas)
 - 90 : parse errado, precisa de função que adv modifica det
 - 94 : wrong tree
 - 96 : chegava sobre -> chegava na | chega em terça a manhã -> na terça de manhã / na manhã de terça, mas árvore me parece errada tb
 - 99 : ExistNPAdv
+
+is NPPPart really necessary?
