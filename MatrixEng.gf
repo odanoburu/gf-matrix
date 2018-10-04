@@ -42,7 +42,7 @@ concrete MatrixEng of Matrix =
     bark_V = mkV "bark" ;
     open_V = mkV "open" "opened" ;
     -- V2
-    arrive_V2 = mkV2 arrive_V (mkPrep "at") ;
+    arrive_V2 = mkV2 arrive_V on_Prep ;
     bother_V2 = mkV2 "bother" ;
     chase_V2 = mkV2 "chase" ;
     give_V2 = mkV2 "give" ;

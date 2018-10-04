@@ -55,7 +55,7 @@ concrete MatrixPor of Matrix =
     bark_V = mkV "ladrar" ;
     open_V = mkV "abrir" ;
     -- V2
-    arrive_V2 = mkV2 arrive_V ;
+    arrive_V2 = mkV2 arrive_V in_Prep ;
     bother_V2 = mkV2 "incomodar" ;
     chase_V2 = mkV2 (mkV (seguir_Besch "perseguir")) ;
     give_V2 = mkV2 "dar" ;

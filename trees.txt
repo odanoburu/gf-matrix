@@ -228,11 +228,11 @@ PhrUtt NoPConj (UttNP (GenModNP NumSg (UsePN browne_PN) (GerundCN (ComplSlashPar
 PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (ImpersCl (AdvVP (ComplSlash (SlashV2a bother_V2) (UsePN browne_PN)) (SubjS that_Subj (UseCl (TTAnt TPast ASimul) PPos (PredVP (UsePN abrams_PN) (ComplSlash (SlashV2a chase_V2) (DetCN (DetQuant IndefArt NumPl) (UseN cat_N)))))))))) NoVoc
 PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (ImpersCl (ComplSlash (SlashV2a bother_V2) (AdvNP (UsePN browne_PN) (SubjS that_Subj (UseCl (TTAnt TPast ASimul) PPos (PredVP (UsePN abrams_PN) (ComplSlash (SlashV2a chase_V2) (DetCN (DetQuant IndefArt NumPl) (UseN cat_N))))))))))) NoVoc
 
-PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (MassNP (ApposCN (UseN (monthN june_Month)) (DetNP (DetQuantOrd IndefArt NumPl (OrdNumeral (num (pot2as3 (pot1as2 (pot0as1 (pot0 n3)))))))))) (UseV arrive_V)))) NoVoc
+94 -- June third is not parsed correctly, should be intMonthday in Construction.gf
 
 95 -- incomplete, no grammar for times as there is for numerals
 
-PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (UsePN browne_PN) (AdvVP (UseV arrive_V) (PrepNP on_Prep (MassNP (ApposCN (UseN (weekdayN tuesday_Weekday)) (MassNP (UseN morning_N))))))))) NoVoc
+PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (UsePN browne_PN) (ComplSlash (SlashV2a arrive_V2) (MassNP (UseN (CompoundN (weekdayN tuesday_Weekday) morning_N))))))) NoVoc
 
 PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (DetCN (DetQuant DefArt NumPl) (UseN cat_N)) (ComplSlash (SlashV2a find_V2) (DetCN (DetQuant IndefArt NumSg) (SentCN (UseN way_N) (EmbedVP (UseV bark_V)))))))) NoVoc
 
