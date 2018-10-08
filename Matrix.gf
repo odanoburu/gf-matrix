@@ -5,6 +5,7 @@ abstract Matrix = Lang, Extend ** {
     V3S ;
     --V3V ;
   fun
+    ComplVSWhether : VS -> S -> VP ;  -- say whether she runs
     NPPPart : V2 -> NP -> NP ;
     --SlashV3V : V3V -> NP -> VP -> VPSlash ;
     SlashV3S : V3S -> NP -> S -> VPSlash ;
@@ -27,8 +28,6 @@ abstract Matrix = Lang, Extend ** {
     way_N : N ;
     -- Predet
     whatever_Predet : Predet ;
-    -- Subj
-    whether_Subj : Subj ;
     -- V
     arrive_V : V ;
     bark_V : V ;

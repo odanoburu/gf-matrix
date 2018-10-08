@@ -10,6 +10,7 @@ concrete MatrixEng of Matrix =
     V3S = V3 ;
     --V3V = V2V ** {c4 : Str} ;
   lin
+    ComplVSWhether v s  = insertExtra ("whether" ++ s.s) (predV v) ;
     NPPPart v2 np = {
       s = \\c => v2.s ! VPPart ++ np.s ! c ;
       a = np.a
@@ -35,8 +36,6 @@ concrete MatrixEng of Matrix =
     way_N = mkN "way" ;
     -- Predet
     whatever_Predet = ss "whatever" ;
-    -- Subj
-    whether_Subj = mkSubj "whether" ;
     -- V
     arrive_V = mkV "arrive" ;
     bark_V = mkV "bark" ;

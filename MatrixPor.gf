@@ -10,6 +10,7 @@ concrete MatrixPor of Matrix =
     V3S = V3 ;
 
   lin
+    --    ComplVSWhether v s = insertExtraposs (\\b => "se" ++ (s.s ! (v.m ! b))) (predV v) ;
     NPPPart v2 np = variants {} ;
     -- NPPPart v2 np =
     --   let agr = complAgr np.a in
@@ -64,6 +65,8 @@ concrete MatrixPor of Matrix =
     -- V3
     hand_V3 = mkV3 (mkV "passar") ;
     hand_to_V3 = mkV3 (mkV "passar") to_Prep ;
+    -- VS
+    wonder_VS = mkVS (reflV (mkV "perguntar")) ;
     -- VV
     intend_VV = mkVV intend_V ;
     keep_VV = aVV (mkV "continuar") ;
@@ -86,4 +89,5 @@ concrete MatrixPor of Matrix =
   oper
     intend_V = mkV "pretender" ;
     parecer_V = mkV "parecer" ;
+
 } ;
