@@ -17,7 +17,7 @@ PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (UsePN abrams_PN) 
 
 PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (UsePN abrams_PN) (ComplVV intend_VV (UseV bark_V))))) NoVoc
 
-PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (UsePN abrams_PN) (ComplSlash (SlashV2V intend_V2V (UseV bark_V)) (UsePN browne_PN))))) NoVoc
+10 -- VS doesn't parse, V2V doesn't allow me to use subjunctive in Por
 
 PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (DetCN every_Det (UseN cat_N)) (UseV bark_V)))) NoVoc
 
@@ -193,7 +193,7 @@ PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (ImpersCl (ComplSlash (Sla
 
 PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (ImpersCl (ComplSlash (SlashV2V take_V2V (UseV arrive_V)) (AdvNP (UsePN abrams_PN) (timeunitAdv (NumNumeral (num (pot2as3 (pot1as2 pot110)))) minute_Timeunit)))))) NoVoc
 
-* 84 not sure which tree is best, if any
+84 -- not sure which tree is best, if any
 
 85 -- no 'as' there
 
