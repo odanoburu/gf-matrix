@@ -64,7 +64,7 @@ PhrUtt NoPConj (UttImpSg PPos (ImpVP (ComplSlash (SlashV2a chase_V2) (UsePN brow
 
 PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (UsePN abrams_PN) (ComplVQ wonder_VQ (UseQCl (TTAnt TPast ASimul) PPos (QuestVP (IdetCN (IdetQuant which_IQuant NumSg) (UseN dog_N)) (UseV bark_V))))))) NoVoc
 
-30 -- whether? not sure if best to make it a Subj, which makes the second clause an Adv?
+PhrUtt NoPConj (UttS (ConjS whether_Conj (BaseS (UseCl (TTAnt TPast ASimul) PPos (PredVP (UsePN abrams_PN) (UseV wonder_V))) (UseCl (TTAnt TPast ASimul) PPos (PredVP (MassNP (UseN dog_N)) (UseV bark_V)))))) NoVoc
 
 PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (DetCN (DetQuant DefArt NumSg) (RelCN (UseN dog_N) (UseRCl (TTAnt TPast ASimul) PPos (RelSlash IdRP (SlashVP (UsePN browne_PN) (SlashV2a chase_V2)))))) (UseV bark_V)))) NoVoc
 
@@ -123,7 +123,7 @@ PhrUtt NoPConj (UttS (UseCl (TTAnt TPres ASimul) PPos (PredSCVP (EmbedS (UseCl (
 
 PhrUtt NoPConj (UttS (UseCl (TTAnt TPres ASimul) PPos (PredVP (DetCN (DetQuant IndefArt NumPl) (UseN dog_N)) (ComplSlash (SlashV2a chase_V2) (PredetNP whatever_Predet (DetCN (DetQuant IndefArt NumPl) (UseN bark_N))))))) NoVoc
 
-57 -- 'every day the dog barks' works.. need a way to make NP into Adv? but does that even make sense?
+57 -- 'every day the dog barks' parses, albeit incorrectly.. need a way to make NP into Adv? but does that even make sense?
 
 PhrUtt NoPConj (UttQS (UseQCl (TTAnt TPast ASimul) PPos (QuestIAdv when_IAdv (PredVP (DetCN (DetQuant DefArt NumSg) (UseN dog_N)) (UseV bark_V))))) NoVoc
 

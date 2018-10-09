@@ -34,6 +34,12 @@ concrete MatrixPor of Matrix =
     soft_A = mkA "suave" ;
     -- Adv
     nearly_Adv = mkAdv "quase" ;
+    -- Conj
+    whether_Conj = {
+      s1 = [] ;
+      s2 = "se" ;
+      n = Sg
+      } ;
     -- PN
     abrams_PN = mkPN (mkN "Atlas" masculine) ;
     browne_PN = mkPN (mkN "Bobi" masculine) ;
@@ -55,6 +61,7 @@ concrete MatrixPor of Matrix =
     arrive_V = mkV "chegar" ;
     bark_V = mkV "ladrar" ;
     open_V = mkV "abrir" ;
+    wonder_V = reflV (mkV "perguntar") ;
     -- V2
     arrive_V2 = mkV2 arrive_V in_Prep ;
     bother_V2 = mkV2 "incomodar" ;
@@ -65,8 +72,6 @@ concrete MatrixPor of Matrix =
     -- V3
     hand_V3 = mkV3 (mkV "passar") ;
     hand_to_V3 = mkV3 (mkV "passar") to_Prep ;
-    -- VS
-    wonder_VS = mkVS (reflV (mkV "perguntar")) ;
     -- VV
     intend_VV = mkVV intend_V ;
     keep_VV = aVV (mkV "continuar") ;

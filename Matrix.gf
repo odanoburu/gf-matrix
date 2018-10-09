@@ -14,8 +14,10 @@ abstract Matrix = Lang, Extend ** {
     happy_A : A ;
     open_A : A ;
     soft_A : A ;
-    --Adv
+    -- Adv
     nearly_Adv : Adv ;
+    -- Conj
+    whether_Conj : Conj ;
     -- PN
     abrams_PN : PN ;
     browne_PN : PN ;
@@ -32,6 +34,7 @@ abstract Matrix = Lang, Extend ** {
     arrive_V : V ;
     bark_V : V ;
     open_V : V ;
+    wonder_V : V ;
     -- V2
     arrive_V2 : V2 ;
     bother_V2 : V2 ;
@@ -43,7 +46,7 @@ abstract Matrix = Lang, Extend ** {
     hand_V3 : V3 ;
     hand_to_V3 : V3 ;
     -- VS
-    wonder_VS : VS ;
+    --    wonder_VS : VS ;
     -- VV
     arrive_VV : VV ;
     intend_VV : VV ;

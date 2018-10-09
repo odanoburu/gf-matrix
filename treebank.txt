@@ -28,9 +28,6 @@ MatrixPor: Atlas sabia que chovia
 Matrix: PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (UsePN abrams_PN) (ComplVV intend_VV (UseV bark_V))))) NoVoc
 MatrixEng: Abrams intended to bark
 MatrixPor: Atlas pretendia ladrar
-Matrix: PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (UsePN abrams_PN) (ComplSlash (SlashV2V intend_V2V (UseV bark_V)) (UsePN browne_PN))))) NoVoc
-MatrixEng: Abrams intended Browne to bark
-MatrixPor: Atlas pretendia que Bobi ladrar
 Matrix: PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (DetCN every_Det (UseN cat_N)) (UseV bark_V)))) NoVoc
 MatrixEng: every cat barked
 MatrixPor: cada gato ladrava
@@ -106,6 +103,9 @@ MatrixPor: persegue Bobi
 Matrix: PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (UsePN abrams_PN) (ComplVQ wonder_VQ (UseQCl (TTAnt TPast ASimul) PPos (QuestVP (IdetCN (IdetQuant which_IQuant NumSg) (UseN dog_N)) (UseV bark_V))))))) NoVoc
 MatrixEng: Abrams wondered which dog barked
 MatrixPor: Atlas se perguntava qual cachorro ladrava
+Matrix: PhrUtt NoPConj (UttS (ConjS whether_Conj (BaseS (UseCl (TTAnt TPast ASimul) PPos (PredVP (UsePN abrams_PN) (UseV wonder_V))) (UseCl (TTAnt TPast ASimul) PPos (PredVP (MassNP (UseN dog_N)) (UseV bark_V)))))) NoVoc
+MatrixEng: Abrams wondered whether dog barked
+MatrixPor: Atlas se perguntava se o cachorro ladrava
 Matrix: PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (DetCN (DetQuant DefArt NumSg) (RelCN (UseN dog_N) (UseRCl (TTAnt TPast ASimul) PPos (RelSlash IdRP (SlashVP (UsePN browne_PN) (SlashV2a chase_V2)))))) (UseV bark_V)))) NoVoc
 MatrixEng: the dog that Browne chased barked
 MatrixPor: o cachorro que Bobi perseguia ladrava

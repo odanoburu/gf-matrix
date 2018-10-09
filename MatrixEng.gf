@@ -24,6 +24,8 @@ concrete MatrixEng of Matrix =
     soft_A = mkA "soft" ;
     -- Adv
     nearly_Adv = mkAdv "nearly" ;
+    -- Conj
+    whether_Conj = mkConj "whether" ;
     -- PN
     abrams_PN = mkPN (mkN masculine (mkN "Abrams")) ;
     browne_PN = mkPN (mkN masculine (mkN "Browne")) ;
@@ -40,6 +42,7 @@ concrete MatrixEng of Matrix =
     arrive_V = mkV "arrive" ;
     bark_V = mkV "bark" ;
     open_V = mkV "open" "opened" ;
+    wonder_V = mkV "wonder" ;
     -- V2
     arrive_V2 = mkV2 arrive_V on_Prep ;
     bother_V2 = mkV2 "bother" ;
@@ -50,8 +53,6 @@ concrete MatrixEng of Matrix =
     -- V3
     hand_V3 = mkV3 (mkV "hand") ;
     hand_to_V3 = mkV3 (mkV "hand") to_Prep ;
-    -- VS
-    wonder_VS = mkVS (mkV "wonder") ;
     -- VV
     arrive_VV = ingVV arrive_V ;
     intend_VV = mkVV intend_V ;
