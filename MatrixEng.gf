@@ -8,15 +8,14 @@ concrete MatrixEng of Matrix =
   ** open ParadigmsEng, ResEng, Prelude in {
   lincat
     V3S = V3 ;
-    --V3V = V2V ** {c4 : Str} ;
+    V3V = V2V ** {c4 : Str} ;
   lin
-    ComplVSWhether v s  = insertExtra ("whether" ++ s.s) (predV v) ;
     NPPPart v2 np = {
       s = \\c => v2.s ! VPPart ++ np.s ! c ;
       a = np.a
       } ;
---    SlashV3V v np vp = insertObjcpre (\\a => v.c3 ++ v.c4 ++ infVP v.typ vp False Simul CPos a) (predVc v) ;
     SlashV3S v np s = insertExtrac (np.s ! NPAcc ++ conjThat ++ s.s) (predVc v) ;
+    SlashV3V v np vp = insertObjcpre (\\a => v.c3 ++ np.s ! NPAcc ++ v.c4 ++ infVP v.typ vp False Simul CPos a) (predVc v) ;
     -- A
     obvious_A = mkA "obvious" ;
     happy_A = mkA "happy" ;
@@ -60,7 +59,7 @@ concrete MatrixEng of Matrix =
     seem_VV = mkVV (mkV "seem") ;
     -- V2A
     consider_V2A = mkV2A (mkV "consider") noPrep ;
-    strike_V2A = mkV2A (mkV "strike") noPrep ;
+    strike_V2A = mkV2A (mkV "strike") (mkPrep "as") ;
     wipe_V2A = mkV2A (mkV "wipe") noPrep ;
     -- V2S
     bet_V2S = mkV2S (mkV "bet" "bet" "bet") noPrep ;
@@ -72,11 +71,12 @@ concrete MatrixEng of Matrix =
     promise_V2V = mkV2V (mkV "promise") noPrep to_Prep ;
     take_V2V = mkV2V (mkV "take" "took" "taken") noPrep to_Prep ;
     -- V3V
-    --leave_V3V = lin V3V (prepV2 (mkV "leave" "left" "left") noPrep) ** {c3 = to_Prep.s ; c4 = to_Prep.s ; typ = VVPresPart } ;
+    leave_V3V = lin V3V (prepV2 (mkV "leave" "left" "left") noPrep) ** {c3 = to_Prep.s ; c4 = noPrep.s ; typ = VVInf } ;
 
   oper
     intend_V : V ;
     intend_V = mkV "intend" ;
---    insertObjcpre : (Agr => Str) -> SlashVP -> SlashVP ;
---    insertObjcpre obj vp = insertObjPre obj vp ** {c2 = vp.c2 ; gapInMiddle = vp.gapInMiddle ; missingAdv = vp.missingAdv } ;
+    insertObjcpre : (Agr => Str) -> SlashVP -> SlashVP ;
+    insertObjcpre obj vp = insertObjPre obj vp ** {c2 = vp.c2 ; gapInMiddle = vp.gapInMiddle ; missingAdv = vp.missingAdv } ;
+
 } ;

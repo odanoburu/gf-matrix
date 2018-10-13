@@ -3,12 +3,11 @@ abstract Matrix = Lang, Extend ** {
     startcat = Phr ;
   cat
     V3S ;
-    --V3V ;
+    V3V ;
   fun
-    ComplVSWhether : VS -> S -> VP ;  -- say whether she runs
     NPPPart : V2 -> NP -> NP ;
-    --SlashV3V : V3V -> NP -> VP -> VPSlash ;
     SlashV3S : V3S -> NP -> S -> VPSlash ;
+    SlashV3V : V3V -> NP -> VP -> VPSlash ;
     -- A
     obvious_A : A ;
     happy_A : A ;
@@ -66,6 +65,6 @@ abstract Matrix = Lang, Extend ** {
     -- V3S
     bet_V3S : V3S ;
     -- V3V
-    --leave_V3V : V3V ;
+    leave_V3V : V3V ;
 
 } ;
