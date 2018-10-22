@@ -22,6 +22,7 @@ concrete MatrixEng of Matrix =
     open_A = mkA "open" ;
     soft_A = mkA "soft" ;
     -- Adv
+    every_day_Adv = mkAdv "every day" ;
     nearly_Adv = mkAdv "nearly" ;
     -- Conj
     whether_Conj = mkConj "whether" ;
@@ -58,8 +59,8 @@ concrete MatrixEng of Matrix =
     keep_VV = ingVV (mkV "keep" "kept" "kept") ;
     seem_VV = mkVV (mkV "seem") ;
     -- V2A
-    consider_V2A = mkV2A (mkV "consider") noPrep ;
-    strike_V2A = mkV2A (mkV "strike") (mkPrep "as") ;
+    consider_V2A = mkV2A (mkV "consider") ;
+    strike_V2A = mkV2A (mkV "strike") noPrep (mkPrep "as") ;
     wipe_V2A = mkV2A (mkV "wipe") noPrep ;
     -- V2S
     bet_V2S = mkV2S (mkV "bet" "bet" "bet") noPrep ;

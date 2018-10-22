@@ -14,6 +14,7 @@ abstract Matrix = Lang, Extend ** {
     open_A : A ;
     soft_A : A ;
     -- Adv
+    every_day_Adv : Adv ;
     nearly_Adv : Adv ;
     -- Conj
     whether_Conj : Conj ;

@@ -33,6 +33,7 @@ concrete MatrixPor of Matrix =
     open_A = mkA "aberto" ;
     soft_A = mkA "suave" ;
     -- Adv
+    every_day_Adv = mkAdv "todo dia" ;
     nearly_Adv = mkAdv "quase" ;
     -- Conj
     whether_Conj = {
