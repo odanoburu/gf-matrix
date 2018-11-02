@@ -28,8 +28,6 @@ abstract Matrix = Lang, Extend ** {
     picture_N : N ;
     tobacco_N : N ;
     way_N : N ;
-    -- Predet
-    whatever_Predet : Predet ;
     -- V
     arrive_V : V ;
     bark_V : V ;
@@ -43,6 +41,7 @@ abstract Matrix = Lang, Extend ** {
     squeeze_in_V2 : V2 ;
     try_V2 : V2 ;
     -- V3
+    put_in_V3 : V3 ;
     hand_V3 : V3 ;
     hand_to_V3 : V3 ;
     -- VS

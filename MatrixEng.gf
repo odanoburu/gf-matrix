@@ -36,8 +36,6 @@ concrete MatrixEng of Matrix =
     picture_N = mkN "picture" ;
     tobacco_N = mkN "tobacco" ;
     way_N = mkN "way" ;
-    -- Predet
-    whatever_Predet = ss "whatever" ;
     -- V
     arrive_V = mkV "arrive" ;
     bark_V = mkV "bark" ;
@@ -53,6 +51,7 @@ concrete MatrixEng of Matrix =
     -- V3
     hand_V3 = mkV3 (mkV "hand") ;
     hand_to_V3 = mkV3 (mkV "hand") to_Prep ;
+    put_in_V3 = mkV3 (mkV "put" "put" "put") in_Prep ;
     -- VV
     arrive_VV = ingVV arrive_V ;
     intend_VV = mkVV intend_V ;

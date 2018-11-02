@@ -51,13 +51,6 @@ concrete MatrixPor of Matrix =
     picture_N = mkN "foto" feminine ;
     tobacco_N = mkN "tabaco" ;
     way_N = mkN "jeito" ;
-    -- Predet
-    whatever_Predet = variants {} ;
-    -- whatever_Predet = {
-    --   s = \\a,c => prepCase c ++ "qualquer coisa" ;
-    --   c = Nom ;
-    --   a = PNoAg
-    --   } ;
     -- V
     arrive_V = mkV "chegar" ;
     bark_V = mkV "ladrar" ;
