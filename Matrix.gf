@@ -5,7 +5,7 @@ abstract Matrix = Lang, Extend ** {
     V3S ;
     V3V ;
   fun
-    NPPPart : V2 -> NP -> NP ;
+    timeunitNP : Card -> Timeunit -> NP ; -- three hours
     SlashV3S : V3S -> NP -> S -> VPSlash ;
     SlashV3V : V3V -> NP -> VP -> VPSlash ;
     -- A
@@ -41,13 +41,10 @@ abstract Matrix = Lang, Extend ** {
     squeeze_in_V2 : V2 ;
     try_V2 : V2 ;
     -- V3
-    put_in_V3 : V3 ;
     hand_V3 : V3 ;
     hand_to_V3 : V3 ;
-    -- VS
-    --    wonder_VS : VS ;
+    put_in_V3 : V3 ;
     -- VV
-    arrive_VV : VV ;
     intend_VV : VV ;
     keep_VV : VV ;
     seem_VV : VV ;
@@ -57,14 +54,15 @@ abstract Matrix = Lang, Extend ** {
     wipe_V2A : V2A ;
     -- V2S
     bet_V2S : V2S ;
+    bother_V2S : V2S ;
     -- V2V
     believe_V2V : V2V ;
     intend_V2V : V2V ;
     promise_V2V : V2V ;
-    take_V2V : V2V ;
     -- V3S
     bet_V3S : V3S ;
     -- V3V
     leave_V3V : V3V ;
+    take_V3V : V3V ;
 
 } ;

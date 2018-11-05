@@ -5,15 +5,12 @@ concrete MatrixEng of Matrix =
   , DocumentationEng --# notpresent
   , MarkupEng - [stringMark]
   , ExtendEng
-  ** open ParadigmsEng, ResEng, Prelude in {
+  ** open ParadigmsEng, ResEng, (S = SyntaxEng), Prelude in {
   lincat
     V3S = V3 ;
     V3V = V2V ** {c4 : Str} ;
   lin
-    NPPPart v2 np = {
-      s = \\c => v2.s ! VPPart ++ np.s ! c ;
-      a = np.a
-      } ;
+    timeunitNP n time = S.mkNP n time ;
     SlashV3S v np s = insertExtrac (np.s ! NPAcc ++ conjThat ++ s.s) (predVc v) ;
     SlashV3V v np vp = insertObjcpre (\\a => v.c3 ++ np.s ! NPAcc ++ v.c4 ++ infVP v.typ vp False Simul CPos a) (predVc v) ;
     -- A
@@ -53,7 +50,6 @@ concrete MatrixEng of Matrix =
     hand_to_V3 = mkV3 (mkV "hand") to_Prep ;
     put_in_V3 = mkV3 (mkV "put" "put" "put") in_Prep ;
     -- VV
-    arrive_VV = ingVV arrive_V ;
     intend_VV = mkVV intend_V ;
     keep_VV = ingVV (mkV "keep" "kept" "kept") ;
     seem_VV = mkVV (mkV "seem") ;
@@ -63,15 +59,16 @@ concrete MatrixEng of Matrix =
     wipe_V2A = mkV2A (mkV "wipe") noPrep ;
     -- V2S
     bet_V2S = mkV2S (mkV "bet" "bet" "bet") noPrep ;
+    bother_V2S = mkV2S (mkV "bother") noPrep ;
     -- V3S
     bet_V3S = mkV3 (mkV "bet" "bet" "bet") ;
     -- V2V
     believe_V2V = mkV2V (mkV "believe") noPrep to_Prep ;
     intend_V2V = mkV2V intend_V noPrep to_Prep ;
     promise_V2V = mkV2V (mkV "promise") noPrep to_Prep ;
-    take_V2V = mkV2V (mkV "take" "took" "taken") noPrep to_Prep ;
     -- V3V
-    leave_V3V = lin V3V (prepV2 (mkV "leave" "left" "left") noPrep) ** {c3 = to_Prep.s ; c4 = noPrep.s ; typ = VVInf } ;
+    leave_V3V = lin V3V (prepV2 (mkV "leave" "left" "left") noPrep) ** {c3 = to_Prep.s ; c4 = noPrep.s ; typ = VVInf} ;
+    take_V3V = lin V3V (prepV2 (mkV "take" "took" "taken") noPrep) ** {c3 = noPrep.s ; c4 = noPrep.s ; typ = VVInf} ;
 
   oper
     intend_V : V ;

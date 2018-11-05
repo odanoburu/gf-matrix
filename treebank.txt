@@ -175,9 +175,9 @@ MatrixPor: o cachorro ladrando perseguia Bobi
 Matrix: PhrUtt NoPConj (UttS (UseCl (TTAnt TPres ASimul) PPos (PredVP (DetCN (DetQuant IndefArt NumPl) (AdjCN (PastPartAP (SlashV2a chase_V2)) (UseN dog_N))) (UseV bark_V)))) NoVoc
 MatrixEng: chased dogs bark
 MatrixPor: cachorros perseguidos ladram
-Matrix: PhrUtt NoPConj (UttS (UseCl (TTAnt TPres ASimul) PPos (PredVP (NPPPart chase_V2 (DetCN (DetQuant IndefArt NumPl) (UseN dog_N))) (UseV bark_V)))) NoVoc
+Matrix: PhrUtt NoPConj (UttS (UseCl (TTAnt TPres ASimul) PPos (PredVP (DetCN (DetQuant IndefArt NumPl) (AdjCN (PastPartAP (SlashV2a chase_V2)) (UseN dog_N))) (UseV bark_V)))) NoVoc
 MatrixEng: chased dogs bark
-MatrixPor: [NPPPart] ladro
+MatrixPor: cachorros perseguidos ladram
 Matrix: PhrUtt NoPConj (UttS (UseCl (TTAnt TPres ASimul) PPos (PredSCVP (EmbedS (UseCl (TTAnt TPres ASimul) PPos (PredVP (DetCN (DetQuant DefArt NumSg) (UseN cat_N)) (ComplSlash (SlashV2a chase_V2) (UsePN browne_PN))))) (UseComp (CompAP (PositA old_A)))))) NoVoc
 MatrixEng: that the cat chases Browne is old
 MatrixPor: que o gato persegue Bobi é velho
@@ -250,12 +250,6 @@ MatrixPor: [PredVPS]
 Matrix: PhrUtt NoPConj (UttS (ConjS and_Conj (BaseS (UseCl (TTAnt TPast ASimul) PPos (PredVP (DetCN (DetQuant DefArt NumSg) (UseN dog_N)) (UseV arrive_V))) (UseCl (TTAnt TPast ASimul) PPos (PredVP (UsePN browne_PN) (UseV bark_V)))))) NoVoc
 MatrixEng: the dog arrived and Browne barked
 MatrixPor: o cachorro chegava e Bobi ladrava
-Matrix: PhrUtt NoPConj (UttS (UseCl (TTAnt TPres ASimul) PPos (ImpersCl (AdvVP (UseComp (CompAP (PositA obvious_A))) (SubjS that_Subj (UseCl (TTAnt TPast ASimul) PPos (PredVP (DetCN (DetQuant DefArt NumSg) (UseN dog_N)) (UseV bark_V)))))))) NoVoc
-MatrixEng: it is obvious that the dog barked
-MatrixPor: é óbvio que o cachorro ladrasse
-Matrix: PhrUtt NoPConj (UttS (UseCl (TTAnt TPres ASimul) PPos (ImpersCl (UseComp (CompAP (AdvAP (PositA obvious_A) (SubjS that_Subj (UseCl (TTAnt TPast ASimul) PPos (PredVP (DetCN (DetQuant DefArt NumSg) (UseN dog_N)) (UseV bark_V)))))))))) NoVoc
-MatrixEng: it is obvious that the dog barked
-MatrixPor: é óbvio que o cachorro ladrasse
 Matrix: PhrUtt NoPConj (UttS (UseCl (TTAnt TPres ASimul) PPos (ImpersCl (UseComp (CompAP (SentAP (PositA obvious_A) (EmbedS (UseCl (TTAnt TPast ASimul) PPos (PredVP (DetCN (DetQuant DefArt NumSg) (UseN dog_N)) (UseV bark_V)))))))))) NoVoc
 MatrixEng: it is obvious that the dog barked
 MatrixPor: é óbvio que o cachorro ladrava
@@ -271,12 +265,9 @@ MatrixPor: Atlas acredita Bobi a estar ladrando
 Matrix: PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (ImpersCl (AdvVP (ComplSlash (SlashV2a bother_V2) (UsePN abrams_PN)) (SubjS that_Subj (UseCl (TTAnt TPast ASimul) PPos (PredVP (UsePN browne_PN) (UseV bark_V)))))))) NoVoc
 MatrixEng: it bothered Abrams that Browne barked
 MatrixPor: incomodava Atlas que Bobi ladrasse
-Matrix: PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (ImpersCl (ComplSlash (SlashV2a bother_V2) (AdvNP (UsePN abrams_PN) (SubjS that_Subj (UseCl (TTAnt TPast ASimul) PPos (PredVP (UsePN browne_PN) (UseV bark_V))))))))) NoVoc
-MatrixEng: it bothered Abrams that Browne barked
-MatrixPor: incomodava Atlas que Bobi ladrasse
-Matrix: PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (ImpersCl (ComplSlash (SlashV2V take_V2V (UseV arrive_V)) (AdvNP (UsePN abrams_PN) (timeunitAdv (NumNumeral (num (pot2as3 (pot1as2 pot110)))) minute_Timeunit)))))) NoVoc
-MatrixEng: it took Abrams for ten minutes to arrive
-MatrixPor: levava Atlas para dez minutos chegar
+Matrix: PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (ImpersCl (ComplSlash (SlashV3V take_V3V (timeunitNP (NumNumeral (num (pot2as3 (pot1as2 pot110)))) minute_Timeunit) (UseV arrive_V)) (UsePN abrams_PN))))) NoVoc
+MatrixEng: it took Abrams ten minutes to arrive
+MatrixPor: 
 Matrix: PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (UsePN abrams_PN) (ComplSlash (SlashV3V leave_V3V (UsePN browne_PN) (UseV bark_V)) (UsePron it_Pron))))) NoVoc
 MatrixEng: Abrams left it to Browne to bark
 MatrixPor: 
@@ -286,33 +277,12 @@ MatrixPor: Atlas parece Bobi a velho
 Matrix: PhrUtt NoPConj (UttS (UseCl (TTAnt TPres ASimul) PPos (PredVP (UsePN browne_PN) (ComplSlash (SlashV2A consider_V2A (PositA old_A)) (UsePN abrams_PN))))) NoVoc
 MatrixEng: Browne considers Abrams old
 MatrixPor: Bobi considera Atlas velho
-Matrix: PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (UsePN abrams_PN) (ComplSlash (SlashV2a like_V2) (DetCN (DetQuant DefArt NumSg) (AdvCN (UseN idea_N) (SubjS that_Subj (UseCl (TTAnt TPast ASimul) PPos (PredVP (UsePN browne_PN) (ComplVV can8know_VV (UseV bark_V))))))))))) NoVoc
+Matrix: PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (UsePN abrams_PN) (ComplSlash (SlashV2a like_V2) (DetCN (DetQuant DefArt NumSg) (SentCN (UseN idea_N) (EmbedS (UseCl (TTAnt TPast ASimul) PPos (PredVP (UsePN browne_PN) (ComplVV can_VV (UseV bark_V))))))))))) NoVoc
 MatrixEng: Abrams liked the idea that Browne could bark
-MatrixPor: Atlas gostava da ideia que Bobi soubesse ladrar
-Matrix: PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (UsePN abrams_PN) (ComplSlash (SlashV2a like_V2) (DetCN (DetQuant DefArt NumSg) (SentCN (UseN idea_N) (EmbedS (UseCl (TTAnt TPast ASimul) PPos (PredVP (UsePN browne_PN) (ComplVV can8know_VV (UseV bark_V))))))))))) NoVoc
-MatrixEng: Abrams liked the idea that Browne could bark
-MatrixPor: Atlas gostava da ideia que Bobi sabia ladrar
-Matrix: PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (UsePN abrams_PN) (AdvVP (UseV bark_V) (PrepNP from_Prep (AdvNP (DetNP (DetQuant IndefArt (NumCard (NumNumeral (num (pot2as3 (pot1as2 pot110))))))) (PrepNP to_Prep (DetNP (DetQuant IndefArt (NumCard (NumNumeral (num (pot2as3 (pot1as2 (pot0as1 (pot0 n3)))))))))))))))) NoVoc
-MatrixEng: Abrams barked from ten to three
-MatrixPor: Atlas ladrava de dez a três
-Matrix: PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (UsePN abrams_PN) (AdvVP (AdvVP (UseV bark_V) (PrepNP from_Prep (DetNP (DetQuant IndefArt (NumCard (NumNumeral (num (pot2as3 (pot1as2 pot110))))))))) (PrepNP to_Prep (DetNP (DetQuant IndefArt (NumCard (NumNumeral (num (pot2as3 (pot1as2 (pot0as1 (pot0 n3)))))))))))))) NoVoc
-MatrixEng: Abrams barked from ten to three
-MatrixPor: Atlas ladrava de dez a três
-Matrix: PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (UsePN abrams_PN) (AdvVP (ComplSlash (VPSlashPrep (UseV bark_V) from_Prep) (DetNP (DetQuant IndefArt (NumCard (NumNumeral (num (pot2as3 (pot1as2 pot110)))))))) (PrepNP to_Prep (DetNP (DetQuant IndefArt (NumCard (NumNumeral (num (pot2as3 (pot1as2 (pot0as1 (pot0 n3)))))))))))))) NoVoc
-MatrixEng: Abrams barked from ten to three
-MatrixPor: Atlas ladrava de dez a três
-Matrix: PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (UsePN abrams_PN) (ComplSlash (AdvVPSlash (VPSlashPrep (UseV bark_V) to_Prep) (PrepNP from_Prep (DetNP (DetQuant IndefArt (NumCard (NumNumeral (num (pot2as3 (pot1as2 pot110))))))))) (DetNP (DetQuant IndefArt (NumCard (NumNumeral (num (pot2as3 (pot1as2 (pot0as1 (pot0 n3))))))))))))) NoVoc
-MatrixEng: Abrams barked from ten to three
-MatrixPor: Atlas ladrava a três de dez
-Matrix: PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (UsePN abrams_PN) (ComplSlash (VPSlashPrep (AdvVP (UseV bark_V) (PrepNP from_Prep (DetNP (DetQuant IndefArt (NumCard (NumNumeral (num (pot2as3 (pot1as2 pot110))))))))) to_Prep) (DetNP (DetQuant IndefArt (NumCard (NumNumeral (num (pot2as3 (pot1as2 (pot0as1 (pot0 n3))))))))))))) NoVoc
-MatrixEng: Abrams barked from ten to three
-MatrixPor: Atlas ladrava a três de dez
+MatrixPor: Atlas gostava da ideia que Bobi podia ladrar
 Matrix: PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (UsePN abrams_PN) (ComplSlash (VPSlashPrep (ComplSlash (VPSlashPrep (UseV bark_V) from_Prep) (DetNP (DetQuant IndefArt (NumCard (NumNumeral (num (pot2as3 (pot1as2 pot110)))))))) to_Prep) (DetNP (DetQuant IndefArt (NumCard (NumNumeral (num (pot2as3 (pot1as2 (pot0as1 (pot0 n3))))))))))))) NoVoc
 MatrixEng: Abrams barked from ten to three
 MatrixPor: Atlas ladrava a três de dez
-Matrix: PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (UsePN abrams_PN) (ComplSlash (VPSlashPrep (UseV bark_V) from_Prep) (AdvNP (DetNP (DetQuant IndefArt (NumCard (NumNumeral (num (pot2as3 (pot1as2 pot110))))))) (PrepNP to_Prep (DetNP (DetQuant IndefArt (NumCard (NumNumeral (num (pot2as3 (pot1as2 (pot0as1 (pot0 n3))))))))))))))) NoVoc
-MatrixEng: Abrams barked from ten to three
-MatrixPor: Atlas ladrava de dez a três
 Matrix: PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (UsePN abrams_PN) (UseComp (CompAP (AdAP very_AdA (PositA old_A))))))) NoVoc
 MatrixEng: Abrams was very old
 MatrixPor: Atlas era muito velho
@@ -322,51 +292,18 @@ MatrixPor: quase cada cachorro ladrava
 Matrix: PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (UsePN abrams_PN) (AdvVP (UseV bark_V) (AdAdv very_AdA (PositAdvAdj soft_A)))))) NoVoc
 MatrixEng: Abrams barked very softly
 MatrixPor: Atlas ladrava muito suavemente
-Matrix: PhrUtt NoPConj (UttNP (GenModNP NumSg (UsePN browne_PN) (GerundCN (ComplSlashPartLast (VPSlashPrep (ComplSlash (SlashV2a chase_V2) (NPPPart bother_V2 (UsePN abrams_PN))) part_Prep) (DetCN (DetQuant IndefArt NumPl) (UseN cat_N)))))) NoVoc
-MatrixEng: Browne's chasing of cats bothered Abrams
-MatrixPor: perseguir [NPPPart] [NPPPart] de gatos [NPPPart] de Bobi
-Matrix: PhrUtt NoPConj (UttNP (GenModNP NumSg (UsePN browne_PN) (GerundCN (ComplSlashPartLast (VPSlashPrep (ComplSlash (SlashV2a chase_V2) (NPPPart bother_V2 (UsePN abrams_PN))) possess_Prep) (DetCN (DetQuant IndefArt NumPl) (UseN cat_N)))))) NoVoc
-MatrixEng: Browne's chasing of cats bothered Abrams
-MatrixPor: perseguir [NPPPart] [NPPPart] de gatos [NPPPart] de Bobi
-Matrix: PhrUtt NoPConj (UttNP (GenModNP NumSg (UsePN browne_PN) (GerundCN (ComplSlashPartLast (VPSlashPrep (ComplSlashPartLast (SlashV2a chase_V2) (NPPPart bother_V2 (UsePN abrams_PN))) part_Prep) (DetCN (DetQuant IndefArt NumPl) (UseN cat_N)))))) NoVoc
-MatrixEng: Browne's chasing of cats bothered Abrams
-MatrixPor: perseguir [NPPPart] [NPPPart] de gatos [NPPPart] de Bobi
-Matrix: PhrUtt NoPConj (UttNP (GenModNP NumSg (UsePN browne_PN) (GerundCN (ComplSlashPartLast (VPSlashPrep (ComplSlashPartLast (SlashV2a chase_V2) (NPPPart bother_V2 (UsePN abrams_PN))) possess_Prep) (DetCN (DetQuant IndefArt NumPl) (UseN cat_N)))))) NoVoc
-MatrixEng: Browne's chasing of cats bothered Abrams
-MatrixPor: perseguir [NPPPart] [NPPPart] de gatos [NPPPart] de Bobi
-Matrix: PhrUtt NoPConj (UttNP (GenModNP NumSg (UsePN browne_PN) (GerundCN (ComplSlashPartLast (VPSlashPrep (ComplSlash (SlashV2a chase_V2) (UsePN abrams_PN)) part_Prep) (PPartNP (DetCN (DetQuant IndefArt NumPl) (UseN cat_N)) bother_V2))))) NoVoc
-MatrixEng: Browne's chasing of cats bothered Abrams
-MatrixPor: perseguir de gatos incomodados Atlas de Bobi
-Matrix: PhrUtt NoPConj (UttNP (GenModNP NumSg (UsePN browne_PN) (GerundCN (ComplSlashPartLast (VPSlashPrep (ComplSlash (SlashV2a chase_V2) (UsePN abrams_PN)) possess_Prep) (PPartNP (DetCN (DetQuant IndefArt NumPl) (UseN cat_N)) bother_V2))))) NoVoc
-MatrixEng: Browne's chasing of cats bothered Abrams
-MatrixPor: perseguir de gatos incomodados Atlas de Bobi
-Matrix: PhrUtt NoPConj (UttNP (GenModNP NumSg (UsePN browne_PN) (GerundCN (ComplSlashPartLast (VPSlashPrep (ComplSlashPartLast (SlashV2a chase_V2) (UsePN abrams_PN)) part_Prep) (PPartNP (DetCN (DetQuant IndefArt NumPl) (UseN cat_N)) bother_V2))))) NoVoc
-MatrixEng: Browne's chasing of cats bothered Abrams
-MatrixPor: perseguir de gatos incomodados Atlas de Bobi
-Matrix: PhrUtt NoPConj (UttNP (GenModNP NumSg (UsePN browne_PN) (GerundCN (ComplSlashPartLast (VPSlashPrep (ComplSlashPartLast (SlashV2a chase_V2) (UsePN abrams_PN)) possess_Prep) (PPartNP (DetCN (DetQuant IndefArt NumPl) (UseN cat_N)) bother_V2))))) NoVoc
-MatrixEng: Browne's chasing of cats bothered Abrams
-MatrixPor: perseguir de gatos incomodados Atlas de Bobi
-Matrix: PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (ImpersCl (AdvVP (ComplSlash (SlashV2a bother_V2) (UsePN browne_PN)) (SubjS that_Subj (UseCl (TTAnt TPast ASimul) PPos (PredVP (UsePN abrams_PN) (ComplSlash (SlashV2a chase_V2) (DetCN (DetQuant IndefArt NumPl) (UseN cat_N)))))))))) NoVoc
+Matrix: PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (ImpersCl (ComplSlash (SlashV2S bother_V2S (UseCl (TTAnt TPast ASimul) PPos (PredVP (UsePN abrams_PN) (ComplSlash (SlashV2a chase_V2) (DetCN (DetQuant IndefArt NumPl) (UseN cat_N)))))) (UsePN browne_PN))))) NoVoc
 MatrixEng: it bothered Browne that Abrams chased cats
-MatrixPor: incomodava Bobi que Atlas perseguisse gatos
-Matrix: PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (ImpersCl (ComplSlash (SlashV2a bother_V2) (AdvNP (UsePN browne_PN) (SubjS that_Subj (UseCl (TTAnt TPast ASimul) PPos (PredVP (UsePN abrams_PN) (ComplSlash (SlashV2a chase_V2) (DetCN (DetQuant IndefArt NumPl) (UseN cat_N))))))))))) NoVoc
-MatrixEng: it bothered Browne that Abrams chased cats
-MatrixPor: incomodava Bobi que Atlas perseguisse gatos
-Matrix: PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (UsePN browne_PN) (ComplSlash (SlashV2a arrive_V2) (MassNP (UseN (CompoundN (weekdayN tuesday_Weekday) morning_N))))))) NoVoc
+MatrixPor: 
+Matrix: PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (UsePN browne_PN) (AdvVP (UseV arrive_V) (PrepNP on_Prep (MassNP (UseN (CompoundN (weekdayN tuesday_Weekday) morning_N)))))))) NoVoc
 MatrixEng: Browne arrived on Tuesday morning
-MatrixPor: Bobi chegava em manhã de terça
+MatrixPor: Bobi chegava sobre manhã de terça
 Matrix: PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (DetCN (DetQuant DefArt NumPl) (UseN cat_N)) (ComplSlash (SlashV2a find_V2) (DetCN (DetQuant IndefArt NumSg) (SentCN (UseN way_N) (EmbedVP (UseV bark_V)))))))) NoVoc
 MatrixEng: the cats found a way to bark
 MatrixPor: os gatos encontravam um jeito de ladrar
 Matrix: PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (DetCN (DetQuant DefArt NumSg) (AdjCN (UseComparA happy_A) (UseN dog_N))) (ComplSlash (SlashV2a chase_V2) (UsePN browne_PN))))) NoVoc
 MatrixEng: the happier dog chased Browne
 MatrixPor: o cachorro mais feliz perseguia Bobi
-Matrix: PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (ExistNP (AdvNP (DetCN (DetQuant IndefArt NumPl) (UseN cat_N)) (PrepNP in_Prep (DetCN (DetQuant DefArt NumSg) (UseN garden_N))))))) NoVoc
-MatrixEng: there were cats in the garden
-MatrixPor: havia gatos no jardim
-Matrix: PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (ExistNP (DetCN (DetQuant IndefArt NumPl) (AdvCN (UseN cat_N) (PrepNP in_Prep (DetCN (DetQuant DefArt NumSg) (UseN garden_N)))))))) NoVoc
-MatrixEng: there were cats in the garden
-MatrixPor: havia gatos no jardim
 Matrix: PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (ExistNPAdv (DetCN (DetQuant IndefArt NumPl) (UseN cat_N)) (PrepNP in_Prep (DetCN (DetQuant DefArt NumSg) (UseN garden_N)))))) NoVoc
 MatrixEng: there were cats in the garden
 MatrixPor: havia gatos no jardim
@@ -391,7 +328,7 @@ MatrixPor: não ladre
 Matrix: PhrUtt NoPConj (UttImpSg PNeg (ImpVP (UseV bark_V))) NoVoc
 MatrixEng: don't bark
 MatrixPor: não ladra
-Matrix: PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (DetCN (DetQuant DefArt NumSg) (UseN dog_N)) (ComplVV arrive_VV (UseV bark_V))))) NoVoc
+Matrix: PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (DetCN (DetQuant DefArt NumSg) (UseN dog_N)) (AdvVP (UseV arrive_V) (GerundAdv (UseV bark_V)))))) NoVoc
 MatrixEng: the dog arrived barking
-MatrixPor: o cachorro chegava a ladrar
+MatrixPor: o cachorro chegava ladrando
 
