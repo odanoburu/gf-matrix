@@ -5,10 +5,10 @@ concrete MatrixEng of Matrix =
   , DocumentationEng --# notpresent
   , MarkupEng - [stringMark]
   , ExtendEng
-  ** open ParadigmsEng, ResEng, (S = SyntaxEng), Prelude in {
+  ** open ParadigmsEng, ResEng, (R = ResEng), (S = SyntaxEng), Prelude in {
   lincat
-    V3S = V3 ;
-    V3V = V2V ** {c4 : Str} ;
+    V3S = Verb ** {c2, c3 : Str} ; -- same as V3
+    V3V = Verb ** {c2,c3,c4 : Str ; typ : VVType} ;
   lin
     timeunitNP n time = S.mkNP n time ;
     SlashV3S v np s = insertExtrac (np.s ! NPAcc ++ conjThat ++ s.s) (predVc v) ;
@@ -73,7 +73,7 @@ concrete MatrixEng of Matrix =
   oper
     intend_V : V ;
     intend_V = mkV "intend" ;
-    insertObjcpre : (Agr => Str) -> SlashVP -> SlashVP ;
+    insertObjcpre : (Agr => Str) -> R.SlashVP -> R.SlashVP ;
     insertObjcpre obj vp = insertObjPre obj vp ** {c2 = vp.c2 ; gapInMiddle = vp.gapInMiddle ; missingAdv = vp.missingAdv } ;
 
 } ;
