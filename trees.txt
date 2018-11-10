@@ -151,7 +151,7 @@ PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (DetCN (DetQuant D
 
 PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (UsePN abrams_PN) (ComplSlash (SlashV2A wipe_V2A (PositA clean_A)) (DetCN (DetQuant DefArt NumSg) (UseN table_N)))))) NoVoc
 
-PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (UsePN abrams_PN) (ComplSlash (Slash2V3 put_in_V3 (UsePN browne_PN)) (DetCN (DetQuant DefArt NumSg) (UseN garden_N)))))) NoVoc
+PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (UsePN abrams_PN) (ComplSlash (Slash3V3 put_in_V3 (DetCN (DetQuant DefArt NumSg) (UseN garden_N))) (UsePN browne_PN))))) NoVoc
 
 PhrUtt NoPConj (UttS (UseCl (TTAnt TFut ASimul) PPos (PredVP (DetCN (DetQuant DefArt NumSg) (UseN dog_N)) (AdvVP (UseV bark_V) (SubjS if_Subj (UseCl (TTAnt TPres ASimul) PPos (PredVP (UsePN browne_PN) (UseV arrive_V)))))))) NoVoc
 

@@ -4,22 +4,19 @@ concrete MatrixPor of Matrix =
   , ConstructionPor
   , DocumentationPor --# notpresent
   , ExtendPor
-  ** open BeschPor, CommonRomance, MakeStructuralPor, ParadigmsPor, Prelude, ResRomance in {
+  ** open BeschPor, CommonRomance, MakeStructuralPor, ParadigmsPor, Prelude, ResPor, (S = SyntaxPor) in {
 
   lincat
-    V3S = V3 ; -- V3
-    V3V = V2V ** {c4 : Prep} ;
+    V3S = Verb ** {c2,c3 : Compl} ; -- V3
+    V3V = Verb ** {c2,c3,c4 : Compl} ;
 
   lin
-    SlashV3S = variants {} ;
-    -- SlashV3S v np s = mkVPSlash v.c2
-    --   (insertExtrapos 
-    --      (\\b => np.s ++ conjThat ++ s.s ! Indic) ---- mood
-    --      (predV v)) ;
-    SlashV3V = slashV3V ; --variants {} ;
-      -- (insertComplement
-      -- (\\a => v.c3.s ++ prepCase v.c3.c ++ (np.s ! Nom).s ++ infVP vp a)
-      -- (predV v)) ;
+    timeunitNP n t = S.mkNP n t ;
+    SlashV3S v np s = mkVPSlash v.c2
+      (insertExtrapos
+         (\\b => (np.s ! Nom).ton ++ conjThat ++ s.s ! Indic)
+         (predV v)) ;
+    SlashV3V = slashV3V ;
   lin
     -- A
     obvious_A = mkA "óbvio" ;
@@ -77,13 +74,17 @@ concrete MatrixPor of Matrix =
     bet_V3S = mkV3 "apostar" ;
     -- V3V
     leave_V3V = lin V3V (mmkV3 (mkV "deixar") noPrep to_Prep) ** {c4 = to_Prep} ;
-    take_V3V = lin V3V (mmkV3 (mkV "levar") noPrep noPrep) ** {c4 = to_Prep} ;
+    take_V3V = lin V3V (mmkV3 (mkV "levar") noPrep noPrep) ** {c4 = mkPrep "para"} ;
 
   oper
     bother_V = mkV "incomodar" ;
     intend_V = mkV "pretender" ;
     parecer_V = mkV "parecer" ;
     slashV3V : V3V -> NP -> VP -> VPSlash ;
-    slashV3V v np vp = mkVPSlash v.c2 (insertObject v.c3 np (predV v)) ;
+    slashV3V v np vp = mkVPSlash v.c2
+      (insertObject v.c3 np
+         (insertComplement
+            (\\a => v.c4.s ++ infVP vp a)
+            (predV v))) ;
 
 } ;

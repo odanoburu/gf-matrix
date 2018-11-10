@@ -7,7 +7,7 @@ concrete MatrixEng of Matrix =
   , ExtendEng
   ** open ParadigmsEng, ResEng, (R = ResEng), (S = SyntaxEng), Prelude in {
   lincat
-    V3S = Verb ** {c2, c3 : Str} ; -- same as V3
+    V3S = Verb ** {c2,c3 : Str} ; -- V3
     V3V = Verb ** {c2,c3,c4 : Str ; typ : VVType} ;
   lin
     timeunitNP n time = S.mkNP n time ;

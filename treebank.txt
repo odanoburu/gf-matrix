@@ -21,7 +21,7 @@ MatrixEng: Abrams handed the cigarette to Browne
 MatrixPor: Atlas passava o cigarro a Bobi
 Matrix: PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (UsePN abrams_PN) (ComplSlash (SlashV3S bet_V3S (DetCN (DetQuant IndefArt NumSg) (UseN cigarette_N)) (UseCl (TTAnt TPast ASimul) PPos (ImpersCl (UseV rain_V0)))) (UsePN browne_PN))))) NoVoc
 MatrixEng: Abrams bet Browne a cigarette that it rained
-MatrixPor: 
+MatrixPor: Atlas apostava a Bobi um cigarro que chovia
 Matrix: PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (UsePN abrams_PN) (ComplVS know_VS (UseCl (TTAnt TPast ASimul) PPos (ImpersCl (UseV rain_V0))))))) NoVoc
 MatrixEng: Abrams knew that it rained
 MatrixPor: Atlas sabia que chovia
@@ -232,9 +232,9 @@ MatrixPor: a foto de Atlas chegava
 Matrix: PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (UsePN abrams_PN) (ComplSlash (SlashV2A wipe_V2A (PositA clean_A)) (DetCN (DetQuant DefArt NumSg) (UseN table_N)))))) NoVoc
 MatrixEng: Abrams wiped the table clean
 MatrixPor: Atlas limpava a mesa a limpo
-Matrix: PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (UsePN abrams_PN) (ComplSlash (Slash2V3 put_in_V3 (UsePN browne_PN)) (DetCN (DetQuant DefArt NumSg) (UseN garden_N)))))) NoVoc
+Matrix: PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (UsePN abrams_PN) (ComplSlash (Slash3V3 put_in_V3 (DetCN (DetQuant DefArt NumSg) (UseN garden_N))) (UsePN browne_PN))))) NoVoc
 MatrixEng: Abrams put Browne in the garden
-MatrixPor: 
+MatrixPor: Atlas punha Bobi no jardim
 Matrix: PhrUtt NoPConj (UttS (UseCl (TTAnt TFut ASimul) PPos (PredVP (DetCN (DetQuant DefArt NumSg) (UseN dog_N)) (AdvVP (UseV bark_V) (SubjS if_Subj (UseCl (TTAnt TPres ASimul) PPos (PredVP (UsePN browne_PN) (UseV arrive_V)))))))) NoVoc
 MatrixEng: the dog will bark if Browne arrives
 MatrixPor: o cachorro ladrará se Bobi chega
@@ -267,10 +267,10 @@ MatrixEng: it bothered Abrams that Browne barked
 MatrixPor: incomodava Atlas que Bobi ladrasse
 Matrix: PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (ImpersCl (ComplSlash (SlashV3V take_V3V (timeunitNP (NumNumeral (num (pot2as3 (pot1as2 pot110)))) minute_Timeunit) (UseV arrive_V)) (UsePN abrams_PN))))) NoVoc
 MatrixEng: it took Abrams ten minutes to arrive
-MatrixPor: 
+MatrixPor: levava Atlas dez minutos para chegar
 Matrix: PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (UsePN abrams_PN) (ComplSlash (SlashV3V leave_V3V (UsePN browne_PN) (UseV bark_V)) (UsePron it_Pron))))) NoVoc
 MatrixEng: Abrams left it to Browne to bark
-MatrixPor: 
+MatrixPor: Atlas o deixava a Bobi ladrar
 Matrix: PhrUtt NoPConj (UttS (UseCl (TTAnt TPres ASimul) PPos (PredVP (UsePN abrams_PN) (ComplSlash (SlashV2A strike_V2A (PositA old_A)) (UsePN browne_PN))))) NoVoc
 MatrixEng: Abrams strikes Browne as old
 MatrixPor: Atlas parece Bobi a velho
