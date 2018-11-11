@@ -1,13 +1,10 @@
 abstract Matrix = Lang, Extend ** {
   flags
     startcat = Phr ;
-  cat
-    V3S ;
-    V3V ;
   fun
     timeunitNP : Card -> Timeunit -> NP ; -- three hours
-    SlashV3S : V3S -> NP -> S -> VPSlash ;
-    SlashV3V : V3V -> NP -> VP -> VPSlash ;
+    SSubjS' : S -> Subj -> S -> S ;
+  fun
     -- A
     obvious_A : A ;
     happy_A : A ;
@@ -41,9 +38,12 @@ abstract Matrix = Lang, Extend ** {
     squeeze_in_V2 : V2 ;
     try_V2 : V2 ;
     -- V3
+    bet_V3 : V3 ;
     hand_V3 : V3 ;
     hand_to_V3 : V3 ;
+    leave_V3 : V3 ;
     put_in_V3 : V3 ;
+    take_V3 : V3 ;
     -- VV
     intend_VV : VV ;
     keep_VV : VV ;
@@ -59,10 +59,5 @@ abstract Matrix = Lang, Extend ** {
     believe_V2V : V2V ;
     intend_V2V : V2V ;
     promise_V2V : V2V ;
-    -- V3S
-    bet_V3S : V3S ;
-    -- V3V
-    leave_V3V : V3V ;
-    take_V3V : V3V ;
 
 } ;

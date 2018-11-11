@@ -11,7 +11,8 @@ PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (UsePN abrams_PN) 
 PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (UsePN abrams_PN) (ComplSlash (Slash2V3 hand_to_V3 (DetCN (DetQuant DefArt NumSg) (UseN cigarette_N))) (UsePN browne_PN))))) NoVoc
 PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (UsePN abrams_PN) (ComplSlash (Slash3V3 hand_to_V3 (UsePN browne_PN)) (DetCN (DetQuant DefArt NumSg) (UseN cigarette_N)))))) NoVoc
 
-PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (UsePN abrams_PN) (ComplSlash (SlashV3S bet_V3S (DetCN (DetQuant IndefArt NumSg) (UseN cigarette_N)) (UseCl (TTAnt TPast ASimul) PPos (ImpersCl (UseV rain_V0)))) (UsePN browne_PN))))) NoVoc
+PhrUtt NoPConj (UttS (SSubjS' (UseCl (TTAnt TPast ASimul) PPos (PredVP (UsePN abrams_PN) (ComplSlash (Slash2V3 bet_V3 (UsePN browne_PN)) (DetCN (DetQuant IndefArt NumSg) (UseN cigarette_N))))) that_Subj (UseCl (TTAnt TPast ASimul) PPos (ImpersCl (UseV rain_V0))))) NoVoc
+PhrUtt NoPConj (UttS (SSubjS' (UseCl (TTAnt TPast ASimul) PPos (PredVP (UsePN abrams_PN) (ComplSlash (Slash3V3 bet_V3 (DetCN (DetQuant IndefArt NumSg) (UseN cigarette_N))) (UsePN browne_PN)))) that_Subj (UseCl (TTAnt TPast ASimul) PPos (ImpersCl (UseV rain_V0))))) NoVoc
 
 PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (UsePN abrams_PN) (ComplVS know_VS (UseCl (TTAnt TPast ASimul) PPos (ImpersCl (UseV rain_V0))))))) NoVoc
 
@@ -175,9 +176,11 @@ PhrUtt NoPConj (UttS (UseCl (TTAnt TPres ASimul) PPos (PredVP (UsePN abrams_PN) 
 
 PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (ImpersCl (AdvVP (ComplSlash (SlashV2a bother_V2) (UsePN abrams_PN)) (SubjS that_Subj (UseCl (TTAnt TPast ASimul) PPos (PredVP (UsePN browne_PN) (UseV bark_V)))))))) NoVoc
 
-PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (ImpersCl (ComplSlash (SlashV3V take_V3V (timeunitNP (NumNumeral (num (pot2as3 (pot1as2 pot110)))) minute_Timeunit) (UseV arrive_V)) (UsePN abrams_PN))))) NoVoc
+PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (ImpersCl (AdvVP (ComplSlash (Slash2V3 take_V3 (UsePN abrams_PN)) (timeunitNP (NumNumeral (num (pot2as3 (pot1as2 pot110)))) minute_Timeunit)) (PurposeVP (UseV arrive_V)))))) NoVoc
+PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (ImpersCl (AdvVP (ComplSlash (Slash3V3 take_V3 (timeunitNP (NumNumeral (num (pot2as3 (pot1as2 pot110)))) minute_Timeunit)) (UsePN abrams_PN)) (PurposeVP (UseV arrive_V)))))) NoVoc
 
-PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (UsePN abrams_PN) (ComplSlash (SlashV3V leave_V3V (UsePN browne_PN) (UseV bark_V)) (UsePron it_Pron))))) NoVoc
+PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (UsePN abrams_PN) (AdvVP (ComplSlash (Slash2V3 leave_V3 (UsePron it_Pron)) (UsePN browne_PN)) (PurposeVP (UseV bark_V)))))) NoVoc
+PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (UsePN abrams_PN) (AdvVP (ComplSlash (Slash3V3 leave_V3 (UsePN browne_PN)) (UsePron it_Pron)) (PurposeVP (UseV bark_V)))))) NoVoc
 
 PhrUtt NoPConj (UttS (UseCl (TTAnt TPres ASimul) PPos (PredVP (UsePN abrams_PN) (ComplSlash (SlashV2A strike_V2A (PositA old_A)) (UsePN browne_PN))))) NoVoc
 

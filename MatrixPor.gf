@@ -6,17 +6,9 @@ concrete MatrixPor of Matrix =
   , ExtendPor
   ** open BeschPor, CommonRomance, MakeStructuralPor, ParadigmsPor, Prelude, ResPor, (S = SyntaxPor) in {
 
-  lincat
-    V3S = Verb ** {c2,c3 : Compl} ; -- V3
-    V3V = Verb ** {c2,c3,c4 : Compl} ;
-
   lin
     timeunitNP n t = S.mkNP n t ;
-    SlashV3S v np s = mkVPSlash v.c2
-      (insertExtrapos
-         (\\b => (np.s ! Nom).ton ++ conjThat ++ s.s ! Indic)
-         (predV v)) ;
-    SlashV3V = slashV3V ;
+    SSubjS' = SSubjS ;
   lin
     -- A
     obvious_A = mkA "óbvio" ;
@@ -52,9 +44,12 @@ concrete MatrixPor of Matrix =
     squeeze_in_V2 = mkV2 "apertar" ;
     try_V2 = mkV2 "tentar" ;
     -- V3
-    hand_V3 = mkV3 (mkV "passar") ;
+    bet_V3 = mkV3 (mkV "apostar") (mkPrep "com") noPrep ;
+    hand_V3 = mkV3 "passar" ;
     hand_to_V3 = mkV3 (mkV "passar") to_Prep ;
+    leave_V3 = mkV3 (mkV "deixar") noPrep to_Prep ;
     put_in_V3 = mkV3 (mkV "pôr") in_Prep ;
+    take_V3 = mkV3 (mkV "levar") (mkPrep "para") noPrep ;
     -- VV
     intend_VV = mkVV intend_V ;
     keep_VV = aVV (mkV "continuar") ;
@@ -70,21 +65,10 @@ concrete MatrixPor of Matrix =
     believe_V2V = mkV2V (mkV "acreditar") ;
     intend_V2V = mkV2V intend_V (mkPrep "que") noPrep ;
     promise_V2V = mkV2V (mkV "prometer") to_Prep noPrep ;
-    -- V3S
-    bet_V3S = mkV3 "apostar" ;
-    -- V3V
-    leave_V3V = lin V3V (mmkV3 (mkV "deixar") noPrep to_Prep) ** {c4 = to_Prep} ;
-    take_V3V = lin V3V (mmkV3 (mkV "levar") noPrep noPrep) ** {c4 = mkPrep "para"} ;
 
   oper
     bother_V = mkV "incomodar" ;
     intend_V = mkV "pretender" ;
     parecer_V = mkV "parecer" ;
-    slashV3V : V3V -> NP -> VP -> VPSlash ;
-    slashV3V v np vp = mkVPSlash v.c2
-      (insertObject v.c3 np
-         (insertComplement
-            (\\a => v.c4.s ++ infVP vp a)
-            (predV v))) ;
 
 } ;

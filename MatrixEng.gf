@@ -6,13 +6,10 @@ concrete MatrixEng of Matrix =
   , MarkupEng - [stringMark]
   , ExtendEng
   ** open ParadigmsEng, ResEng, (R = ResEng), (S = SyntaxEng), Prelude in {
-  lincat
-    V3S = Verb ** {c2,c3 : Str} ; -- V3
-    V3V = Verb ** {c2,c3,c4 : Str ; typ : VVType} ;
   lin
     timeunitNP n time = S.mkNP n time ;
-    SlashV3S v np s = insertExtrac (np.s ! NPAcc ++ conjThat ++ s.s) (predVc v) ;
-    SlashV3V v np vp = insertObjcpre (\\a => v.c3 ++ np.s ! NPAcc ++ v.c4 ++ infVP v.typ vp False Simul CPos a) (predVc v) ;
+    SSubjS' a s b = {s = a.s ++ s.s ++ b.s} ;
+  lin
     -- A
     obvious_A = mkA "obvious" ;
     happy_A = mkA "happy" ;
@@ -46,9 +43,12 @@ concrete MatrixEng of Matrix =
     squeeze_in_V2 = mkV2 (partV (mkV "squeeze") "in") ;
     try_V2 = mkV2 (mkV "try") to_Prep ;
     -- V3
+    bet_V3 = mkV3 (mkV "bet" "bet" "bet") ;
     hand_V3 = mkV3 (mkV "hand") ;
     hand_to_V3 = mkV3 (mkV "hand") to_Prep ;
+    leave_V3 = mkV3 (mkV "leave" "left" "left") noPrep to_Prep ;
     put_in_V3 = mkV3 (mkV "put" "put" "put") in_Prep ;
+    take_V3 = mkV3 (mkV "take" "took" "taken") ;
     -- VV
     intend_VV = mkVV intend_V ;
     keep_VV = ingVV (mkV "keep" "kept" "kept") ;
@@ -60,20 +60,13 @@ concrete MatrixEng of Matrix =
     -- V2S
     bet_V2S = mkV2S (mkV "bet" "bet" "bet") noPrep ;
     bother_V2S = mkV2S (mkV "bother") noPrep ;
-    -- V3S
-    bet_V3S = mkV3 (mkV "bet" "bet" "bet") ;
     -- V2V
     believe_V2V = mkV2V (mkV "believe") noPrep to_Prep ;
     intend_V2V = mkV2V intend_V noPrep to_Prep ;
     promise_V2V = mkV2V (mkV "promise") noPrep to_Prep ;
-    -- V3V
-    leave_V3V = lin V3V (prepV2 (mkV "leave" "left" "left") noPrep) ** {c3 = to_Prep.s ; c4 = noPrep.s ; typ = VVInf} ;
-    take_V3V = lin V3V (prepV2 (mkV "take" "took" "taken") noPrep) ** {c3 = noPrep.s ; c4 = noPrep.s ; typ = VVInf} ;
 
   oper
     intend_V : V ;
     intend_V = mkV "intend" ;
-    insertObjcpre : (Agr => Str) -> R.SlashVP -> R.SlashVP ;
-    insertObjcpre obj vp = insertObjPre obj vp ** {c2 = vp.c2 ; gapInMiddle = vp.gapInMiddle ; missingAdv = vp.missingAdv } ;
 
 } ;
