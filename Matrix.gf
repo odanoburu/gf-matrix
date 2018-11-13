@@ -3,6 +3,7 @@ abstract Matrix = Lang, Extend ** {
     startcat = Phr ;
   fun
     timeunitNP : Card -> Timeunit -> NP ; -- three hours
+    Range : Card -> Card -> Adv ;
     SSubjS' : S -> Subj -> S -> S ;
   fun
     -- A

@@ -8,6 +8,9 @@ concrete MatrixPor of Matrix =
 
   lin
     timeunitNP n t = S.mkNP n t ;
+    Range n m = {
+      s = "de" ++ n.s ! Fem ++ a ! m.n ++ m.s ! Fem
+      } ;
     SSubjS' = SSubjS ;
   lin
     -- A
@@ -56,7 +59,7 @@ concrete MatrixPor of Matrix =
     seem_VV = mkVV parecer_V ;
     -- V2A
     consider_V2A = mkV2A (mkV "considerar") noPrep noPrep ;
-    strike_V2A = mkV2A parecer_V ;
+    strike_V2A = mkV2A parecer_V ParadigmsPor.dative noPrep ;
     wipe_V2A = mkV2A (mkV "limpar") ;
     -- V2S
     bet_V2S = mkV2S (mkV "apostar") with_Prep ;

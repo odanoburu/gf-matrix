@@ -8,7 +8,11 @@ concrete MatrixEng of Matrix =
   ** open ParadigmsEng, ResEng, (R = ResEng), (S = SyntaxEng), Prelude in {
   lin
     timeunitNP n time = S.mkNP n time ;
+    Range n m = {
+      s = "from" ++  n.s ! False ! Nom ++ "to" ++  m.s ! False ! Nom
+      } ;
     SSubjS' a s b = {s = a.s ++ s.s ++ b.s} ;
+
   lin
     -- A
     obvious_A = mkA "obvious" ;
