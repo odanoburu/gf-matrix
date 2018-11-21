@@ -1,0 +1,3 @@
+PhrUtt NoPConj (UttS (UseCl (TTAnt TPres ASimul) PPos (PredVP (UsePN abrams_PN) (ComplSlash (SlashV2V believe_V2V (ProgrVP (UseV bark_V))) (UsePN browne_PN))))) NoVoc
+PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (ImpersCl (AdvVP (ComplSlash (Slash3V3 take_V3 (timeunitNP (NumNumeral (num (pot2as3 (pot1as2 pot110)))) minute_Timeunit)) (UsePN abrams_PN)) (PurposeVP (UseV arrive_V)))))) NoVoc
+PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (UsePN browne_PN) (AdvVP (UseV arrive_V) (PrepNP on_Prep (MassNP (UseN (CompoundN (weekdayN tuesday_Weekday) morning_N)))))))) NoVoc
