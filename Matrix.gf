@@ -5,6 +5,8 @@ abstract Matrix = Lang, Extend ** {
     timeunitNP : Card -> Timeunit -> NP ; -- three hours
     Range : Card -> Card -> Adv ;
     SSubjS' : S -> Subj -> S -> S ;
+    timeHourMinute' : Hour -> Card -> Adv ; -- at six forty
+    monthDayNP : Month -> Numeral -> NP ; -- June third
   fun
     -- A
     obvious_A : A ;

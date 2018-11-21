@@ -12,6 +12,17 @@ concrete MatrixPor of Matrix =
       s = "de" ++ n.s ! Fem ++ a ! m.n ++ m.s ! Fem
       } ;
     SSubjS' = SSubjS ;
+    timeHourMinute' h m = let
+      min = m.s ! Masc
+      in
+      mkAdv (a ! h.n ++ h.s ++ "e" ++ min) ;
+    monthDayNP m d = let
+      monthDay : N = case d.n of {
+        Sg => m ** {s = \\n => d.s ! NOrd Masc n ++ "de" ++ m.s ! n} ;
+        Pl => m ** {s = \\n => d.s ! NCard Masc ++ "de" ++ m.s ! n}
+        }
+      in S.mkNP monthDay ;
+
   lin
     -- A
     obvious_A = mkA "óbvio" ;

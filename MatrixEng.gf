@@ -5,13 +5,20 @@ concrete MatrixEng of Matrix =
   , DocumentationEng --# notpresent
   , MarkupEng - [stringMark]
   , ExtendEng
-  ** open ParadigmsEng, ResEng, (R = ResEng), (S = SyntaxEng), Prelude in {
+  ** open ParadigmsEng, ResEng, (R = ResEng), (S = SyntaxEng), (Sy = SymbolicEng), Prelude in {
   lin
     timeunitNP n time = S.mkNP n time ;
     Range n m = {
       s = "from" ++  n.s ! False ! Nom ++ "to" ++  m.s ! False ! Nom
       } ;
     SSubjS' a s b = {s = a.s ++ s.s ++ b.s} ;
+    timeHourMinute' h m = let
+      min = m.s ! True ! R.Nom
+      in
+      S.mkAdv at_Prep (Sy.symb (h.s ++ min)) ;
+    monthDayNP m d = let
+      month : NP = S.mkNP m
+      in month ** {s =\\c => month.s ! c ++ d.s ! True ! NOrd ! Nom} ;
 
   lin
     -- A
