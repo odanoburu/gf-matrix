@@ -9,13 +9,13 @@ concrete MatrixPor of Matrix =
   lin
     timeunitNP n t = S.mkNP n t ;
     Range n m = {
-      s = "de" ++ n.s ! Fem ++ a ! m.n ++ m.s ! Fem
+      s = "de" ++ n.s ! Fem ++ a ! Fem ! m.n ++ m.s ! Fem
       } ;
     SSubjS' = SSubjS ;
     timeHourMinute' h m = let
       min = m.s ! Masc
       in
-      mkAdv (a ! h.n ++ h.s ++ "e" ++ min) ;
+      mkAdv (a ! Fem ! h.n ++ h.s ++ "e" ++ min) ;
     monthDayNP m d = let
       monthDay : N = case d.n of {
         Sg => m ** {s = \\n => d.s ! NOrd Masc n ++ "de" ++ m.s ! n} ;
