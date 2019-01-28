@@ -64,6 +64,7 @@ concrete MatrixEng of Matrix =
     intend_VV = mkVV intend_V ;
     keep_VV = ingVV (mkV "keep" "kept" "kept") ;
     seem_VV = mkVV (mkV "seem") ;
+    go_VV   = mkVV (mkV "go") ;
     -- V2A
     consider_V2A = mkV2A (mkV "consider") ;
     strike_V2A = mkV2A (mkV "strike") noPrep (mkPrep "as") ;

@@ -1,232 +1,231 @@
-PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (ImpersCl (UseV rain_V0)))) NoVoc
+TFullStop (PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (ImpersCl (UseV rain_V0)))) NoVoc) TEmpty
 
-PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (UsePN abrams_PN) (UseV bark_V)))) NoVoc
+TFullStop (PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (UsePN abrams_PN) (UseV bark_V)))) NoVoc) TEmpty
 
-PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (DetCN (DetQuant DefArt NumSg) (UseN window_N)) (UseV open_V)))) NoVoc
+TFullStop (PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (DetCN (DetQuant DefArt NumSg) (UseN window_N)) (UseV open_V)))) NoVoc) TEmpty
 
-PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (UsePN abrams_PN) (ComplSlash (SlashV2a chase_V2) (UsePN browne_PN))))) NoVoc
+TFullStop (PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (UsePN abrams_PN) (ComplSlash (SlashV2a chase_V2) (UsePN browne_PN))))) NoVoc) TEmpty
 
-PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (UsePN abrams_PN) (ComplSlash (Slash2V3 hand_V3 (UsePN browne_PN)) (DetCN (DetQuant DefArt NumSg) (UseN cigarette_N)))))) NoVoc
+TFullStop (PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (UsePN abrams_PN) (ComplSlash (Slash2V3 hand_V3 (UsePN browne_PN)) (DetCN (DetQuant DefArt NumSg) (UseN cigarette_N)))))) NoVoc) TEmpty
 
-PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (UsePN abrams_PN) (ComplSlash (Slash2V3 hand_to_V3 (DetCN (DetQuant DefArt NumSg) (UseN cigarette_N))) (UsePN browne_PN))))) NoVoc
-PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (UsePN abrams_PN) (ComplSlash (Slash3V3 hand_to_V3 (UsePN browne_PN)) (DetCN (DetQuant DefArt NumSg) (UseN cigarette_N)))))) NoVoc
+TFullStop (PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (UsePN abrams_PN) (ComplSlash (Slash2V3 hand_to_V3 (DetCN (DetQuant DefArt NumSg) (UseN cigarette_N))) (UsePN browne_PN))))) NoVoc) TEmpty
+TFullStop (PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (UsePN abrams_PN) (ComplSlash (Slash3V3 hand_to_V3 (UsePN browne_PN)) (DetCN (DetQuant DefArt NumSg) (UseN cigarette_N)))))) NoVoc) TEmpty
 
-PhrUtt NoPConj (UttS (SSubjS' (UseCl (TTAnt TPast ASimul) PPos (PredVP (UsePN abrams_PN) (ComplSlash (Slash2V3 bet_V3 (UsePN browne_PN)) (DetCN (DetQuant IndefArt NumSg) (UseN cigarette_N))))) that_Subj (UseCl (TTAnt TPast ASimul) PPos (ImpersCl (UseV rain_V0))))) NoVoc
-PhrUtt NoPConj (UttS (SSubjS' (UseCl (TTAnt TPast ASimul) PPos (PredVP (UsePN abrams_PN) (ComplSlash (Slash3V3 bet_V3 (DetCN (DetQuant IndefArt NumSg) (UseN cigarette_N))) (UsePN browne_PN)))) that_Subj (UseCl (TTAnt TPast ASimul) PPos (ImpersCl (UseV rain_V0))))) NoVoc
+TFullStop (PhrUtt NoPConj (UttS (SSubjS' (UseCl (TTAnt TPast ASimul) PPos (PredVP (UsePN abrams_PN) (ComplSlash (Slash2V3 bet_V3 (UsePN browne_PN)) (DetCN (DetQuant IndefArt NumSg) (UseN cigarette_N))))) that_Subj (UseCl (TTAnt TPast ASimul) PPos (ImpersCl (UseV rain_V0))))) NoVoc) TEmpty
+TFullStop (PhrUtt NoPConj (UttS (SSubjS' (UseCl (TTAnt TPast ASimul) PPos (PredVP (UsePN abrams_PN) (ComplSlash (Slash3V3 bet_V3 (DetCN (DetQuant IndefArt NumSg) (UseN cigarette_N))) (UsePN browne_PN)))) that_Subj (UseCl (TTAnt TPast ASimul) PPos (ImpersCl (UseV rain_V0))))) NoVoc) TEmpty
 
-PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (UsePN abrams_PN) (ComplVS know_VS (UseCl (TTAnt TPast ASimul) PPos (ImpersCl (UseV rain_V0))))))) NoVoc
+TFullStop (PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (UsePN abrams_PN) (ComplVS know_VS (UseCl (TTAnt TPast ASimul) PPos (ImpersCl (UseV rain_V0))))))) NoVoc) TEmpty
 
-PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (UsePN abrams_PN) (ComplVV intend_VV (UseV bark_V))))) NoVoc
+TFullStop (PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (UsePN abrams_PN) (ComplVV intend_VV (UseV bark_V))))) NoVoc) TEmpty
 
 10 -- VS doesn't parse, V2V doesn't allow me to use subjunctive in Por
 
-PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (DetCN every_Det (UseN cat_N)) (UseV bark_V)))) NoVoc
+TFullStop (PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (DetCN every_Det (UseN cat_N)) (UseV bark_V)))) NoVoc) TEmpty
 
-PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (DetCN every_Det (UseN cat_N)) (ComplSlash (SlashV2a chase_V2) (DetCN someSg_Det (UseN dog_N)))))) NoVoc
+TFullStop (PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (DetCN every_Det (UseN cat_N)) (ComplSlash (SlashV2a chase_V2) (DetCN someSg_Det (UseN dog_N)))))) NoVoc) TEmpty
 
-PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (DetCN (DetQuant (PossPron i_Pron) NumSg) (UseN cat_N)) (UseV bark_V)))) NoVoc
+TFullStop (PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (DetCN (DetQuant (PossPron i_Pron) NumSg) (UseN cat_N)) (UseV bark_V)))) NoVoc) TEmpty
 
-PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (UsePron it_Pron) (UseV bark_V)))) NoVoc
+TFullStop (PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (UsePron it_Pron) (UseV bark_V)))) NoVoc) TEmpty
 
-PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (DetCN (DetQuant DefArt NumSg) (UseN cat_N)) (ComplSlash (SlashV2a chase_V2) (UsePron it_Pron))))) NoVoc
+TFullStop (PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (DetCN (DetQuant DefArt NumSg) (UseN cat_N)) (ComplSlash (SlashV2a chase_V2) (UsePron it_Pron))))) NoVoc) TEmpty
 
-PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (DetCN (DetQuant DefArt NumSg) (UseN cat_N)) (ReflVP (SlashV2a chase_V2))))) NoVoc
+TFullStop (PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (DetCN (DetQuant DefArt NumSg) (UseN cat_N)) (ReflVP (SlashV2a chase_V2))))) NoVoc) TEmpty
 
-PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (DetCN (DetQuant DefArt NumSg) (UseN cat_N)) (ComplSlash (SlashV2a chase_V2) (DetNP (DetQuant IndefArt (NumCard (NumNumeral (num (pot2as3 (pot1as2 (pot0as1 pot01)))))))))))) NoVoc
+TFullStop (PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (DetCN (DetQuant DefArt NumSg) (UseN cat_N)) (ComplSlash (SlashV2a chase_V2) (DetNP (DetQuant IndefArt (NumCard (NumNumeral (num (pot2as3 (pot1as2 (pot0as1 pot01)))))))))))) NoVoc) TEmpty
 
-PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (DetNP (DetQuant (PossPron i_Pron) NumSg)) (UseV bark_V)))) NoVoc
+TFullStop (PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (DetNP (DetQuant (PossPron i_Pron) NumSg)) (UseV bark_V)))) NoVoc) TEmpty
 
-PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (DetNP (DetQuant that_Quant NumSg)) (UseV open_V)))) NoVocw
+TFullStop (PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (DetNP (DetQuant that_Quant NumSg)) (UseV open_V)))) NoVoc) TEmpty
 
-PhrUtt NoPConj (UttS (UseCl (TTAnt TPres ASimul) PPos (PredVP (DetCN (DetQuant IndefArt NumPl) (UseN cat_N)) (UseV bark_V)))) NoVoc
+TFullStop (PhrUtt NoPConj (UttS (UseCl (TTAnt TPres ASimul) PPos (PredVP (DetCN (DetQuant IndefArt NumPl) (UseN cat_N)) (UseV bark_V)))) NoVoc) TEmpty
 
-PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (MassNP (UseN tobacco_N)) (UseV arrive_V)))) NoVoc
+TFullStop (PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (MassNP (UseN tobacco_N)) (UseV arrive_V)))) NoVoc) TEmpty
 
-PhrUtt NoPConj (UttS (UseCl (TTAnt TPres ASimul) PPos (PredVP (DetNP somePl_Det) (UseV bark_V)))) NoVoc
+TFullStop (PhrUtt NoPConj (UttS (UseCl (TTAnt TPres ASimul) PPos (PredVP (DetNP somePl_Det) (UseV bark_V)))) NoVoc) TEmpty
 
-PhrUtt NoPConj (UttS (UseCl (TTAnt TPres ASimul) PPos (PredVP (AdvNP (DetNP somePl_Det) (PrepNP part_Prep (DetCN (DetQuant DefArt NumPl) (UseN cat_N)))) (UseV bark_V)))) NoVoc
-PhrUtt NoPConj (UttS (UseCl (TTAnt TPres ASimul) PPos (PredVP (AdvNP (DetNP somePl_Det) (PrepNP possess_Prep (DetCN (DetQuant DefArt NumPl) (UseN cat_N)))) (UseV bark_V)))) NoVoc
-PhrUtt NoPConj (UttS (UseCl (TTAnt TPres ASimul) PPos (PredVP (CountNP somePl_Det (DetCN (DetQuant DefArt NumPl) (UseN cat_N))) (UseV bark_V)))) NoVoc
+TFullStop (PhrUtt NoPConj (UttS (UseCl (TTAnt TPres ASimul) PPos (PredVP (AdvNP (DetNP somePl_Det) (PrepNP part_Prep (DetCN (DetQuant DefArt NumPl) (UseN cat_N)))) (UseV bark_V)))) NoVoc) TEmpty
+TFullStop (PhrUtt NoPConj (UttS (UseCl (TTAnt TPres ASimul) PPos (PredVP (AdvNP (DetNP somePl_Det) (PrepNP possess_Prep (DetCN (DetQuant DefArt NumPl) (UseN cat_N)))) (UseV bark_V)))) NoVoc) TEmpty
+TFullStop (PhrUtt NoPConj (UttS (UseCl (TTAnt TPres ASimul) PPos (PredVP (CountNP somePl_Det (DetCN (DetQuant DefArt NumPl) (UseN cat_N))) (UseV bark_V)))) NoVoc) TEmpty
 
-PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (DetCN (DetQuant no_Quant NumSg) (UseN cat_N)) (UseV bark_V)))) NoVoc
+TFullStop (PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (DetCN (DetQuant no_Quant NumSg) (UseN cat_N)) (UseV bark_V)))) NoVoc) TEmpty
 
-PhrUtt NoPConj (UttQS (UseQCl (TTAnt TPast ASimul) PPos (QuestCl (PredVP (DetCN (DetQuant DefArt NumSg) (UseN dog_N)) (UseV bark_V))))) NoVoc
+TQuestMark (PhrUtt NoPConj (UttQS (UseQCl (TTAnt TPast ASimul) PPos (QuestCl (PredVP (DetCN (DetQuant DefArt NumSg) (UseN dog_N)) (UseV bark_V))))) NoVoc) TEmpty
 
-PhrUtt NoPConj (UttQS (UseQCl (TTAnt TPast ASimul) PPos (QuestVP (IdetCN (IdetQuant which_IQuant NumSg) (UseN dog_N)) (UseV bark_V)))) NoVoc
+TQuestMark (PhrUtt NoPConj (UttQS (UseQCl (TTAnt TPast ASimul) PPos (QuestVP (IdetCN (IdetQuant which_IQuant NumSg) (UseN dog_N)) (UseV bark_V)))) NoVoc) TEmpty
 
-PhrUtt NoPConj (UttQS (UseQCl (TTAnt TPast ASimul) PPos (QuestVP (GenModIP NumSg whoSg_IP (UseN dog_N)) (UseV bark_V)))) NoVoc
-PhrUtt NoPConj (UttQS (UseQCl (TTAnt TPast ASimul) PPos (QuestVP (GenModIP NumSg whoPl_IP (UseN dog_N)) (UseV bark_V)))) NoVoc
-PhrUtt NoPConj (UttQS (UseQCl (TTAnt TPast ASimul) PPos (QuestVP (IdetCN (IdetQuant (GenIP whoSg_IP) NumSg) (UseN dog_N)) (UseV bark_V)))) NoVoc
-PhrUtt NoPConj (UttQS (UseQCl (TTAnt TPast ASimul) PPos (QuestVP (IdetCN (IdetQuant (GenIP whoPl_IP) NumSg) (UseN dog_N)) (UseV bark_V)))) NoVoc
+TQuestMark (PhrUtt NoPConj (UttQS (UseQCl (TTAnt TPast ASimul) PPos (QuestVP (GenModIP NumSg whoSg_IP (UseN dog_N)) (UseV bark_V)))) NoVoc) TEmpty
+TQuestMark (PhrUtt NoPConj (UttQS (UseQCl (TTAnt TPast ASimul) PPos (QuestVP (GenModIP NumSg whoPl_IP (UseN dog_N)) (UseV bark_V)))) NoVoc) TEmpty
+TQuestMark (PhrUtt NoPConj (UttQS (UseQCl (TTAnt TPast ASimul) PPos (QuestVP (IdetCN (IdetQuant (GenIP whoSg_IP) NumSg) (UseN dog_N)) (UseV bark_V)))) NoVoc) TEmpty
+TQuestMark (PhrUtt NoPConj (UttQS (UseQCl (TTAnt TPast ASimul) PPos (QuestVP (IdetCN (IdetQuant (GenIP whoPl_IP) NumSg) (UseN dog_N)) (UseV bark_V)))) NoVoc) TEmpty
 
-PhrUtt NoPConj (UttImpPl PPos (ImpVP (ComplSlash (SlashV2a chase_V2) (UsePN browne_PN)))) NoVoc
-PhrUtt NoPConj (UttImpPol PPos (ImpVP (ComplSlash (SlashV2a chase_V2) (UsePN browne_PN)))) NoVoc
-PhrUtt NoPConj (UttImpSg PPos (ImpVP (ComplSlash (SlashV2a chase_V2) (UsePN browne_PN)))) NoVoc
+TExclMark (PhrUtt NoPConj (UttImpPl PPos (ImpVP (ComplSlash (SlashV2a chase_V2) (UsePN browne_PN)))) NoVoc) TEmpty
+TExclMark (PhrUtt NoPConj (UttImpPol PPos (ImpVP (ComplSlash (SlashV2a chase_V2) (UsePN browne_PN)))) NoVoc) TEmpty
+TExclMark (PhrUtt NoPConj (UttImpSg PPos (ImpVP (ComplSlash (SlashV2a chase_V2) (UsePN browne_PN)))) NoVoc) TEmpty
 
-PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (UsePN abrams_PN) (ComplVQ wonder_VQ (UseQCl (TTAnt TPast ASimul) PPos (QuestVP (IdetCN (IdetQuant which_IQuant NumSg) (UseN dog_N)) (UseV bark_V))))))) NoVoc
+TFullStop (PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (UsePN abrams_PN) (ComplVQ wonder_VQ (UseQCl (TTAnt TPast ASimul) PPos (QuestVP (IdetCN (IdetQuant which_IQuant NumSg) (UseN dog_N)) (UseV bark_V))))))) NoVoc) TEmpty
 
-PhrUtt NoPConj (UttS (ConjS whether_Conj (BaseS (UseCl (TTAnt TPast ASimul) PPos (PredVP (UsePN abrams_PN) (UseV wonder_V))) (UseCl (TTAnt TPast ASimul) PPos (PredVP (MassNP (UseN dog_N)) (UseV bark_V)))))) NoVoc
+TFullStop (PhrUtt NoPConj (UttS (ConjS whether_Conj (BaseS (UseCl (TTAnt TPast ASimul) PPos (PredVP (UsePN abrams_PN) (UseV wonder_V))) (UseCl (TTAnt TPast ASimul) PPos (PredVP (MassNP (UseN dog_N)) (UseV bark_V)))))) NoVoc) TEmpty
 
-PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (DetCN (DetQuant DefArt NumSg) (RelCN (UseN dog_N) (UseRCl (TTAnt TPast ASimul) PPos (RelSlash IdRP (SlashVP (UsePN browne_PN) (SlashV2a chase_V2)))))) (UseV bark_V)))) NoVoc
+TFullStop (PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (DetCN (DetQuant DefArt NumSg) (RelCN (UseN dog_N) (UseRCl (TTAnt TPast ASimul) PPos (RelSlash IdRP (SlashVP (UsePN browne_PN) (SlashV2a chase_V2)))))) (UseV bark_V)))) NoVoc) TEmpty
 
-PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (DetCN (DetQuant DefArt NumSg) (UseN dog_N)) (AdvVP (PassV2 chase_V2) (PrepNP by8agent_Prep (UsePN browne_PN)))))) NoVoc
-PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (DetCN (DetQuant DefArt NumSg) (UseN dog_N)) (ComplSlash (VPSlashPrep (PassV2 chase_V2) by8agent_Prep) (UsePN browne_PN))))) NoVoc
+TFullStop (PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (DetCN (DetQuant DefArt NumSg) (UseN dog_N)) (AdvVP (PassV2 chase_V2) (PrepNP by8agent_Prep (UsePN browne_PN)))))) NoVoc) TEmpty
+TFullStop (PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (DetCN (DetQuant DefArt NumSg) (UseN dog_N)) (ComplSlash (VPSlashPrep (PassV2 chase_V2) by8agent_Prep) (UsePN browne_PN))))) NoVoc) TEmpty
 
-PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (DetCN (DetQuant DefArt NumSg) (AdjCN (PastPartAgentAP (SlashV2a chase_V2) (UsePN browne_PN)) (UseN dog_N))) (UseV bark_V)))) NoVoc
+TFullStop (PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (DetCN (DetQuant DefArt NumSg) (AdjCN (PastPartAgentAP (SlashV2a chase_V2) (UsePN browne_PN)) (UseN dog_N))) (UseV bark_V)))) NoVoc) TEmpty
 
-PhrUtt NoPConj (UttS (UseCl (TTAnt TPres ASimul) PPos (PredVP (DetCN (DetQuant DefArt NumSg) (UseN dog_N)) (ProgrVP (UseV bark_V))))) NoVoc
+TFullStop (PhrUtt NoPConj (UttS (UseCl (TTAnt TPres ASimul) PPos (PredVP (DetCN (DetQuant DefArt NumSg) (UseN dog_N)) (ProgrVP (UseV bark_V))))) NoVoc) TEmpty
 
-PhrUtt NoPConj (UttS (UseCl (TTAnt TPres AAnter) PPos (PredVP (DetCN (DetQuant DefArt NumSg) (UseN dog_N)) (UseV bark_V)))) NoVoc
+TFullStop (PhrUtt NoPConj (UttS (UseCl (TTAnt TPres AAnter) PPos (PredVP (DetCN (DetQuant DefArt NumSg) (UseN dog_N)) (UseV bark_V)))) NoVoc) TEmpty
 
-PhrUtt NoPConj (UttS (UseCl (TTAnt TPres AAnter) PPos (PredVP (DetCN (DetQuant DefArt NumSg) (UseN dog_N)) (ProgrVP (UseV bark_V))))) NoVoc
+TFullStop (PhrUtt NoPConj (UttS (UseCl (TTAnt TPres AAnter) PPos (PredVP (DetCN (DetQuant DefArt NumSg) (UseN dog_N)) (ProgrVP (UseV bark_V))))) NoVoc) TEmpty
 
-PhrUtt NoPConj (UttS (UseCl (TTAnt TPast AAnter) PPos (PredVP (DetCN (DetQuant DefArt NumSg) (UseN dog_N)) (ProgrVP (UseV bark_V))))) NoVoc
+TFullStop (PhrUtt NoPConj (UttS (UseCl (TTAnt TPast AAnter) PPos (PredVP (DetCN (DetQuant DefArt NumSg) (UseN dog_N)) (ProgrVP (UseV bark_V))))) NoVoc) TEmpty
 
-PhrUtt NoPConj (UttS (UseCl (TTAnt TFut ASimul) PPos (PredVP (DetCN (DetQuant DefArt NumSg) (UseN dog_N)) (UseV bark_V)))) NoVoc
+TFullStop (PhrUtt NoPConj (UttS (UseCl (TTAnt TFut ASimul) PPos (PredVP (DetCN (DetQuant DefArt NumSg) (UseN dog_N)) (UseV bark_V)))) NoVoc) TEmpty
 
-40 * so many trees below is one example
-(PrepNP to_Prep (MassNP (UseN bark_N))))))))))) NoVoc PhrUtt NoPConj (UttS (UseCl (TTAnt TPres ASimul) PPos (PredVP (DetCN (DetQuant DefArt NumSg) (UseN dog_N)) (UseComp (Comp
+TFullStop (PhrUtt NoPConj (UttS (UseCl (TTAnt TPres ASimul) PPos (PredVP (DetCN (DetQuant DefArt NumSg) (UseN dog_N)) (ProgrVP (ComplVV go_VV (UseV bark_V)))))) NoVoc) TEmpty
 
-PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (DetCN (DetQuant DefArt NumSg) (UseN dog_N)) (ComplVV can8know_VV (UseV bark_V))))) NoVoc
-PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (DetCN (DetQuant DefArt NumSg) (UseN dog_N)) (ComplVV can_VV (UseV bark_V))))) NoVoc
+TFullStop (PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (DetCN (DetQuant DefArt NumSg) (UseN dog_N)) (ComplVV can8know_VV (UseV bark_V))))) NoVoc) TEmpty
+TFullStop (PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (DetCN (DetQuant DefArt NumSg) (UseN dog_N)) (ComplVV can_VV (UseV bark_V))))) NoVoc) TEmpty
 
-PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PNeg (PredVP (DetCN (DetQuant DefArt NumSg) (UseN dog_N)) (ComplVV can8know_VV (UseV bark_V))))) NoVoc
-PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PNeg (PredVP (DetCN (DetQuant DefArt NumSg) (UseN dog_N)) (ComplVV can_VV (UseV bark_V))))) NoVoc
+TFullStop (PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PNeg (PredVP (DetCN (DetQuant DefArt NumSg) (UseN dog_N)) (ComplVV can8know_VV (UseV bark_V))))) NoVoc) TEmpty
+TFullStop (PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PNeg (PredVP (DetCN (DetQuant DefArt NumSg) (UseN dog_N)) (ComplVV can_VV (UseV bark_V))))) NoVoc) TEmpty
 
-PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (DetCN (DetQuant DefArt NumSg) (AdjCN (PositA old_A) (UseN dog_N))) (UseV bark_V)))) NoVoc
+TFullStop (PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (DetCN (DetQuant DefArt NumSg) (AdjCN (PositA old_A) (UseN dog_N))) (UseV bark_V)))) NoVoc) TEmpty
 
-PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (DetCN (DetQuant DefArt NumSg) (UseN dog_N)) (AdvVP (UseV bark_V) (PositAdvAdj soft_A))))) NoVoc
+TFullStop (PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (DetCN (DetQuant DefArt NumSg) (UseN dog_N)) (AdvVP (UseV bark_V) (PositAdvAdj soft_A))))) NoVoc) TEmpty
 
-PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (DetCN (DetQuant DefArt NumSg) (UseN dog_N)) (AdVVP (PositAdVAdj probable_AS) (UseV bark_V))))) NoVoc
+TFullStop (PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (DetCN (DetQuant DefArt NumSg) (UseN dog_N)) (AdVVP (PositAdVAdj probable_AS) (UseV bark_V))))) NoVoc) TEmpty
 
-PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (DetCN (DetQuant DefArt NumSg) (UseN dog_N)) (AdvVP (UseV bark_V) (PrepNP in_Prep (DetCN (DetQuant DefArt NumSg) (UseN garden_N))))))) NoVoc
+TFullStop (PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (DetCN (DetQuant DefArt NumSg) (UseN dog_N)) (AdvVP (UseV bark_V) (PrepNP in_Prep (DetCN (DetQuant DefArt NumSg) (UseN garden_N))))))) NoVoc) TEmpty
 
-PhrUtt NoPConj (UttS (UseCl (TTAnt TPres ASimul) PPos (PredVP (DetCN (DetQuant DefArt NumSg) (UseN dog_N)) (AdvVP (UseV bark_V) now_Adv)))) NoVoc
+TFullStop (PhrUtt NoPConj (UttS (UseCl (TTAnt TPres ASimul) PPos (PredVP (DetCN (DetQuant DefArt NumSg) (UseN dog_N)) (AdvVP (UseV bark_V) now_Adv)))) NoVoc) TEmpty
 
-PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (DetCN (DetQuant DefArt NumSg) (UseN (CompoundN garden_N dog_N))) (UseV bark_V)))) NoVoc
+TFullStop (PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (DetCN (DetQuant DefArt NumSg) (UseN (CompoundN garden_N dog_N))) (UseV bark_V)))) NoVoc) TEmpty
 
-NumSg) (UseN (CompoundN (CompoundN tobacco_N garden_N) dog_N))) (UseV bark_V)))) NoVoc
+TFullStop (PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (DetCN (DetQuant DefArt NumSg) (UseN (CompoundN (CompoundN tobacco_N garden_N) dog_N))) (UseV bark_V)))) NoVoc) TEmpty
 
-PhrUtt NoPConj (UttS (UseCl (TTAnt TPres ASimul) PPos (PredVP (DetCN (DetQuant DefArt NumSg) (UseN cat_N)) (UseComp (CompAP (PositA old_A)))))) NoVoc
+TFullStop (PhrUtt NoPConj (UttS (UseCl (TTAnt TPres ASimul) PPos (PredVP (DetCN (DetQuant DefArt NumSg) (UseN cat_N)) (UseComp (CompAP (PositA old_A)))))) NoVoc) TEmpty
 
-PhrUtt NoPConj (UttS (UseCl (TTAnt TPres ASimul) PPos (PredVP (DetCN (DetQuant DefArt NumSg) (UseN cat_N)) (UseComp (CompAdv (PrepNP in_Prep (DetCN (DetQuant DefArt NumSg) (UseN garden_N)))))))) NoVoc
+TFullStop (PhrUtt NoPConj (UttS (UseCl (TTAnt TPres ASimul) PPos (PredVP (DetCN (DetQuant DefArt NumSg) (UseN cat_N)) (UseComp (CompAdv (PrepNP in_Prep (DetCN (DetQuant DefArt NumSg) (UseN garden_N)))))))) NoVoc) TEmpty
 
-PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (DetCN (DetQuant DefArt NumSg) (AdjCN (PresPartAP (UseV bark_V)) (UseN dog_N))) (ComplSlash (SlashV2a chase_V2) (UsePN browne_PN))))) NoVoc
+TFullStop (PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (DetCN (DetQuant DefArt NumSg) (AdjCN (PresPartAP (UseV bark_V)) (UseN dog_N))) (ComplSlash (SlashV2a chase_V2) (UsePN browne_PN))))) NoVoc) TEmpty
 
-PhrUtt NoPConj (UttS (UseCl (TTAnt TPres ASimul) PPos (PredVP (DetCN (DetQuant IndefArt NumPl) (AdjCN (PastPartAP (SlashV2a chase_V2)) (UseN dog_N))) (UseV bark_V)))) NoVoc
+TFullStop (PhrUtt NoPConj (UttS (UseCl (TTAnt TPres ASimul) PPos (PredVP (DetCN (DetQuant IndefArt NumPl) (AdjCN (PastPartAP (SlashV2a chase_V2)) (UseN dog_N))) (UseV bark_V)))) NoVoc) TEmpty
 
-PhrUtt NoPConj (UttS (UseCl (TTAnt TPres ASimul) PPos (PredVP (DetCN (DetQuant IndefArt NumPl) (AdjCN (PastPartAP (SlashV2a chase_V2)) (UseN dog_N))) (UseV bark_V)))) NoVoc
+TFullStop (PhrUtt NoPConj (UttS (UseCl (TTAnt TPres ASimul) PPos (PredVP (DetCN (DetQuant IndefArt NumPl) (AdjCN (PastPartAP (SlashV2a chase_V2)) (UseN dog_N))) (UseV bark_V)))) NoVoc) TEmpty
 
-PhrUtt NoPConj (UttS (UseCl (TTAnt TPres ASimul) PPos (PredSCVP (EmbedS (UseCl (TTAnt TPres ASimul) PPos (PredVP (DetCN (DetQuant DefArt NumSg) (UseN cat_N)) (ComplSlash (SlashV2a chase_V2) (UsePN browne_PN))))) (UseComp (CompAP (PositA old_A)))))) NoVoc
+TFullStop (PhrUtt NoPConj (UttS (UseCl (TTAnt TPres ASimul) PPos (PredSCVP (EmbedS (UseCl (TTAnt TPres ASimul) PPos (PredVP (DetCN (DetQuant DefArt NumSg) (UseN cat_N)) (ComplSlash (SlashV2a chase_V2) (UsePN browne_PN))))) (UseComp (CompAP (PositA old_A)))))) NoVoc) TEmpty
 
 -- 56
 
-PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (DetCN (DetQuant DefArt NumSg) (UseN dog_N)) (AdvVP (UseV bark_V) every_day_Adv)))) NoVoc
+TFullStop (PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (DetCN (DetQuant DefArt NumSg) (UseN dog_N)) (AdvVP (UseV bark_V) every_day_Adv)))) NoVoc) TEmpty
 
-PhrUtt NoPConj (UttQS (UseQCl (TTAnt TPast ASimul) PPos (QuestIAdv when_IAdv (PredVP (DetCN (DetQuant DefArt NumSg) (UseN dog_N)) (UseV bark_V))))) NoVoc
+TQuestMark (PhrUtt NoPConj (UttQS (UseQCl (TTAnt TPast ASimul) PPos (QuestIAdv when_IAdv (PredVP (DetCN (DetQuant DefArt NumSg) (UseN dog_N)) (UseV bark_V))))) NoVoc) TEmpty
 
-PhrUtt NoPConj (UttS (UseCl (TTAnt TPres ASimul) PPos (PredVP (CountNP (DetQuant IndefArt (NumCard (NumNumeral (num (pot2as3 (pot1as2 (pot0as1 (pot0 n3)))))))) (DetCN (DetQuant DefArt NumPl) (UseN dog_N))) (UseV bark_V)))) NoVoc
+TFullStop (PhrUtt NoPConj (UttS (UseCl (TTAnt TPres ASimul) PPos (PredVP (CountNP (DetQuant IndefArt (NumCard (NumNumeral (num (pot2as3 (pot1as2 (pot0as1 (pot0 n3)))))))) (DetCN (DetQuant DefArt NumPl) (UseN dog_N))) (UseV bark_V)))) NoVoc) TEmpty
 
-PhrUtt NoPConj (UttS (UseCl (TTAnt TPres ASimul) PPos (PredVP (DetNP (DetQuant IndefArt (NumCard (NumNumeral (num (pot2as3 (pot1as2 (pot0as1 (pot0 n3))))))))) (UseV bark_V)))) NoVoc
+TFullStop (PhrUtt NoPConj (UttS (UseCl (TTAnt TPres ASimul) PPos (PredVP (DetNP (DetQuant IndefArt (NumCard (NumNumeral (num (pot2as3 (pot1as2 (pot0as1 (pot0 n3))))))))) (UseV bark_V)))) NoVoc) TEmpty
 
-PhrUtt NoPConj (UttS (UseCl (TTAnt TPres ASimul) PPos (PredVP (DetCN (DetQuant (GenNP (UsePN browne_PN)) NumSg) (UseN dog_N)) (UseV bark_V)))) NoVoc
+TFullStop (PhrUtt NoPConj (UttS (UseCl (TTAnt TPres ASimul) PPos (PredVP (DetCN (DetQuant (GenNP (UsePN browne_PN)) NumSg) (UseN dog_N)) (UseV bark_V)))) NoVoc) TEmpty
 
-PhrUtt NoPConj (UttNP (DetCN (DetQuant (GenNP (UsePN browne_PN)) NumPl) (UseN bark_N))) NoVoc
-PhrUtt NoPConj (UttS (UseCl (TTAnt TPres ASimul) PPos (PredVP (DetNP (DetQuant (GenNP (UsePN browne_PN)) NumSg)) (UseV bark_V)))) NoVoc
-PhrUtt NoPConj (UttS (UseCl (TTAnt TPres ASimul) PPos (PredVP (DetNPMasc (DetQuant (GenNP (UsePN browne_PN)) NumSg)) (UseV bark_V)))) NoVoc
-PhrUtt NoPConj (UttS (UseCl (TTAnt TPres ASimul) PPos (PredVP (DetNPFem (DetQuant (GenNP (UsePN browne_PN)) NumSg)) (UseV bark_V)))) NoVoc
+TFullStop (PhrUtt NoPConj (UttNP (DetCN (DetQuant (GenNP (UsePN browne_PN)) NumPl) (UseN bark_N))) NoVoc) TEmpty
+TFullStop (PhrUtt NoPConj (UttS (UseCl (TTAnt TPres ASimul) PPos (PredVP (DetNP (DetQuant (GenNP (UsePN browne_PN)) NumSg)) (UseV bark_V)))) NoVoc) TEmpty
+TFullStop (PhrUtt NoPConj (UttS (UseCl (TTAnt TPres ASimul) PPos (PredVP (DetNPMasc (DetQuant (GenNP (UsePN browne_PN)) NumSg)) (UseV bark_V)))) NoVoc) TEmpty
+TFullStop (PhrUtt NoPConj (UttS (UseCl (TTAnt TPres ASimul) PPos (PredVP (DetNPFem (DetQuant (GenNP (UsePN browne_PN)) NumSg)) (UseV bark_V)))) NoVoc) TEmpty
 
-PhrUtt NoPConj (UttS (UseCl (TTAnt TPres ASimul) PPos (PredVP (DetCN (DetQuant IndefArt (NumCard (NumNumeral (num (pot2as3 (pot1as2 (pot1plus n2 (pot0 n3)))))))) (UseN dog_N)) (UseV bark_V)))) NoVoc
+TFullStop (PhrUtt NoPConj (UttS (UseCl (TTAnt TPres ASimul) PPos (PredVP (DetCN (DetQuant IndefArt (NumCard (NumNumeral (num (pot2as3 (pot1as2 (pot1plus n2 (pot0 n3)))))))) (UseN dog_N)) (UseV bark_V)))) NoVoc) TEmpty
 
-PhrUtt NoPConj (UttS (UseCl (TTAnt TPres ASimul) PPos (PredVP (DetCN (DetQuant IndefArt (NumCard (NumNumeral (num (pot2as3 (pot2plus (pot0 n2) (pot1 n2))))))) (UseN dog_N)) (UseV bark_V)))) NoVoc
+TFullStop (PhrUtt NoPConj (UttS (UseCl (TTAnt TPres ASimul) PPos (PredVP (DetCN (DetQuant IndefArt (NumCard (NumNumeral (num (pot2as3 (pot2plus (pot0 n2) (pot1 n2))))))) (UseN dog_N)) (UseV bark_V)))) NoVoc) TEmpty
 
-PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (UsePN abrams_PN) (AdvVP (UseV arrive_V) (PrepNP by8means_Prep (MassNP (UseN car_N))))))) NoVoc
+TFullStop (PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (UsePN abrams_PN) (AdvVP (UseV arrive_V) (PrepNP by8means_Prep (MassNP (UseN car_N))))))) NoVoc) TEmpty
 
-PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (UsePN abrams_PN) (ComplVV keep_VV (UseV bark_V))))) NoVoc
+TFullStop (PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (UsePN abrams_PN) (ComplVV keep_VV (UseV bark_V))))) NoVoc) TEmpty
 
-PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (UsePN browne_PN) (ComplSlashPartLast (SlashV2a squeeze_in_V2) (DetCN (DetQuant DefArt NumSg) (UseN cat_N)))))) NoVoc
+TFullStop (PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (UsePN browne_PN) (ComplSlashPartLast (SlashV2a squeeze_in_V2) (DetCN (DetQuant DefArt NumSg) (UseN cat_N)))))) NoVoc) TEmpty
 
-PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (UsePN browne_PN) (ComplSlash (SlashV2a squeeze_in_V2) (DetCN (DetQuant DefArt NumSg) (UseN cat_N)))))) NoVoc
+TFullStop (PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (UsePN browne_PN) (ComplSlash (SlashV2a squeeze_in_V2) (DetCN (DetQuant DefArt NumSg) (UseN cat_N)))))) NoVoc) TEmpty
 
-PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (DetCN (DetQuant DefArt NumSg) (PartNP (UseN picture_N) (UsePN abrams_PN))) (UseV arrive_V)))) NoVoc
+TFullStop (PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (DetCN (DetQuant DefArt NumSg) (PartNP (UseN picture_N) (UsePN abrams_PN))) (UseV arrive_V)))) NoVoc) TEmpty
 
-PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (UsePN abrams_PN) (ComplSlash (SlashV2A wipe_V2A (PositA clean_A)) (DetCN (DetQuant DefArt NumSg) (UseN table_N)))))) NoVoc
+TFullStop (PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (UsePN abrams_PN) (ComplSlash (SlashV2A wipe_V2A (PositA clean_A)) (DetCN (DetQuant DefArt NumSg) (UseN table_N)))))) NoVoc) TEmpty
 
-PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (UsePN abrams_PN) (ComplSlash (Slash3V3 put_in_V3 (DetCN (DetQuant DefArt NumSg) (UseN garden_N))) (UsePN browne_PN))))) NoVoc
+TFullStop (PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (UsePN abrams_PN) (ComplSlash (Slash3V3 put_in_V3 (DetCN (DetQuant DefArt NumSg) (UseN garden_N))) (UsePN browne_PN))))) NoVoc) TEmpty
 
-PhrUtt NoPConj (UttS (UseCl (TTAnt TFut ASimul) PPos (PredVP (DetCN (DetQuant DefArt NumSg) (UseN dog_N)) (AdvVP (UseV bark_V) (SubjS if_Subj (UseCl (TTAnt TPres ASimul) PPos (PredVP (UsePN browne_PN) (UseV arrive_V)))))))) NoVoc
+TFullStop (PhrUtt NoPConj (UttS (UseCl (TTAnt TFut ASimul) PPos (PredVP (DetCN (DetQuant DefArt NumSg) (UseN dog_N)) (AdvVP (UseV bark_V) (SubjS if_Subj (UseCl (TTAnt TPres ASimul) PPos (PredVP (UsePN browne_PN) (UseV arrive_V)))))))) NoVoc) TEmpty
 
-PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (ConjNP and_Conj (BaseNP (UsePN abrams_PN) (UsePN browne_PN))) (UseV arrive_V)))) NoVoc
+TFullStop (PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (ConjNP and_Conj (BaseNP (UsePN abrams_PN) (UsePN browne_PN))) (UseV arrive_V)))) NoVoc) TEmpty
 
-PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (ConjNP and_Conj (ConsNP (UsePN abrams_PN) (BaseNP (UsePN browne_PN) (DetCN (DetQuant DefArt NumSg) (UseN dog_N))))) (UseV arrive_V)))) NoVoc
+TFullStop (PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (ConjNP and_Conj (ConsNP (UsePN abrams_PN) (BaseNP (UsePN browne_PN) (DetCN (DetQuant DefArt NumSg) (UseN dog_N))))) (UseV arrive_V)))) NoVoc) TEmpty
 
-PhrUtt NoPConj (UttS (PredVPS (DetCN (DetQuant DefArt NumSg) (UseN dog_N)) (ConjVPS and_Conj (BaseVPS (MkVPS (TTAnt TPast ASimul) PPos (UseV arrive_V)) (MkVPS (TTAnt TPast ASimul) PPos (UseV bark_V)))))) NoVoc
+TFullStop (PhrUtt NoPConj (UttS (PredVPS (DetCN (DetQuant DefArt NumSg) (UseN dog_N)) (ConjVPS and_Conj (BaseVPS (MkVPS (TTAnt TPast ASimul) PPos (UseV arrive_V)) (MkVPS (TTAnt TPast ASimul) PPos (UseV bark_V)))))) NoVoc) TEmpty
 
-PhrUtt NoPConj (UttS (ConjS and_Conj (BaseS (UseCl (TTAnt TPast ASimul) PPos (PredVP (DetCN (DetQuant DefArt NumSg) (UseN dog_N)) (UseV arrive_V))) (UseCl (TTAnt TPast ASimul) PPos (PredVP (UsePN browne_PN) (UseV bark_V)))))) NoVoc
+TFullStop (PhrUtt NoPConj (UttS (ConjS and_Conj (BaseS (UseCl (TTAnt TPast ASimul) PPos (PredVP (DetCN (DetQuant DefArt NumSg) (UseN dog_N)) (UseV arrive_V))) (UseCl (TTAnt TPast ASimul) PPos (PredVP (UsePN browne_PN) (UseV bark_V)))))) NoVoc) TEmpty
 
 77 -- didn't
 
-PhrUtt NoPConj (UttS (UseCl (TTAnt TPres ASimul) PPos (ImpersCl (UseComp (CompAP (SentAP (PositA obvious_A) (EmbedS (UseCl (TTAnt TPast ASimul) PPos (PredVP (DetCN (DetQuant DefArt NumSg) (UseN dog_N)) (UseV bark_V)))))))))) NoVoc
+TFullStop (PhrUtt NoPConj (UttS (UseCl (TTAnt TPres ASimul) PPos (ImpersCl (UseComp (CompAP (SentAP (PositA obvious_A) (EmbedS (UseCl (TTAnt TPast ASimul) PPos (PredVP (DetCN (DetQuant DefArt NumSg) (UseN dog_N)) (UseV bark_V)))))))))) NoVoc) TEmpty
 
-PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (UsePN abrams_PN) (ComplSlash (SlashV2V promise_V2V (UseV bark_V)) (UsePN browne_PN))))) NoVoc
+TFullStop (PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (UsePN abrams_PN) (ComplSlash (SlashV2V promise_V2V (UseV bark_V)) (UsePN browne_PN))))) NoVoc) TEmpty
 
-PhrUtt NoPConj (UttS (UseCl (TTAnt TPres ASimul) PPos (PredVP (UsePN abrams_PN) (ComplVV seem_VV (UseV bark_V))))) NoVoc
+TFullStop (PhrUtt NoPConj (UttS (UseCl (TTAnt TPres ASimul) PPos (PredVP (UsePN abrams_PN) (ComplVV seem_VV (UseV bark_V))))) NoVoc) TEmpty
 
-PhrUtt NoPConj (UttS (UseCl (TTAnt TPres ASimul) PPos (PredVP (UsePN abrams_PN) (ComplSlash (SlashV2V believe_V2V (ProgrVP (UseV bark_V))) (UsePN browne_PN))))) NoVoc
+TFullStop (PhrUtt NoPConj (UttS (UseCl (TTAnt TPres ASimul) PPos (PredVP (UsePN abrams_PN) (ComplSlash (SlashV2V believe_V2V (ProgrVP (UseV bark_V))) (UsePN browne_PN))))) NoVoc) TEmpty
 
-PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (ImpersCl (AdvVP (ComplSlash (SlashV2a bother_V2) (UsePN abrams_PN)) (SubjS that_Subj (UseCl (TTAnt TPast ASimul) PPos (PredVP (UsePN browne_PN) (UseV bark_V)))))))) NoVoc
+TFullStop (PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (ImpersCl (AdvVP (ComplSlash (SlashV2a bother_V2) (UsePN abrams_PN)) (SubjS that_Subj (UseCl (TTAnt TPast ASimul) PPos (PredVP (UsePN browne_PN) (UseV bark_V)))))))) NoVoc) TEmpty
 
-PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (ImpersCl (AdvVP (ComplSlash (Slash2V3 take_V3 (UsePN abrams_PN)) (timeunitNP (NumNumeral (num (pot2as3 (pot1as2 pot110)))) minute_Timeunit)) (PurposeVP (UseV arrive_V)))))) NoVoc
-PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (ImpersCl (AdvVP (ComplSlash (Slash3V3 take_V3 (timeunitNP (NumNumeral (num (pot2as3 (pot1as2 pot110)))) minute_Timeunit)) (UsePN abrams_PN)) (PurposeVP (UseV arrive_V)))))) NoVoc
+TFullStop (PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (ImpersCl (AdvVP (ComplSlash (Slash2V3 take_V3 (UsePN abrams_PN)) (timeunitNP (NumNumeral (num (pot2as3 (pot1as2 pot110)))) minute_Timeunit)) (PurposeVP (UseV arrive_V)))))) NoVoc) TEmpty
+TFullStop (PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (ImpersCl (AdvVP (ComplSlash (Slash3V3 take_V3 (timeunitNP (NumNumeral (num (pot2as3 (pot1as2 pot110)))) minute_Timeunit)) (UsePN abrams_PN)) (PurposeVP (UseV arrive_V)))))) NoVoc) TEmpty
 
-PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (UsePN abrams_PN) (AdvVP (ComplSlash (Slash2V3 leave_V3 (UsePron it_Pron)) (UsePN browne_PN)) (PurposeVP (UseV bark_V)))))) NoVoc
-PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (UsePN abrams_PN) (AdvVP (ComplSlash (Slash3V3 leave_V3 (UsePN browne_PN)) (UsePron it_Pron)) (PurposeVP (UseV bark_V)))))) NoVoc
+TFullStop (PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (UsePN abrams_PN) (AdvVP (ComplSlash (Slash2V3 leave_V3 (UsePron it_Pron)) (UsePN browne_PN)) (PurposeVP (UseV bark_V)))))) NoVoc) TEmpty
+TFullStop (PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (UsePN abrams_PN) (AdvVP (ComplSlash (Slash3V3 leave_V3 (UsePN browne_PN)) (UsePron it_Pron)) (PurposeVP (UseV bark_V)))))) NoVoc) TEmpty
 
-PhrUtt NoPConj (UttS (UseCl (TTAnt TPres ASimul) PPos (PredVP (UsePN abrams_PN) (ComplSlash (SlashV2A strike_V2A (PositA old_A)) (UsePN browne_PN))))) NoVoc
+TFullStop (PhrUtt NoPConj (UttS (UseCl (TTAnt TPres ASimul) PPos (PredVP (UsePN abrams_PN) (ComplSlash (SlashV2A strike_V2A (PositA old_A)) (UsePN browne_PN))))) NoVoc) TEmpty
 
-PhrUtt NoPConj (UttS (UseCl (TTAnt TPres ASimul) PPos (PredVP (UsePN browne_PN) (ComplSlash (SlashV2A consider_V2A (PositA old_A)) (UsePN abrams_PN))))) NoVoc
+TFullStop (PhrUtt NoPConj (UttS (UseCl (TTAnt TPres ASimul) PPos (PredVP (UsePN browne_PN) (ComplSlash (SlashV2A consider_V2A (PositA old_A)) (UsePN abrams_PN))))) NoVoc) TEmpty
 
-PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (UsePN abrams_PN) (ComplSlash (SlashV2a like_V2) (DetCN (DetQuant DefArt NumSg) (SentCN (UseN idea_N) (EmbedS (UseCl (TTAnt TPast ASimul) PPos (PredVP (UsePN browne_PN) (ComplVV can_VV (UseV bark_V))))))))))) NoVoc
+TFullStop (PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (UsePN abrams_PN) (ComplSlash (SlashV2a like_V2) (DetCN (DetQuant DefArt NumSg) (SentCN (UseN idea_N) (EmbedS (UseCl (TTAnt TPast ASimul) PPos (PredVP (UsePN browne_PN) (ComplVV can_VV (UseV bark_V))))))))))) NoVoc) TEmpty
 
-PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (UsePN abrams_PN) (AdvVP (UseV bark_V) (Range (NumNumeral (num (pot2as3 (pot1as2 pot110)))) (NumNumeral (num (pot2as3 (pot1as2 (pot0as1 (pot0 n3))))))))))) NoVoc
+TFullStop (PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (UsePN abrams_PN) (AdvVP (UseV bark_V) (Range (NumNumeral (num (pot2as3 (pot1as2 pot110)))) (NumNumeral (num (pot2as3 (pot1as2 (pot0as1 (pot0 n3))))))))))) NoVoc) TEmpty
 
-PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (UsePN abrams_PN) (UseComp (CompAP (AdAP very_AdA (PositA old_A))))))) NoVoc
+TFullStop (PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (UsePN abrams_PN) (UseComp (CompAP (AdAP very_AdA (PositA old_A))))))) NoVoc) TEmpty
 
-PhrUtt NoPConj (UttS (AdvS nearly_Adv (UseCl (TTAnt TPast ASimul) PPos (PredVP (DetCN every_Det (UseN dog_N)) (UseV bark_V))))) NoVoc
+TFullStop (PhrUtt NoPConj (UttS (AdvS nearly_Adv (UseCl (TTAnt TPast ASimul) PPos (PredVP (DetCN every_Det (UseN dog_N)) (UseV bark_V))))) NoVoc) TEmpty
 
-PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (UsePN abrams_PN) (AdvVP (UseV bark_V) (AdAdv very_AdA (PositAdvAdj soft_A)))))) NoVoc
+TFullStop (PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (UsePN abrams_PN) (AdvVP (UseV bark_V) (AdAdv very_AdA (PositAdvAdj soft_A)))))) NoVoc) TEmpty
 
 -- 92
 
-PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (ImpersCl (ComplSlash (SlashV2S bother_V2S (UseCl (TTAnt TPast ASimul) PPos (PredVP (UsePN abrams_PN) (ComplSlash (SlashV2a chase_V2) (DetCN (DetQuant IndefArt NumPl) (UseN cat_N)))))) (UsePN browne_PN))))) NoVoc
+TFullStop (PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (ImpersCl (ComplSlash (SlashV2S bother_V2S (UseCl (TTAnt TPast ASimul) PPos (PredVP (UsePN abrams_PN) (ComplSlash (SlashV2a chase_V2) (DetCN (DetQuant IndefArt NumPl) (UseN cat_N)))))) (UsePN browne_PN))))) NoVoc) TEmpty
 
-PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (monthDayNP june_Month (num (pot2as3 (pot1as2 (pot0as1 (pot0 n3)))))) (UseV arrive_V)))) NoVoc
+TFullStop (PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (monthDayNP june_Month (num (pot2as3 (pot1as2 (pot0as1 (pot0 n3)))))) (UseV arrive_V)))) NoVoc) TEmpty
 
-PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (UsePN abrams_PN) (AdvVP (UseV arrive_V) (timeHourMinute' fifteenHour (NumNumeral (num (pot2as3 (pot1as2 (pot1 n2)))))))))) NoVoc
-PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (UsePN abrams_PN) (AdvVP (UseV arrive_V) (timeHourMinute' threeHour (NumNumeral (num (pot2as3 (pot1as2 (pot1 n2)))))))))) NoVoc
+TFullStop (PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (UsePN abrams_PN) (AdvVP (UseV arrive_V) (timeHourMinute' fifteenHour (NumNumeral (num (pot2as3 (pot1as2 (pot1 n2)))))))))) NoVoc) TEmpty
+TFullStop (PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (UsePN abrams_PN) (AdvVP (UseV arrive_V) (timeHourMinute' threeHour (NumNumeral (num (pot2as3 (pot1as2 (pot1 n2)))))))))) NoVoc) TEmpty
 
-PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (UsePN browne_PN) (AdvVP (UseV arrive_V) (PrepNP on_Prep (MassNP (UseN (CompoundN (weekdayN tuesday_Weekday) morning_N)))))))) NoVoc
+TFullStop (PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (UsePN browne_PN) (AdvVP (UseV arrive_V) (PrepNP on_Prep (MassNP (UseN (CompoundN (weekdayN tuesday_Weekday) morning_N)))))))) NoVoc) TEmpty
 
-PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (DetCN (DetQuant DefArt NumPl) (UseN cat_N)) (ComplSlash (SlashV2a find_V2) (DetCN (DetQuant IndefArt NumSg) (SentCN (UseN way_N) (EmbedVP (UseV bark_V)))))))) NoVoc
+TFullStop (PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (DetCN (DetQuant DefArt NumPl) (UseN cat_N)) (ComplSlash (SlashV2a find_V2) (DetCN (DetQuant IndefArt NumSg) (SentCN (UseN way_N) (EmbedVP (UseV bark_V)))))))) NoVoc) TEmpty
 
-PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (DetCN (DetQuant DefArt NumSg) (AdjCN (UseComparA happy_A) (UseN dog_N))) (ComplSlash (SlashV2a chase_V2) (UsePN browne_PN))))) NoVoc
+TFullStop (PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (DetCN (DetQuant DefArt NumSg) (AdjCN (UseComparA happy_A) (UseN dog_N))) (ComplSlash (SlashV2a chase_V2) (UsePN browne_PN))))) NoVoc) TEmpty
 
-PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (ExistNPAdv (DetCN (DetQuant IndefArt NumPl) (UseN cat_N)) (PrepNP in_Prep (DetCN (DetQuant DefArt NumSg) (UseN garden_N)))))) NoVoc
+TFullStop (PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (ExistNPAdv (DetCN (DetQuant IndefArt NumPl) (UseN cat_N)) (PrepNP in_Prep (DetCN (DetQuant DefArt NumSg) (UseN garden_N)))))) NoVoc) TEmpty
 
-PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (DetCN (DetQuant that_Quant NumSg) (UseN dog_N)) (ComplSlash (SlashV2a chase_V2) (UsePN browne_PN))))) NoVoc
+TFullStop (PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (DetCN (DetQuant that_Quant NumSg) (UseN dog_N)) (ComplSlash (SlashV2a chase_V2) (UsePN browne_PN))))) NoVoc) TEmpty
 
-PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP somebody_NP (ComplSlash (SlashV2a chase_V2) (UsePN abrams_PN))))) NoVoc
+TFullStop (PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP somebody_NP (ComplSlash (SlashV2a chase_V2) (UsePN abrams_PN))))) NoVoc) TEmpty
 
-PhrUtt NoPConj (UttQS (UseQCl (TTAnt TPast ASimul) PPos (QuestIComp (ICompAP (PositA happy_A)) (UsePN abrams_PN)))) NoVoc
+TQuestMark (PhrUtt NoPConj (UttQS (UseQCl (TTAnt TPast ASimul) PPos (QuestIComp (ICompAP (PositA happy_A)) (UsePN abrams_PN)))) NoVoc) TEmpty
 
-PhrUtt NoPConj (UttS (UseCl (TTAnt TPres ASimul) PPos (PredVP (DetCN (DetQuant DefArt NumSg) (ApposCN (UseN number_N) (DetNP (DetQuant IndefArt (NumCard (NumNumeral (num (pot2as3 (pot1as2 (pot0as1 (pot0 n5))))))))))) (ComplSlash (SlashV2a bother_V2) (UsePN browne_PN))))) NoVoc
+TFullStop (PhrUtt NoPConj (UttS (UseCl (TTAnt TPres ASimul) PPos (PredVP (DetCN (DetQuant DefArt NumSg) (ApposCN (UseN number_N) (DetNP (DetQuant IndefArt (NumCard (NumNumeral (num (pot2as3 (pot1as2 (pot0as1 (pot0 n5))))))))))) (ComplSlash (SlashV2a bother_V2) (UsePN browne_PN))))) NoVoc) TEmpty
 
 104 -- incomplete, I could parse by defining can_V, but that would be cheating
 
 105 -- incomplete
 
-PhrUtt NoPConj (UttImpPl PNeg (ImpVP (UseV bark_V))) NoVoc
-PhrUtt NoPConj (UttImpPol PNeg (ImpVP (UseV bark_V))) NoVoc
-PhrUtt NoPConj (UttImpSg PNeg (ImpVP (UseV bark_V))) NoVoc
+TExclMark (PhrUtt NoPConj (UttImpPl PNeg (ImpVP (UseV bark_V))) NoVoc) TEmpty
+TExclMark (PhrUtt NoPConj (UttImpPol PNeg (ImpVP (UseV bark_V))) NoVoc) TEmpty
+TExclMark (PhrUtt NoPConj (UttImpSg PNeg (ImpVP (UseV bark_V))) NoVoc) TEmpty
 
-PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (DetCN (DetQuant DefArt NumSg) (UseN dog_N)) (AdvVP (UseV arrive_V) (GerundAdv (UseV bark_V)))))) NoVoc
+TFullStop (PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (DetCN (DetQuant DefArt NumSg) (UseN dog_N)) (AdvVP (UseV arrive_V) (GerundAdv (UseV bark_V)))))) NoVoc) TEmpty

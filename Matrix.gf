@@ -1,6 +1,6 @@
 abstract Matrix = Lang, Extend ** {
   flags
-    startcat = Phr ;
+    startcat = Text ;
   fun
     timeunitNP : Card -> Timeunit -> NP ; -- three hours
     Range : Card -> Card -> Adv ;
@@ -51,6 +51,7 @@ abstract Matrix = Lang, Extend ** {
     intend_VV : VV ;
     keep_VV : VV ;
     seem_VV : VV ;
+    go_VV   : VV ;
     -- V2A
     consider_V2A : V2A ;
     strike_V2A : V2A ;

@@ -68,6 +68,7 @@ concrete MatrixPor of Matrix =
     intend_VV = mkVV intend_V ;
     keep_VV = aVV (mkV "continuar") ;
     seem_VV = mkVV parecer_V ;
+    go_VV   = mkVV (mkV (ir_Besch "ir")) ;
     -- V2A
     consider_V2A = mkV2A (mkV "considerar") noPrep noPrep ;
     strike_V2A = mkV2A parecer_V ParadigmsPor.dative noPrep ;
