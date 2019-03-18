@@ -19,10 +19,16 @@ concrete MatrixEng of Matrix =
     monthDayNP m d = let
       month : NP = S.mkNP m
       in month ** {s =\\c => month.s ! c ++ d.s ! True ! NOrd ! Nom} ;
+    whose np vp = QuestVP qp vp
+      where { --     IP = {s : NPCase => Str ; n : Number} ;
+        qp : {s : NPCase => Str ; n : Number}
+          = {s = \\c => "whose" ++ np.s ! c ; n = (fromAgr np.a).n} ;
+      } ;
 
   lin
     -- A
     obvious_A = mkA "obvious" ;
+    divisible_A2 = mkA2 "divisible" "by" ;
     happy_A = mkA "happy" ;
     open_A = mkA "open" ;
     soft_A = mkA "soft" ;
@@ -39,7 +45,10 @@ concrete MatrixEng of Matrix =
     idea_N = mkN "idea" ;
     morning_N = mkN "morning" ;
     picture_N = mkN "picture" ;
+    third_N = mkN "third" ;
+    three_N = mkN "three" ;
     tobacco_N = mkN "tobacco" ;
+    twenty_N = mkN "twenty" ;
     way_N = mkN "way" ;
     -- V
     arrive_V = mkV "arrive" ;
@@ -50,6 +59,7 @@ concrete MatrixEng of Matrix =
     arrive_V2 = mkV2 arrive_V on_Prep ;
     bother_V2 = mkV2 "bother" ;
     chase_V2 = mkV2 "chase" ;
+    chaseof_V2 = mkV2 "chase" (mkPrep "of") ;
     give_V2 = mkV2 "give" ;
     squeeze_in_V2 = mkV2 (partV (mkV "squeeze") "in") ;
     try_V2 = mkV2 (mkV "try") to_Prep ;
@@ -67,6 +77,7 @@ concrete MatrixEng of Matrix =
     go_VV   = mkVV (mkV "go") ;
     -- V2A
     consider_V2A = mkV2A (mkV "consider") ;
+    seem_V2A = mkV2A (mkV "seem") noPrep to_Prep ;
     strike_V2A = mkV2A (mkV "strike") noPrep (mkPrep "as") ;
     wipe_V2A = mkV2A (mkV "wipe") noPrep ;
     -- V2S

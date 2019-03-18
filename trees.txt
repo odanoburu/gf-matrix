@@ -54,6 +54,8 @@ TQuestMark (PhrUtt NoPConj (UttQS (UseQCl (TTAnt TPast ASimul) PPos (QuestCl (Pr
 
 TQuestMark (PhrUtt NoPConj (UttQS (UseQCl (TTAnt TPast ASimul) PPos (QuestVP (IdetCN (IdetQuant which_IQuant NumSg) (UseN dog_N)) (UseV bark_V)))) NoVoc) TEmpty
 
+TQuestMark (PhrUtt NoPConj (UttQS (UseQCl (TTAnt TPast ASimul) PPos (whose (MassNP (UseN dog_N)) (UseV bark_V)))) NoVoc) TEmpty
+
 TQuestMark (PhrUtt NoPConj (UttQS (UseQCl (TTAnt TPast ASimul) PPos (QuestVP (GenModIP NumSg whoSg_IP (UseN dog_N)) (UseV bark_V)))) NoVoc) TEmpty
 TQuestMark (PhrUtt NoPConj (UttQS (UseQCl (TTAnt TPast ASimul) PPos (QuestVP (GenModIP NumSg whoPl_IP (UseN dog_N)) (UseV bark_V)))) NoVoc) TEmpty
 TQuestMark (PhrUtt NoPConj (UttQS (UseQCl (TTAnt TPast ASimul) PPos (QuestVP (IdetCN (IdetQuant (GenIP whoSg_IP) NumSg) (UseN dog_N)) (UseV bark_V)))) NoVoc) TEmpty
@@ -204,7 +206,7 @@ TFullStop (PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (monthD
 TFullStop (PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (UsePN abrams_PN) (AdvVP (UseV arrive_V) (timeHourMinute' fifteenHour (NumNumeral (num (pot2as3 (pot1as2 (pot1 n2)))))))))) NoVoc) TEmpty
 TFullStop (PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (UsePN abrams_PN) (AdvVP (UseV arrive_V) (timeHourMinute' threeHour (NumNumeral (num (pot2as3 (pot1as2 (pot1 n2)))))))))) NoVoc) TEmpty
 
-TFullStop (PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (UsePN browne_PN) (AdvVP (UseV arrive_V) (PrepNP on_Prep (MassNP (UseN (CompoundN (weekdayN tuesday_Weekday) morning_N)))))))) NoVoc) TEmpty
+TFullStop (PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (UsePN browne_PN) (ComplSlash (SlashV2a arrive_V2) (MassNP (UseN (CompoundN (weekdayN tuesday_Weekday) morning_N))))))) NoVoc) TEmpty
 
 TFullStop (PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (DetCN (DetQuant DefArt NumPl) (UseN cat_N)) (ComplSlash (SlashV2a find_V2) (DetCN (DetQuant IndefArt NumSg) (SentCN (UseN way_N) (EmbedVP (UseV bark_V)))))))) NoVoc) TEmpty
 

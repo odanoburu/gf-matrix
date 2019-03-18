@@ -4,18 +4,23 @@ abstract Matrix = Lang, Extend ** {
   fun
     timeunitNP : Card -> Timeunit -> NP ; -- three hours
     Range : Card -> Card -> Adv ;
+    V2ASlash : V2A -> AP -> VPSlash ;
     SSubjS' : S -> Subj -> S -> S ;
     timeHourMinute' : Hour -> Card -> Adv ; -- at six forty
     monthDayNP : Month -> Numeral -> NP ; -- June third
+    whose : NP -> VP -> QCl ; -- whose dog is this?
   fun
     -- A
     obvious_A : A ;
+    divisible_A2 : A2 ;
     happy_A : A ;
     open_A : A ;
     soft_A : A ;
     -- Adv
     every_day_Adv : Adv ;
     nearly_Adv : Adv ;
+    -- AdV
+    probably_AdV : AdV ;
     -- Conj
     whether_Conj : Conj ;
     -- PN
@@ -26,6 +31,9 @@ abstract Matrix = Lang, Extend ** {
     idea_N : N ;
     morning_N : N ;
     picture_N : N ;
+    third_N : N ;
+    three_N : N ;
+    twenty_N : N ;
     tobacco_N : N ;
     way_N : N ;
     -- V
@@ -37,6 +45,7 @@ abstract Matrix = Lang, Extend ** {
     arrive_V2 : V2 ;
     bother_V2 : V2 ;
     chase_V2 : V2 ;
+    chaseof_V2 : V2 ;
     give_V2 : V2 ;
     squeeze_in_V2 : V2 ;
     try_V2 : V2 ;
@@ -54,6 +63,7 @@ abstract Matrix = Lang, Extend ** {
     go_VV   : VV ;
     -- V2A
     consider_V2A : V2A ;
+    seem_V2A : V2A ;
     strike_V2A : V2A ;
     wipe_V2A : V2A ;
     -- V2S

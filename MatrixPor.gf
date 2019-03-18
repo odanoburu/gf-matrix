@@ -22,10 +22,14 @@ concrete MatrixPor of Matrix =
         Pl => m ** {s = \\n => d.s ! NCard Masc ++ "de" ++ m.s ! n}
         }
       in S.mkNP monthDay ;
-
+    whose np vp = QuestVP qp vp
+      where {
+        qp : {s : Case => Str ; a : AAgr} = {s = \\c => (np.s ! c).comp ++ "de quem" ; a = np.a};
+      } ;
   lin
     -- A
     obvious_A = mkA "óbvio" ;
+    divisible_A2 = mkA2 (mkA "divisível") by8agent_Prep ;
     open_A = mkA "aberto" ;
     happy_A = mkA "feliz" ;
     open_A = mkA "aberto" ;
@@ -33,6 +37,8 @@ concrete MatrixPor of Matrix =
     -- Adv
     every_day_Adv = mkAdv "todo dia" ;
     nearly_Adv = mkAdv "quase" ;
+    -- AdV
+    probably_AdV = mkAdV "provavelmente" ;
     -- Conj
     whether_Conj = mkConj [] "se" Sg ;
     -- PN
@@ -42,8 +48,11 @@ concrete MatrixPor of Matrix =
     cigarette_N = mkN "cigarro" ;
     idea_N = mkN "ideia" ;
     morning_N = mkN "manhã" ;
+    third_N = mkN "três" ;
     picture_N = mkN "foto" feminine ;
     tobacco_N = mkN "tabaco" ;
+    three_N = mkN "três" ;
+    twenty_N = mkN "vinte" ;
     way_N = mkN "jeito" ;
     -- V
     arrive_V = mkV "chegar" ;
@@ -71,6 +80,7 @@ concrete MatrixPor of Matrix =
     go_VV   = mkVV (mkV (ir_Besch "ir")) ;
     -- V2A
     consider_V2A = mkV2A (mkV "considerar") noPrep noPrep ;
+    seem_V2A = mkV2A parecer_V noPrep ParadigmsPor.dative ;
     strike_V2A = mkV2A parecer_V ParadigmsPor.dative noPrep ;
     wipe_V2A = mkV2A (mkV "limpar") ;
     -- V2S

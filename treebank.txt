@@ -33,10 +33,10 @@ MatrixEng: Abrams intended to bark .
 MatrixPor: Atlas pretendia ladrar .
 Matrix: TFullStop (PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (DetCN every_Det (UseN cat_N)) (UseV bark_V)))) NoVoc) TEmpty
 MatrixEng: every cat barked .
-MatrixPor: cada gato ladrava .
+MatrixPor: todo gato ladrava .
 Matrix: TFullStop (PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (DetCN every_Det (UseN cat_N)) (ComplSlash (SlashV2a chase_V2) (DetCN someSg_Det (UseN dog_N)))))) NoVoc) TEmpty
 MatrixEng: every cat chased some dog .
-MatrixPor: cada gato perseguia algum cachorro .
+MatrixPor: todo gato perseguia algum cachorro .
 Matrix: TFullStop (PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (DetCN (DetQuant (PossPron i_Pron) NumSg) (UseN cat_N)) (UseV bark_V)))) NoVoc) TEmpty
 MatrixEng: my cat barked .
 MatrixPor: meu gato ladrava .
@@ -85,6 +85,9 @@ MatrixPor: o cachorro ladrava ?
 Matrix: TQuestMark (PhrUtt NoPConj (UttQS (UseQCl (TTAnt TPast ASimul) PPos (QuestVP (IdetCN (IdetQuant which_IQuant NumSg) (UseN dog_N)) (UseV bark_V)))) NoVoc) TEmpty
 MatrixEng: which dog barked ?
 MatrixPor: qual cachorro ladrava ?
+Matrix: TQuestMark (PhrUtt NoPConj (UttQS (UseQCl (TTAnt TPast ASimul) PPos (whose (MassNP (UseN dog_N)) (UseV bark_V)))) NoVoc) TEmpty
+MatrixEng: whose dog barked ?
+MatrixPor: o cachorro de quem ladrava ?
 Matrix: TQuestMark (PhrUtt NoPConj (UttQS (UseQCl (TTAnt TPast ASimul) PPos (QuestVP (GenModIP NumSg whoSg_IP (UseN dog_N)) (UseV bark_V)))) NoVoc) TEmpty
 MatrixEng: whose dog barked ?
 MatrixPor: quem cachorro ladrava ?
@@ -99,13 +102,13 @@ MatrixEng: whose dog barked ?
 MatrixPor: quem cachorro ladrava ?
 Matrix: TExclMark (PhrUtt NoPConj (UttImpPl PPos (ImpVP (ComplSlash (SlashV2a chase_V2) (UsePN browne_PN)))) NoVoc) TEmpty
 MatrixEng: chase Browne !
-MatrixPor: persegui Bobi !
+MatrixPor: persigam Bobi !
 Matrix: TExclMark (PhrUtt NoPConj (UttImpPol PPos (ImpVP (ComplSlash (SlashV2a chase_V2) (UsePN browne_PN)))) NoVoc) TEmpty
 MatrixEng: chase Browne !
-MatrixPor: persiga Bobi !
+MatrixPor: persegue Bobi !
 Matrix: TExclMark (PhrUtt NoPConj (UttImpSg PPos (ImpVP (ComplSlash (SlashV2a chase_V2) (UsePN browne_PN)))) NoVoc) TEmpty
 MatrixEng: chase Browne !
-MatrixPor: persegue Bobi !
+MatrixPor: persiga Bobi !
 Matrix: TFullStop (PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (UsePN abrams_PN) (ComplVQ wonder_VQ (UseQCl (TTAnt TPast ASimul) PPos (QuestVP (IdetCN (IdetQuant which_IQuant NumSg) (UseN dog_N)) (UseV bark_V))))))) NoVoc) TEmpty
 MatrixEng: Abrams wondered which dog barked .
 MatrixPor: Atlas se perguntava qual cachorro ladrava .
@@ -135,7 +138,7 @@ MatrixEng: the dog has been barking .
 MatrixPor: o cachorro esteve ladrando .
 Matrix: TFullStop (PhrUtt NoPConj (UttS (UseCl (TTAnt TPast AAnter) PPos (PredVP (DetCN (DetQuant DefArt NumSg) (UseN dog_N)) (ProgrVP (UseV bark_V))))) NoVoc) TEmpty
 MatrixEng: the dog had been barking .
-MatrixPor: o cachorro havia estado ladrando .
+MatrixPor: o cachorro tinha estado ladrando .
 Matrix: TFullStop (PhrUtt NoPConj (UttS (UseCl (TTAnt TFut ASimul) PPos (PredVP (DetCN (DetQuant DefArt NumSg) (UseN dog_N)) (UseV bark_V)))) NoVoc) TEmpty
 MatrixEng: the dog will bark .
 MatrixPor: o cachorro ladrará .
@@ -198,7 +201,7 @@ MatrixEng: the dog barked every day .
 MatrixPor: o cachorro ladrava todo dia .
 Matrix: TQuestMark (PhrUtt NoPConj (UttQS (UseQCl (TTAnt TPast ASimul) PPos (QuestIAdv when_IAdv (PredVP (DetCN (DetQuant DefArt NumSg) (UseN dog_N)) (UseV bark_V))))) NoVoc) TEmpty
 MatrixEng: when did the dog bark ?
-MatrixPor: quando ladrava o cachorro ?
+MatrixPor: quando o cachorro ladrava ?
 Matrix: TFullStop (PhrUtt NoPConj (UttS (UseCl (TTAnt TPres ASimul) PPos (PredVP (CountNP (DetQuant IndefArt (NumCard (NumNumeral (num (pot2as3 (pot1as2 (pot0as1 (pot0 n3)))))))) (DetCN (DetQuant DefArt NumPl) (UseN dog_N))) (UseV bark_V)))) NoVoc) TEmpty
 MatrixEng: three of the dogs bark .
 MatrixPor: três dos cachorros ladram .
@@ -306,7 +309,7 @@ MatrixEng: Abrams was very old .
 MatrixPor: Atlas era muito velho .
 Matrix: TFullStop (PhrUtt NoPConj (UttS (AdvS nearly_Adv (UseCl (TTAnt TPast ASimul) PPos (PredVP (DetCN every_Det (UseN dog_N)) (UseV bark_V))))) NoVoc) TEmpty
 MatrixEng: nearly every dog barked .
-MatrixPor: quase cada cachorro ladrava .
+MatrixPor: quase todo cachorro ladrava .
 Matrix: TFullStop (PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (UsePN abrams_PN) (AdvVP (UseV bark_V) (AdAdv very_AdA (PositAdvAdj soft_A)))))) NoVoc) TEmpty
 MatrixEng: Abrams barked very softly .
 MatrixPor: Atlas ladrava muito suavemente .
@@ -322,9 +325,9 @@ MatrixPor: Atlas chegava às quinze e vinte .
 Matrix: TFullStop (PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (UsePN abrams_PN) (AdvVP (UseV arrive_V) (timeHourMinute' threeHour (NumNumeral (num (pot2as3 (pot1as2 (pot1 n2)))))))))) NoVoc) TEmpty
 MatrixEng: Abrams arrived at three twenty .
 MatrixPor: Atlas chegava às três e vinte .
-Matrix: TFullStop (PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (UsePN browne_PN) (AdvVP (UseV arrive_V) (PrepNP on_Prep (MassNP (UseN (CompoundN (weekdayN tuesday_Weekday) morning_N)))))))) NoVoc) TEmpty
+Matrix: TFullStop (PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (UsePN browne_PN) (ComplSlash (SlashV2a arrive_V2) (MassNP (UseN (CompoundN (weekdayN tuesday_Weekday) morning_N))))))) NoVoc) TEmpty
 MatrixEng: Browne arrived on Tuesday morning .
-MatrixPor: Bobi chegava sobre manhã de terça .
+MatrixPor: Bobi chegava em manhã de terça .
 Matrix: TFullStop (PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (DetCN (DetQuant DefArt NumPl) (UseN cat_N)) (ComplSlash (SlashV2a find_V2) (DetCN (DetQuant IndefArt NumSg) (SentCN (UseN way_N) (EmbedVP (UseV bark_V)))))))) NoVoc) TEmpty
 MatrixEng: the cats found a way to bark .
 MatrixPor: os gatos encontravam um jeito de ladrar .
@@ -348,13 +351,13 @@ MatrixEng: the number five bothers Browne .
 MatrixPor: o número cinco incomoda Bobi .
 Matrix: TExclMark (PhrUtt NoPConj (UttImpPl PNeg (ImpVP (UseV bark_V))) NoVoc) TEmpty
 MatrixEng: don't bark !
-MatrixPor: não ladrai !
+MatrixPor: não ladrem !
 Matrix: TExclMark (PhrUtt NoPConj (UttImpPol PNeg (ImpVP (UseV bark_V))) NoVoc) TEmpty
 MatrixEng: don't bark !
-MatrixPor: não ladre !
+MatrixPor: não ladres !
 Matrix: TExclMark (PhrUtt NoPConj (UttImpSg PNeg (ImpVP (UseV bark_V))) NoVoc) TEmpty
 MatrixEng: don't bark !
-MatrixPor: não ladra !
+MatrixPor: não ladre !
 Matrix: TFullStop (PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (DetCN (DetQuant DefArt NumSg) (UseN dog_N)) (AdvVP (UseV arrive_V) (GerundAdv (UseV bark_V)))))) NoVoc) TEmpty
 MatrixEng: the dog arrived barking .
 MatrixPor: o cachorro chegava ladrando .
